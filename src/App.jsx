@@ -1,5 +1,11 @@
+import Icons from "./Icons";
+
 const App = () => {
-	return <div>Portafolio de ShimiShim</div>;
+	return (
+		<div>
+			<Icons />
+		</div>
+	);
 };
 
 export default App;
