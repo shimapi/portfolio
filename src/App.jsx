@@ -1,9 +1,9 @@
-import Icons from "./Icons";
+import Header from "./components/Header/Header";
 
 const App = () => {
 	return (
 		<div>
-			<Icons />
+			<Header />
 		</div>
 	);
 };
