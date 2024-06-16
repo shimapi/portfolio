@@ -22,14 +22,26 @@ body {
 	font-family: $font-lato;
 	font-weight: 400;
 }
+.container.dark {
+	background: $color-dark-deepblue;
+	background: linear-gradient($gradient-dark);
+	background: -moz-linear-gradient($gradient-dark);
+	background: -webkit-linear-gradient($gradient-dark);
+}
+.container.light {
+	background: $color-light-pale-gray;
+	background: radial-gradient($gradient-light);
+	background: -moz-radial-gradient($gradient-light);
+	background: -webkit-radial-gradient($gradient-light);
+}
 #root {
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
 }
 .container {
-	background-color: light-dark(cyan, teal);
-	color: light-dark(black, white);
+	//background-color: light-dark(cyan, teal);
+	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
 	display: flex;
 	height: 100vh;
 	flex-direction: column;

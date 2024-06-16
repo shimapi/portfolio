@@ -9,19 +9,16 @@ $color-cerulean: #007991ff;
 $color-light-red: #ff7477ff;
 $color-mustard: #fdc500;
 
+// dark mode
+$color-dark-deepblue: hsla(236, 100%, 8%, 1);
+$color-dark-lightblue: hsla(239, 94%, 14%, 1);
+
+// light mode
+$color-light-pale-lilac: hsla(276, 100%, 98%, 1);
+$color-light-pale-gray: hsla(0, 0%, 98%, 1);
+
 // gradients
-$blue-turkish: linear-gradient(
-	90deg,
-	hsla(242, 58%, 73%, 1) 0%,
-	hsla(157, 72%, 82%, 1) 100%
-);
+$gradient-dark: 90deg, ($color-dark-deepblue 63%, $color-dark-lightblue 100%);
 
-/* background: hsla(236, 100%, 8%, 1);
-
-background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#00458E", GradientType=1 ); */
+$gradient-light: circle,
+	($color-light-pale-lilac 0%, $color-light-pale-gray 100%);
