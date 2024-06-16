@@ -14,4 +14,9 @@ mkdir -p components/$component_name && touch components/$component_name/$compone
 echo "Component structure for '$component_name' created successfully."
 
 # Use:
-# ./create-component.sh ComponentName
+
+# 1. giving permissions: 
+# chmod +x scripts/create-component.sh
+
+# 2. run the script
+# ./scripts/create-component.sh ComponentName
