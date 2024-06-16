@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { LANGUAGES } from "../../assets/constants";
+import { useContext } from "react";
+import { ThemeContext } from "../../assets/ThemeContext";
 
 const isActive = ({ isActive }) => `link ${isActive ? "active" : ""}`;
 
@@ -11,6 +13,8 @@ export const Menu = () => {
 		const lang_code = e.target.value;
 		i18n.changeLanguage(lang_code);
 	};
+
+	const { theme, toggleTheme } = useContext(ThemeContext);
 
 	return (
 		<nav>
@@ -30,6 +34,12 @@ export const Menu = () => {
 					</option>
 				))}
 			</select>
+
+			<div className="theme">
+				<div className="theme__mode">{theme} Mode</div>
+				<input type="checkbox" id="switch" onChange={toggleTheme} />
+				<label htmlFor="switch"></label>
+			</div>
 		</nav>
 	);
 };

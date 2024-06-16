@@ -40,11 +40,26 @@ body {
 	flex-direction: column;
 }
 .container {
-	//background-color: light-dark(cyan, teal);
 	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
 	padding: 0 30px;
 	align-items: center;
+}
+
+.box {
+	border: 1px solid;
+	border-color: light-dark($color-light-border, $color-dark-border);
+	background-color: light-dark($color-antiflash-white, $color-dark-deepblue);
+	padding: 20px;
+	max-width: 60vw;
+	border-radius: 14px;
+
+	&:hover {
+		background-color: light-dark(
+			$color-light-pale-lilac,
+			$color-dark-lightblue
+		);
+	}
 }
