@@ -12,3 +12,6 @@ fi
 mkdir -p components/$component_name && touch components/$component_name/$component_name.sass components/$component_name/$component_name.jsx
 
 echo "Component structure for '$component_name' created successfully."
+
+# Use:
+# ./create-component.sh ComponentName

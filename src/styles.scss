@@ -1,0 +1,38 @@
+//https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
+
+@import "./assets/css-variables.scss";
+
+:root {
+	color-scheme: light dark;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.light {
+	color-scheme: light;
+}
+.dark {
+	color-scheme: dark;
+}
+
+body {
+	font-family: $font-lato;
+	font-weight: 400;
+}
+#root {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+.container {
+	background-color: light-dark(cyan, teal);
+	color: light-dark(black, white);
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	padding: 0 30px;
+	align-items: center;
+}
