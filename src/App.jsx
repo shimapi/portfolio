@@ -5,6 +5,7 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { useContext } from "react";
 import { ThemeContext } from "./assets/ThemeContext";
+import Experience from "./components/Experience/Experience";
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
@@ -19,6 +20,7 @@ const App = () => {
 				</Routes>
 				<Header />
 				<About />
+				<Experience />
 			</div>
 		</BrowserRouter>
 	);

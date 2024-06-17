@@ -1,7 +1,12 @@
 import "./Experience.sass";
+import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
-	return <div>Experience</div>;
+	return (
+		<div>
+			<ExperienceCard />
+		</div>
+	);
 };
 
 export default Experience;
