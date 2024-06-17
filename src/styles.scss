@@ -42,7 +42,7 @@ body {
 .container {
 	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
 	display: flex;
-	height: 100vh;
+	// height: 100vh;
 	flex-direction: column;
 	padding: 0 30px;
 	align-items: center;
@@ -51,7 +51,9 @@ body {
 .box {
 	border: 1px solid;
 	border-color: light-dark($color-light-border, $color-dark-border);
-	background-color: light-dark($color-antiflash-white, $color-dark-deepblue);
+	//background-color: light-dark($color-antiflash-white, $color-dark-deepblue);
+	background-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
+
 	padding: 8px;
 	max-width: 60vw;
 	border-radius: 8px;
@@ -85,7 +87,7 @@ body {
 		transition: transform 0.3s ease, background-color 0.3s ease;
 	}
 	&:hover::before {
-		background-color: #ff1493; /* Nuevo color al hacer hover */
+		background-color: #ff1493;
 		transform: translate3d(-10px, 10px, 10px) skewX(332deg) rotate(350deg);
 	}
 }
@@ -96,22 +98,42 @@ body {
 	border: 1px solid;
 	border-radius: 8px;
 	margin-bottom: 4px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	transition: transform 0.3s ease, letter-spacing 0.3s ease;
+
+	&:hover {
+		letter-spacing: 4px;
+		transition: transform 0.3s ease;
+	}
+	&:active {
+		transform: translate3d(4px, 4px, 4px);
+		transition: transform 0.3s ease;
+	}
 
 	&-primary {
 		background-color: light-dark($color-dark-deepblue, $color-light-pale-gray);
 		color: light-dark($color-light-pale-gray, $color-dark-deepblue);
 		border-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
+		transform: translate3d(0px, 0px, 0px);
 
 		&:hover {
 			background-color: light-dark(
-				$color-dark-deepblue,
-				$color-light-pale-gray
+				$color-dark-lightblue,
+				$color-light-pale-lilac
 			);
 		}
 	}
 	&-secondary {
 		background-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
 		color: light-dark($color-dark-deepblue, $color-light-pale-gray);
-		border-color: light-dark($color-dark-deepblue, $color-light-pale-gray);
+		border-color: light-dark($color-light-border, $color-dark-border);
+
+		&:hover {
+			background-color: light-dark(
+				$color-light-pale-lilac,
+				$color-dark-lightblue
+			);
+		}
 	}
 }

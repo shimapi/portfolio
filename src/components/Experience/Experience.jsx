@@ -6,6 +6,8 @@ const Experience = () => {
 		<div className="experience">
 			<h2 className="title">Experience</h2>
 			<ExperienceCard />
+			<ExperienceCard />
+			<ExperienceCard />
 		</div>
 	);
 };

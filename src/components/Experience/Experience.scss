@@ -4,27 +4,32 @@
 	width: 100%;
 }
 .experience-card {
+	margin-bottom: 48px;
+
 	&__img {
 		width: 100%;
 		height: 300px;
 		background-color: $color-light-red;
 		border-radius: 8px;
+		position: relative;
 	}
 	&__title {
 		padding: 10px 0;
 		font-size: 1.6rem;
 	}
 	&__category {
-		background-color: $color-light-red;
-		padding: 8px;
+		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		color: light-dark($color-light-pale-lilac, $color-dark-deepblue);
 		border-radius: 8px;
 		font-size: 0.8rem;
-		margin: 8px 0;
+		position: absolute;
+		bottom: 8px;
+		right: 8px;
+		padding: 6px;
 	}
 	&__tech {
 		display: flex;
-
-		&-unit {
-		}
+		margin-bottom: 8px;
+		font-size: 0.8rem;
 	}
 }
