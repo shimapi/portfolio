@@ -1,4 +1,4 @@
-import "./Volunteering.sass";
+import "./Volunteering.scss";
 
 const Volunteering = () => {
 	return <div>Volunteering</div>;

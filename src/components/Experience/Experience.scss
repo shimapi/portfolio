@@ -1,0 +1,30 @@
+@import "../../assets/constants.scss";
+
+.experience {
+	width: 100%;
+}
+.experience-card {
+	&__img {
+		width: 100%;
+		height: 300px;
+		background-color: $color-light-red;
+		border-radius: 8px;
+	}
+	&__title {
+		padding: 10px 0;
+		font-size: 1.6rem;
+	}
+	&__category {
+		background-color: $color-light-red;
+		padding: 8px;
+		border-radius: 8px;
+		font-size: 0.8rem;
+		margin: 8px 0;
+	}
+	&__tech {
+		display: flex;
+
+		&-unit {
+		}
+	}
+}

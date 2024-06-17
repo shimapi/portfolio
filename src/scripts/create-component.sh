@@ -9,7 +9,7 @@ if [ -z "$component_name" ]; then
 fi
 
 # Create the directory and files
-mkdir -p components/$component_name && touch components/$component_name/$component_name.sass components/$component_name/$component_name.jsx
+mkdir -p components/$component_name && touch components/$component_name/$component_name.scss components/$component_name/$component_name.jsx
 
 echo "Component structure for '$component_name' created successfully."
 

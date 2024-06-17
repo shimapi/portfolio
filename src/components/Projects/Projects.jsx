@@ -1,4 +1,4 @@
-import "./Projects.sass";
+import "./Projects.scss";
 
 const Projects = () => {
 	return <div>Projects</div>;

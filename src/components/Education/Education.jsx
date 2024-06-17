@@ -1,4 +1,4 @@
-import "./Education.sass";
+import "./Education.scss";
 
 const Education = () => {
 	return <div>Education</div>;

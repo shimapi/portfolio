@@ -1,4 +1,4 @@
-import "./Skills.sass";
+import "./Skills.scss";
 
 const Skills = () => {
 	return <div>Skills</div>;
