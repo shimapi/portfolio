@@ -2,5 +2,16 @@
   "title": "Multi-language app",
   "label": "Select another language!",
   "about": "About",
-  "home": "Home"
+  "home": "Home",
+  "ExpTitle": "Experience",
+  "SkillsTitle": "Skills",
+  "BookTitle": "Book with me",
+  "VolTitle": "Volunteer",
+  "AboutTitle": "About",
+
+  "AboutGreeting": "Hi!",
+  "AboutName": "I'm Shirley Mallea, a web developer",
+  "AboutShort": "who loves to offer a good solution by interpreting business needs to create experiences that attract and persuade the end customer",
+  "AboutCV": "Download CV"
+
 }

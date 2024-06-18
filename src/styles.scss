@@ -46,6 +46,7 @@ body {
 	flex-direction: column;
 	padding: 0 30px;
 	align-items: center;
+	min-width: 320px;
 }
 
 .box {
@@ -73,6 +74,7 @@ body {
 	display: inline-block;
 	font-size: 2em;
 	z-index: 0;
+	text-shadow: 3px 3px 3px light-dark($color-dark-shadow, $color-light-shadow);
 
 	&::before {
 		content: "";
@@ -83,6 +85,7 @@ body {
 		height: 0.8em;
 		background-color: #ff69b4a8;
 		z-index: -1;
+		border-radius: 4px;
 		transform: translate3d(-10px, 10px, 10px) skewX(330deg) rotate(357deg);
 		transition: transform 0.3s ease, background-color 0.3s ease;
 	}
@@ -116,6 +119,7 @@ body {
 		color: light-dark($color-light-pale-gray, $color-dark-deepblue);
 		border-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
 		transform: translate3d(0px, 0px, 0px);
+		font-weight: bol;
 
 		&:hover {
 			background-color: light-dark(

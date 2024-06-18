@@ -2,5 +2,16 @@
   "title": "Mi Portafolio",
   "label": "elige otro idioma",
   "about": "Acerca de mí",
-  "home": "Inicio"
+  "home": "Inicio",
+  "ExpTitle": "Experiencia",
+  "SkillsTitle": "Habilidades",
+  "BookTitle": "Agenda Conmigo",
+  "VolTitle": "Voluntariado",
+  "AboutTitle": "Acerca de",
+
+  "AboutGreeting": "Hola!!",
+  "AboutName": "Soy Shirley Mallea, una desarrolladora web",
+  "AboutShort": "que ama entregar una solución entendiendo las necesidades tu negocio.",
+  "AboutCV": "Descargar CV"
+
 }

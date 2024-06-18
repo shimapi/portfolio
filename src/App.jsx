@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import { Menu } from "./components/Menu/Menu";
 import { Home } from "./pages/Home";
-import { About } from "./pages/About";
 import { useContext } from "react";
 import { ThemeContext } from "./assets/ThemeContext";
 import Experience from "./components/Experience/Experience";
+import Skills from "./components/Skills/Skills";
+import Volunteering from "./components/Volunteering/Volunteering";
+import { About } from "./components/About/About";
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
@@ -13,14 +14,15 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<div className={`container ${theme}`}>
-				<Menu />
+				<Header />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/" element={<About />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/experience" element={<Experience />} />
+					<Route path="/skills" element={<Skills />} />
+					<Route path="/calendar" element={<About />} />
+					<Route path="/volunteer" element={<Volunteering />} />
 				</Routes>
-				<Header />
-				<About />
-				<Experience />
 			</div>
 		</BrowserRouter>
 	);

@@ -13,11 +13,13 @@ $color-mustard: #fdc500;
 $color-dark-deepblue: hsla(236, 100%, 8%, 1);
 $color-dark-lightblue: hsla(239, 94%, 14%, 1);
 $color-dark-border: rgba(255, 255, 255, 0.2);
+$color-dark-shadow: rgba(255, 255, 255, 0.5);
 
 // light mode
 $color-light-pale-lilac: hsla(276, 100%, 98%, 1);
 $color-light-pale-gray: hsla(0, 0%, 98%, 1);
 $color-light-border: rgba(0, 0, 0, 0.2);
+$color-light-shadow: rgba(0, 0, 0, 0.5);
 
 // gradients
 $gradient-dark: 90deg, ($color-dark-deepblue 63%, $color-dark-lightblue 100%);

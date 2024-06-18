@@ -5,7 +5,7 @@ export const About = () => {
 
 	return (
 		<main>
-			<h1>{t("about")}</h1>
+			<h4 className="title">{t("AboutTitle")}</h4>
 		</main>
 	);
 };
