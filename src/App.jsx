@@ -7,6 +7,7 @@ import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
 import Volunteering from "./components/Volunteering/Volunteering";
 import { About } from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
@@ -27,6 +28,7 @@ const App = () => {
 					<Route path="/calendar" element={<About />} />
 					<Route path="/volunteer" element={<Volunteering />} />
 				</Routes>
+				<Footer />
 			</div>
 		</BrowserRouter>
 	);
