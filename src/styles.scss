@@ -22,13 +22,13 @@ body {
 	font-family: $font-lato;
 	font-weight: 400;
 }
-.container.dark {
+html[data-theme="dark"] {
 	background: $color-dark-deepblue;
 	background: linear-gradient($gradient-dark);
 	background: -moz-linear-gradient($gradient-dark);
 	background: -webkit-linear-gradient($gradient-dark);
 }
-.container.light {
+html[data-theme="light"] {
 	background: $color-light-pale-gray;
 	background: linear-gradient($gradient-light);
 	background: -moz-linear-gradient($gradient-light);

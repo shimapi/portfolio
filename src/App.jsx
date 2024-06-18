@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import { Home } from "./pages/Home";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ThemeContext } from "./assets/ThemeContext";
 import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
@@ -10,6 +10,10 @@ import { About } from "./components/About/About";
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
+
+	useEffect(() => {
+		document.body.className = theme;
+	}, [theme]);
 
 	return (
 		<BrowserRouter>
