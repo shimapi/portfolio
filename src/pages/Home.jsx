@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
+import ExperienceCV from "../components/Experience/ExperienceCV";
 
 export const Home = () => {
 	const { t } = useTranslation();
 
 	return (
 		<main>
-			<h1>{t("title")}</h1>
-			<span>{t("label")} </span>
+			<ExperienceCV />
 		</main>
 	);
 };

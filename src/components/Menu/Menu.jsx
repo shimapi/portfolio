@@ -10,22 +10,22 @@ export const Menu = () => {
 		<nav>
 			<div>
 				<NavLink className={isActive} to="/">
-					{t("home")}
+					{t("general.home")}
 				</NavLink>
 				<NavLink className={isActive} to="/about">
-					{t("AboutTitle")}
+					{t("general.AboutTitle")}
 				</NavLink>
 				<NavLink className={isActive} to="/experience">
-					{t("ExpTitle")}
+					{t("general.ExpTitle")}
 				</NavLink>
 				<NavLink className={isActive} to="/skills">
-					{t("SkillsTitle")}
+					{t("general.SkillsTitle")}
 				</NavLink>
 				<NavLink className={isActive} to="/calendar">
-					{t("BookTitle")}
+					{t("general.BookTitle")}
 				</NavLink>
 				<NavLink className={isActive} to="/volunteer">
-					{t("VolTitle")}
+					{t("general.VolTitle")}
 				</NavLink>
 			</div>
 		</nav>
