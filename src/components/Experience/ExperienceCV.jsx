@@ -23,8 +23,15 @@ const ExperienceCV = () => {
 							{expArray[index].title}
 						</h4>
 						<h5 className="experience-cv__jobinfo-date">
-							{expArray[index].bizz} | {expArray[index].date} |{" "}
-							{expArray[0].place}
+							<span className="experience-cv__jobinfo-date-span">
+								{expArray[index].bizz}
+							</span>
+							<span className="experience-cv__jobinfo-date-span">
+								{expArray[index].date}
+							</span>
+							<span className="experience-cv__jobinfo-date-span">
+								{expArray[0].place}
+							</span>
 						</h5>
 						<ul className="experience-cv__jobinfo-description">
 							<li className="experience-cv__jobinfo-bullet">

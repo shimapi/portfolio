@@ -82,7 +82,20 @@
 		&-date {
 			font-size: 0.8rem;
 			color: $color-cerulean;
+
+			&-span {
+				padding: 0 10px;
+				border-right: 1px solid $color-cerulean;
+
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					border-right: none;
+				}
+			}
 		}
+
 		&-description {
 			margin-left: 4px;
 		}
