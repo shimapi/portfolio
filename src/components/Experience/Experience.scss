@@ -65,6 +65,8 @@
 			top: 28px;
 			transform: translateX(-50%);
 			z-index: 3;
+			border: 3px solid
+				light-dark($color-dark-deepblue, $color-light-pale-lilac);
 		}
 	}
 
@@ -77,11 +79,12 @@
 			color: $color-mustard;
 			font-size: large;
 			word-spacing: 4px;
-			letter-spacing: 0.5pt;
+			letter-spacing: 0.8pt;
 		}
 		&-date {
 			font-size: 0.8rem;
 			color: $color-cerulean;
+			letter-spacing: 0.4pt;
 
 			&-span {
 				padding: 0 10px;
@@ -97,7 +100,11 @@
 		}
 
 		&-description {
+			font-size: 0.9rem;
+			color: light-dark($color-dark-deepblue, $color-light-pale-pinky);
 			margin-left: 4px;
+			letter-spacing: 0.4pt;
+			word-spacing: 2px;
 		}
 		&-bullet {
 			list-style-type: disclosure-closed;

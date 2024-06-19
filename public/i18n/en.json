@@ -9,13 +9,21 @@
     "SkillsTitle": "Skills",
     "BookTitle": "Book with me",
     "VolTitle": "Volunteer",
-    "AboutTitle": "About"
+    "AboutTitle": "About",
+    "CVTitle": "Web Developer",
+    "CVName": "Shirley Mallea",
+    "CVPlace": "Based in Chile",
+    "CVPdf": "link to CV",
+    "linkedin": "https://www.linkedin.com/in/shirleymallea/",
+    "github": "https://github.com/shimapi",
+    "instagram": "https://www.instagram.com/shirleymallea/"
   },
   "about" : {
     "AboutGreeting": "Hi!",
     "AboutName": "I'm Shirley Mallea, a web developer",
     "AboutShort": "who loves to offer a good solution by interpreting business needs to create experiences that attract and persuade the end customer",
-    "AboutCV": "Download CV"
+    "DownloadCV": "Download CV",
+    "AboutLong": "I have 12 years of experience in web development, specializing in e-commerce. I have a strong background in programming, responsive design, and accessibility. I am a proactive, detail-oriented, and creative professional who enjoys working in a team and learning continuously. I have a passion for problem-solving and a strong commitment to delivering high-quality work. I am looking for a challenging position where I can contribute my skills and experience to help a company grow and succeed."
   },
   "skills" : {
     "1" : "Programming: JavaScript, React, SQL", 

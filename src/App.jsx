@@ -18,8 +18,8 @@ const App = () => {
 
 	return (
 		<BrowserRouter>
+			<Header />
 			<div className={`container ${theme}`}>
-				<Header />
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
