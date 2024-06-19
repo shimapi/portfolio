@@ -1,22 +1,37 @@
+import { useTranslation } from "react-i18next";
+import "./Experience.scss";
+
 const ExperienceCV = () => {
+	const { t } = useTranslation();
+
+	const expObject = t("experienceCV", { returnObjects: true });
+	const expArray = Object.values(expObject);
+
 	return (
 		<div className="experience-cv">
-			<h4 className="experience-cv__job-name">
-				{" "}
-				e-commerce developer - Moda Tornasol, Chile - 2023
-			</h4>
-			<h5 className="experience-cv__job-date">2023</h5>
-			<ul className="experience-cv__job-description">
-				<li>
-					Migrated a WordPress webpage to a robust Shopify e-commerce platform,
-					meticulously categorizing over 2500 products into SEO-friendly
-					automatic collections, which increased sales by 30%.
-				</li>
-				<li>
-					Programmed a system to generate custom reports using React, connected
-					to the Shopify API via REST API and reading info from a SQL database.
-				</li>
-			</ul>
+			<h2 className="title">{t("general.ExpCVTitle")}</h2>
+
+			{expArray.map((exp, index) => (
+				<article className="experience-cv__job" key={index}>
+					<h4 className="experience-cv__job-name">{expArray[index].title}</h4>
+					<h5 className="experience-cv__job-date">
+						{expArray[index].date} - {expArray[0].place}
+					</h5>
+					<ul className="experience-cv__job-description">
+						<li className="experience-cv__job-bullet">
+							{expArray[index].bullets[1]}
+						</li>
+						<li className="experience-cv__job-bullet">
+							{expArray[index].bullets[2]}
+						</li>
+						{expArray[index].bullets[3] !== undefined ? (
+							<li className="experience-cv__job-bullet">
+								{expArray[index].bullets[3]}
+							</li>
+						) : null}
+					</ul>
+				</article>
+			))}
 		</div>
 	);
 };
