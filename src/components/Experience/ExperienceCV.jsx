@@ -14,23 +14,27 @@ const ExperienceCV = () => {
 			{expArray.map((exp, index) => (
 				<article className="experience-cv__job" key={index}>
 					<section className="experience-cv__timeline">
-						<div className="experience-cv__line"></div>
-						<div className="experience-cv__circle"></div>
+						<div className="experience-cv__timeline-line"></div>
+						<div className="experience-cv__timeline-circle"></div>
 					</section>
+
 					<section className="experience-cv__jobinfo">
-						<h4 className="experience-cv__job-name">{expArray[index].title}</h4>
-						<h5 className="experience-cv__job-date">
-							{expArray[index].date} - {expArray[0].place}
+						<h4 className="experience-cv__jobinfo-name">
+							{expArray[index].title}
+						</h4>
+						<h5 className="experience-cv__jobinfo-date">
+							{expArray[index].bizz} | {expArray[index].date} |{" "}
+							{expArray[0].place}
 						</h5>
-						<ul className="experience-cv__job-description">
-							<li className="experience-cv__job-bullet">
+						<ul className="experience-cv__jobinfo-description">
+							<li className="experience-cv__jobinfo-bullet">
 								{expArray[index].bullets[1]}
 							</li>
-							<li className="experience-cv__job-bullet">
+							<li className="experience-cv__jobinfo-bullet">
 								{expArray[index].bullets[2]}
 							</li>
 							{expArray[index].bullets[3] !== undefined ? (
-								<li className="experience-cv__job-bullet">
+								<li className="experience-cv__jobinfo-bullet">
 									{expArray[index].bullets[3]}
 								</li>
 							) : null}
