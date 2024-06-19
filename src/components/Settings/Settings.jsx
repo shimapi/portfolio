@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { ThemeContext } from "../../assets/ThemeContext";
 import { useTranslation } from "react-i18next";
 import { RiMoonFill, RiSunFill } from "react-icons/ri";
+import "./Settings.scss";
 
 const Settings = () => {
 	const { theme, toggleTheme } = useContext(ThemeContext);
@@ -16,8 +17,8 @@ const Settings = () => {
 
 	return (
 		<div className="settings">
-			<div className="theme">
-				<div className="theme__mode">
+			<div className="settings__theme">
+				<div className="settings__theme-mode">
 					{theme === "light" ? (
 						<RiMoonFill onClick={toggleTheme} />
 					) : (
@@ -25,8 +26,8 @@ const Settings = () => {
 					)}
 				</div>
 			</div>
-			<div className="lang">
-				<button className="lang__toggle" onClick={toggleLang}>
+			<div className="settings__lang">
+				<button className="settings__lang-toggle" onClick={toggleLang}>
 					{lang === "es" ? "EN" : "ES"}
 				</button>
 			</div>

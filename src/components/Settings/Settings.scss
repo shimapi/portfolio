@@ -1,1 +1,23 @@
 @import "../../assets/constants.scss";
+
+.settings {
+	display: flex;
+	font-size: 1.6em;
+	padding: 8px;
+	line-height: 0;
+	align-items: center;
+
+	&__theme {
+		&-mode {
+			margin-right: 12px;
+		}
+	}
+
+	&__lang {
+		&-toggle {
+			font-size: 0.6em;
+			padding: 4px;
+			line-height: normal;
+		}
+	}
+}

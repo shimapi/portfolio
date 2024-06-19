@@ -8,6 +8,7 @@ import Skills from "./components/Skills/Skills";
 import Volunteering from "./components/Volunteering/Volunteering";
 import { About } from "./components/About/About";
 import Footer from "./components/Footer/Footer";
+import PageCV from "./pages/PageCV";
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
@@ -27,6 +28,7 @@ const App = () => {
 					<Route path="/skills" element={<Skills />} />
 					<Route path="/calendar" element={<About />} />
 					<Route path="/volunteer" element={<Volunteering />} />
+					<Route path="/cv" element={<PageCV />} />
 				</Routes>
 				<Footer />
 			</div>

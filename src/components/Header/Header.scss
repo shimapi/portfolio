@@ -1,1 +1,27 @@
 @import "../../assets/constants.scss";
+
+.navbar {
+	background-color: $color-dark-deepblue;
+	border-bottom: $color-dark-shadow 1px solid;
+	display: flex;
+	justify-content: space-between;
+
+	&__talent {
+		font-size: 1.5em;
+		padding: 4px;
+		line-height: 0;
+		align-items: center;
+		display: flex;
+		margin-left: 8px;
+	}
+
+	&__hamburger {
+		font-size: 2em;
+		padding: 8px;
+		line-height: 0;
+	}
+
+	&__icons {
+		display: flex;
+	}
+}

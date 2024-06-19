@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
+import "./Menu.scss";
 
 const isActive = ({ isActive }) => `link ${isActive ? "active" : ""}`;
 
@@ -8,7 +9,7 @@ export const Menu = () => {
 
 	return (
 		<nav>
-			<div>
+			<div className="menu mobile">
 				<NavLink className={isActive} to="/">
 					{t("general.home")}
 				</NavLink>
@@ -26,6 +27,9 @@ export const Menu = () => {
 				</NavLink>
 				<NavLink className={isActive} to="/volunteer">
 					{t("general.VolTitle")}
+				</NavLink>
+				<NavLink className={isActive} to="/cv">
+					{t("general.PageCVTitle")}
 				</NavLink>
 			</div>
 		</nav>
