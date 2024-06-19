@@ -1,17 +1,66 @@
 {
-  "title": "Multi-language app",
-  "label": "Select another language!",
-  "about": "About",
-  "home": "Home",
-  "ExpTitle": "Experience",
-  "SkillsTitle": "Skills",
-  "BookTitle": "Book with me",
-  "VolTitle": "Volunteer",
-  "AboutTitle": "About",
-
-  "AboutGreeting": "Hi!",
-  "AboutName": "I'm Shirley Mallea, a web developer",
-  "AboutShort": "who loves to offer a good solution by interpreting business needs to create experiences that attract and persuade the end customer",
-  "AboutCV": "Download CV"
-
+  "general":{
+    "title": "Multi-language app",
+    "label": "Select another language!",
+    "about": "About",
+    "home": "Home",
+    "ExpTitle": "Experience",
+    "SkillsTitle": "Skills",
+    "BookTitle": "Book with me",
+    "VolTitle": "Volunteer",
+    "AboutTitle": "About"
+  },
+  "about" : {
+    "AboutGreeting": "Hi!",
+    "AboutName": "I'm Shirley Mallea, a web developer",
+    "AboutShort": "who loves to offer a good solution by interpreting business needs to create experiences that attract and persuade the end customer",
+    "AboutCV": "Download CV"
+  },
+  "skills" : {
+    "1" : "Programming: JavaScript, React, SQL", 
+    "2" : "Responsive Design: CSS, SASS, Semantic HTML",
+    "3" : "Accessibility & SEO",
+    "4" : "Abstraction & Attention to Detail",
+    "5" : "Problem-Solving & Creativity",
+    "6" : "Collaboration & Communication",
+    "7" : "Continuous Learning & Proactivity",
+    "8" : "Leadership & Time Management",
+    "9" : "Adaptability",
+    "10" : "Teamwork"
+  },
+  "experienceCV": {
+    "exp1": {
+      "title": "e-commerce developer",
+      "bizz": "Moda Tornasol",
+      "place": "Chile",
+      "date": "2023",
+      "bullets" : {
+        "1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
+        "2": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."
+      }
+    },
+    "exp2": {
+      "title": "e-commerce developer & manager",
+      "bizz": "Altorrelieve",
+      "place": "Chile",
+      "date": "2011 - 2022",
+      "bullets" : {
+        "1": "Developed custom landing pages and mailings using CSS, JS, HTML, JSON, MongoDB, Liquid, and React.",
+        "2": "Increased sales by 130% by migrating from OpenCart to Shopify."
+      }
+    },
+    "exp3": {
+      "title": "web developer",
+      "bizz": "Digital Agency Storm",
+      "place": "Chile",
+      "date": "2009-2010",
+      "bullets" : {
+        "1": "Optimized client web performance using Pixel Perfect development (HTML, CSS, JS, PHP, MySQL) and programmed successful email marketing campaigns.",
+        "2": "Created custom WordPress themes from scratch, adapting design and features for each client."
+      }
+    }
+  },
+  "content": {
+    "page2": "This is the content of page2"
+  }
 }

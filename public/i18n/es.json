@@ -1,17 +1,37 @@
 {
-  "title": "Mi Portafolio",
-  "label": "elige otro idioma",
-  "about": "Acerca de mí",
-  "home": "Inicio",
-  "ExpTitle": "Experiencia",
-  "SkillsTitle": "Habilidades",
-  "BookTitle": "Agenda Conmigo",
-  "VolTitle": "Voluntariado",
-  "AboutTitle": "Acerca de",
-
-  "AboutGreeting": "Hola!!",
-  "AboutName": "Soy Shirley Mallea, una desarrolladora web",
-  "AboutShort": "que ama entregar una solución entendiendo las necesidades tu negocio.",
-  "AboutCV": "Descargar CV"
-
+  "general":{
+    "title": "Mi Portafolio",
+    "label": "elige otro idioma",
+    "about": "Acerca de mí",
+    "home": "Inicio",
+    "ExpTitle": "Experiencia",
+    "SkillsTitle": "Habilidades",
+    "BookTitle": "Agenda Conmigo",
+    "VolTitle": "Voluntariado",
+    "AboutTitle": "Acerca de"
+  },
+  "about" : {
+    "AboutGreeting": "Hola!!",
+    "AboutName": "Soy Shirley Mallea, una desarrolladora web",
+    "AboutShort": "que ama entregar una solución entendiendo las necesidades tu negocio.",
+    "AboutCV": "Descargar CV"
+  },
+  "skills" : {
+    "1" : "Programming: JavaScript, React, SQL", 
+    "2" : "Responsive Design: CSS, SASS, Semantic HTML",
+    "3" : "Accessibility & SEO",
+    "4" : "Abstraction & Attention to Detail",
+    "5" : "Problem-Solving & Creativity",
+    "6" : "Collaboration & Communication",
+    "7" : "Continuous Learning & Proactivity",
+    "8" : "Liderazgo y Trabajo en Equipo",
+    "9" : "Adaptabilidad",
+    "10" : "Manejo de tiempo"
+  },
+  "titles": {
+    "page2": "Welcome on page2"
+  },
+  "content": {
+    "page2": "This is the content of page2"
+  }
 }
