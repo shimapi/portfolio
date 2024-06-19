@@ -6,6 +6,7 @@ export const Home = () => {
 
 	return (
 		<main>
+			<h4 className="title">{t("general.home")}</h4>
 			<ExperienceCV />
 		</main>
 	);
