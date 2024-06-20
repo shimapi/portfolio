@@ -1,0 +1,33 @@
+@import "../../assets/constants.scss";
+
+.settings {
+	display: flex;
+	font-size: 1.6em;
+	padding: 8px;
+	line-height: 0;
+	align-items: center;
+
+	&__theme {
+		&-mode svg {
+			margin-right: 12px;
+
+			&:hover {
+				cursor: pointer;
+				transform: rotate(359deg);
+				transition: transform 0.5s;
+			}
+		}
+	}
+
+	&__lang {
+		&-toggle {
+			font-size: 0.6em;
+			padding: 4px;
+			line-height: normal;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}

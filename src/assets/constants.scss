@@ -1,26 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 
 $font-lato: "Lato", sans-serif;
+$font-arvo: "Arvo", serif;
 
 // colors
 $color-raisin-black: #34252fff;
 $color-antiflash-white: #ebebebff;
-$color-cerulean: #007991ff;
+$color-cerulean: #44b2c8;
 $color-light-red: #ff7477ff;
 $color-mustard: #fdc500;
+$color-mustard-light: #ffdb5a;
+$color-mustard-dark: #e0a800;
 
 // dark mode
 $color-dark-deepblue: hsla(236, 100%, 8%, 1);
 $color-dark-lightblue: hsla(239, 94%, 14%, 1);
 $color-dark-border: rgba(255, 255, 255, 0.2);
+$color-dark-shadow: rgba(255, 255, 255, 0.5);
+$color-dark-menu: #23252c;
+$color-dark-menu-border: #2f3138;
 
 // light mode
 $color-light-pale-lilac: hsla(276, 100%, 98%, 1);
 $color-light-pale-gray: hsla(0, 0%, 98%, 1);
+$color-light-pale-pinky: hsla(276, 100%, 95%, 1);
 $color-light-border: rgba(0, 0, 0, 0.2);
+$color-light-shadow: rgba(0, 0, 0, 0.5);
 
 // gradients
 $gradient-dark: 90deg, ($color-dark-deepblue 63%, $color-dark-lightblue 100%);
 
-$gradient-light: circle,
-	($color-light-pale-lilac 0%, $color-light-pale-gray 100%);
+$gradient-light: 90deg,
+	($color-light-pale-pinky 0%, $color-light-pale-pinky 100%);
+
+// breakpoints
+$breakpoint-minimun: 320px;
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

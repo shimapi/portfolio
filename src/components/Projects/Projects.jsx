@@ -1,7 +1,18 @@
-import "./Projects.sass";
+import "./Projects.scss";
+import ProjectCard from "./ProjectCard";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
-	return <div>Projects</div>;
+	const { t } = useTranslation();
+
+	return (
+		<div className="projects">
+			<h2 className="title">{t("general.ProjectsTitle")}</h2>
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+		</div>
+	);
 };
 
 export default Projects;

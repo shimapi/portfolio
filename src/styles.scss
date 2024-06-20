@@ -22,44 +22,123 @@ body {
 	font-family: $font-lato;
 	font-weight: 400;
 }
-.container.dark {
+html[data-theme="dark"] {
 	background: $color-dark-deepblue;
 	background: linear-gradient($gradient-dark);
 	background: -moz-linear-gradient($gradient-dark);
 	background: -webkit-linear-gradient($gradient-dark);
 }
-.container.light {
+html[data-theme="light"] {
 	background: $color-light-pale-gray;
-	background: radial-gradient($gradient-light);
-	background: -moz-radial-gradient($gradient-light);
-	background: -webkit-radial-gradient($gradient-light);
+	background: linear-gradient($gradient-light);
+	background: -moz-linear-gradient($gradient-light);
+	background: -webkit-linear-gradient($gradient-light);
 }
 #root {
 	display: flex;
-	height: 100vh;
+	//height: 100vh;
 	flex-direction: column;
+	position: relative;
 }
 .container {
 	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
 	display: flex;
-	height: 100vh;
+	min-height: 100vh;
 	flex-direction: column;
 	padding: 0 30px;
 	align-items: center;
+	min-width: $breakpoint-minimun;
 }
 
 .box {
 	border: 1px solid;
 	border-color: light-dark($color-light-border, $color-dark-border);
-	background-color: light-dark($color-antiflash-white, $color-dark-deepblue);
-	padding: 20px;
+	//background-color: light-dark($color-antiflash-white, $color-dark-deepblue);
+	background-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
+
+	padding: 8px;
 	max-width: 60vw;
-	border-radius: 14px;
+	border-radius: 8px;
+	margin-right: 8px;
 
 	&:hover {
 		background-color: light-dark(
 			$color-light-pale-lilac,
 			$color-dark-lightblue
 		);
+	}
+}
+
+.title {
+	padding: 30px 0;
+	position: relative;
+	display: inline-block;
+	font-size: 2em;
+	z-index: 0;
+	text-shadow: 3px 3px 3px light-dark($color-dark-shadow, $color-light-shadow);
+
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 1em;
+		width: 130%;
+		height: 0.8em;
+		background-color: #ff69b4a8;
+		z-index: -1;
+		border-radius: 4px;
+		transform: translate3d(-10px, 10px, 10px) skewX(330deg) rotate(357deg);
+		transition: transform 0.3s ease, background-color 0.3s ease;
+	}
+	&:hover::before {
+		background-color: #ff1493;
+		transform: translate3d(-10px, 10px, 10px) skewX(332deg) rotate(350deg);
+	}
+}
+
+.button {
+	height: 40px;
+	width: 100%;
+	border: 1px solid;
+	border-radius: 8px;
+	margin-bottom: 4px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	transition: transform 0.3s ease, letter-spacing 0.3s ease;
+
+	&:hover {
+		letter-spacing: 4px;
+		transition: transform 0.3s ease;
+	}
+	&:active {
+		transform: translate3d(4px, 4px, 4px);
+		transition: transform 0.3s ease;
+	}
+
+	&-primary {
+		background-color: light-dark($color-dark-deepblue, $color-light-pale-gray);
+		color: light-dark($color-light-pale-gray, $color-dark-deepblue);
+		border-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
+		transform: translate3d(0px, 0px, 0px);
+		font-weight: bol;
+
+		&:hover {
+			background-color: light-dark(
+				$color-dark-lightblue,
+				$color-light-pale-lilac
+			);
+		}
+	}
+	&-secondary {
+		background-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
+		color: light-dark($color-dark-deepblue, $color-light-pale-gray);
+		border-color: light-dark($color-light-border, $color-dark-border);
+
+		&:hover {
+			background-color: light-dark(
+				$color-light-pale-lilac,
+				$color-dark-lightblue
+			);
+		}
 	}
 }

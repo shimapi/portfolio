@@ -1,7 +1,14 @@
-import "./Volunteering.sass";
+import "./Volunteering.scss";
+import { useTranslation } from "react-i18next";
 
 const Volunteering = () => {
-	return <div>Volunteering</div>;
+	const { t } = useTranslation();
+
+	return (
+		<div>
+			<h4 className="title"> {t("VolTitle")} </h4>
+		</div>
+	);
 };
 
 export default Volunteering;
