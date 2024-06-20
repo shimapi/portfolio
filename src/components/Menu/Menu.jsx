@@ -17,16 +17,16 @@ export const Menu = () => {
 				<RiCodeFill /> {t("general.ExpTitle")}
 			</NavLink>
 			<NavLink className={`menu__link ${isActive}`} to="/skills">
-				{t("general.SkillsTitle")}
+				<RiUserSmileFill size={20} /> {t("general.SkillsTitle")}
 			</NavLink>
 			<NavLink className={`menu__link ${isActive}`} to="/calendar">
-				{t("general.BookTitle")}
+				<RiUserSmileFill size={20} /> {t("general.BookTitle")}
 			</NavLink>
 			<NavLink className={`menu__link ${isActive}`} to="/volunteer">
-				{t("general.VolTitle")}
+				<RiUserSmileFill size={20} /> {t("general.VolTitle")}
 			</NavLink>
 			<NavLink className={`menu__link ${isActive}`} to="/cv">
-				{t("general.PageCVTitle")}
+				<RiUserSmileFill size={20} /> {t("general.PageCVTitle")}
 			</NavLink>
 		</nav>
 	);

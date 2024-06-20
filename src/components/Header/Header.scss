@@ -14,6 +14,24 @@
 		align-items: center;
 		display: flex;
 		margin-left: 8px;
+		font-family: $font-arvo;
+		transition: color 0.1s;
+
+		& a {
+			text-decoration: none;
+
+			& :hover {
+				text-decoration: wavy;
+				color: $color-mustard-light;
+			}
+		}
+
+		&-symbol {
+			color: $color-cerulean;
+		}
+		&-name {
+			color: $color-mustard;
+		}
 	}
 
 	&__hamburger {
