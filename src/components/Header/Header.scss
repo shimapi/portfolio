@@ -5,6 +5,7 @@
 	border-bottom: $color-dark-shadow 1px solid;
 	display: flex;
 	justify-content: space-between;
+	min-width: $breakpoint-minimun;
 
 	&__talent {
 		font-size: 1.5em;

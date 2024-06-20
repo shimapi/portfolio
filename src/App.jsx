@@ -20,7 +20,7 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<Header />
-			<div className={`container ${theme}`}>
+			<div className={`container`}>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />

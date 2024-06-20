@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { ThemeContext } from "../../assets/ThemeContext";
 import { useTranslation } from "react-i18next";
-import { RiMoonFill, RiSunFill } from "react-icons/ri";
+import { RiMoonClearFill, RiSunFill } from "react-icons/ri";
 import "./Settings.scss";
 
 const Settings = () => {
@@ -20,7 +20,7 @@ const Settings = () => {
 			<div className="settings__theme">
 				<div className="settings__theme-mode">
 					{theme === "light" ? (
-						<RiMoonFill onClick={toggleTheme} />
+						<RiMoonClearFill onClick={toggleTheme} />
 					) : (
 						<RiSunFill onClick={toggleTheme} />
 					)}

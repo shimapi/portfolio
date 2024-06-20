@@ -1,20 +1,51 @@
 @import "../../assets/constants.scss";
 
-.link {
-	padding: 0 10px;
-	border-right: 1px solid $color-cerulean;
-
-	&:first-child {
-		padding-left: 0;
-	}
-	&:last-child {
-		border-right: none;
-	}
-}
-
 .menu {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 20px 0;
+
+	&__link {
+		padding: 0 10px;
+		border-right: 1px solid $color-light-red;
+
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			border-right: none;
+		}
+	}
+
+	&-active {
+		background-color: $color-mustard;
+	}
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+	.menu {
+		flex-direction: column;
+
+		&__link {
+			width: 100%;
+			background-color: $color-dark-menu;
+			border-right: none;
+			border-bottom: 1px solid $color-dark-menu-border;
+			padding: 10px;
+			text-decoration: none;
+			margin: 0;
+			font-weight: 700;
+			letter-spacing: 1px;
+			color: $color-antiflash-white;
+
+			&:first-child {
+				padding: 10px;
+			}
+
+			&:hover {
+				background-color: $color-dark-menu-border;
+				color: $color-light-pale-pinky;
+			}
+		}
+	}
 }
