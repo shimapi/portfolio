@@ -11,6 +11,7 @@
     "VolTitle": "Volunteer",
     "AboutTitle": "About",
     "PageCVTitle": "CV",
+    "ProjectsTitle": "Projects",
     "CVTitle": "Web Developer",
     "CVName0": "<",
     "CVName": "Shirley",
@@ -73,7 +74,17 @@
       }
     }
   },
-  "content": {
-    "page2": "This is the content of page2"
+  "projects": {
+    "proj1": {
+      "title": "BestSellers",
+      "bizz": "Moda Tornasol",
+      "place": "Chile",
+      "date": "2023",
+      "bullets" : {
+        "1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
+        "2": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."     
+      }
+    }
+
   }
 }
