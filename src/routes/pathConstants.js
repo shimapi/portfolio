@@ -14,8 +14,9 @@ const PathConstants = {
   // External links
   INSTAGRAM: 'https://www.instagram.com/shirleymallea',
   TIKTOK: 'https://www.tiktok.com/@shirleymallea',
-  GITHUB: 'https://altorrelieve.cl/products/',
+  GITHUB: 'https://github.com/shimapi',
   LINKEDIN: 'https://www.linkedin.com/in/shirleymallea',
+  SHOPIFY: "#"
 
 
 }

@@ -9,8 +9,6 @@ const Projects = () => {
 		<div className="projects">
 			<h2 className="title">{t("general.ProjectsTitle")}</h2>
 			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
 		</div>
 	);
 };

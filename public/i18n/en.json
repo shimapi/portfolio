@@ -76,15 +76,67 @@
   },
   "projects": {
     "proj1": {
-      "title": "BestSellers",
-      "bizz": "Moda Tornasol",
-      "place": "Chile",
+      "title": "BestSellers Shopify App",
+      "client": "Altorrelieve",
+      "category": "API REST",
+      "date": "2024",
+      "tech":{
+        "1": "React",
+        "2": "Shopify API",
+        "3": "SASS"
+      },
+      "bullets" : {
+        "1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
+        "2": "Connected to the Shopify API via REST API."  
+      },
+      "link": "https://bestsellers-shopify.vercel.app/",
+      "img":{
+        "1": "../img/bestsellers1.png",
+        "2": "../img/bestsellers2.png",
+        "3": "../img/bestsellers3.png"
+      }
+    },
+    "proj2": {
+      "title": "e-commerce Shopify +2500 SKU",
+      "client": "Moda Tornasol",
+      "category": "e-commerce Shopify",
       "date": "2023",
+      "tech":{
+        "1": "Shopify",
+        "2": "e-commerce manager",
+        "3": "SEO",
+        "4": "MetaObjects"
+      },
       "bullets" : {
         "1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
-        "2": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."     
+        "2": "Connected to the Shopify API via REST API."  
+      },
+      "link": "https://modatornasol.cl/",
+      "img":{
+        "1": "../img/bestsellers1.png",
+        "2": "../img/bestsellers2.png",
+        "3": "../img/bestsellers3.png"
+      }
+    }, "proj3": {
+      "title": "BestSellers Shopify App",
+      "client": "Altorrelieve",
+      "category": "API REST",
+      "date": "2023",
+      "tech":{
+        "1": "React",
+        "2": "Shopify API",
+        "3": "SASS"
+      },
+      "bullets" : {
+        "1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
+        "2": "Connected to the Shopify API via REST API."  
+      },
+      "link": "https://bestsellers-shopify.vercel.app/",
+      "img":{
+        "1": "../img/bestsellers1.png",
+        "2": "../img/bestsellers2.png",
+        "3": "../img/bestsellers3.png"
       }
     }
-
   }
 }
