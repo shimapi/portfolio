@@ -36,8 +36,9 @@ html[data-theme="light"] {
 }
 #root {
 	display: flex;
-	height: 100vh;
+	//height: 100vh;
 	flex-direction: column;
+	position: relative;
 }
 .container {
 	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);

@@ -1,39 +1,5 @@
 @import "../../assets/constants.scss";
 
-.experience {
-	width: 100%;
-}
-.experience-card {
-	margin-bottom: 48px;
-
-	&__img {
-		width: 100%;
-		height: 300px;
-		background-color: $color-light-red;
-		border-radius: 8px;
-		position: relative;
-	}
-	&__title {
-		padding: 10px 0;
-		font-size: 1.6rem;
-	}
-	&__category {
-		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
-		color: light-dark($color-light-pale-lilac, $color-dark-deepblue);
-		border-radius: 8px;
-		font-size: 0.8rem;
-		position: absolute;
-		bottom: 8px;
-		right: 8px;
-		padding: 6px;
-	}
-	&__tech {
-		display: flex;
-		margin-bottom: 8px;
-		font-size: 0.8rem;
-	}
-}
-
 .experience-cv {
 	&__job {
 		display: flex;
@@ -58,7 +24,7 @@
 		&-circle {
 			width: 15px;
 			height: 15px;
-			background-color: $color-mustard;
+			background-color: light-dark($color-mustard-dark, $color-mustard);
 			border-radius: 50%;
 			position: absolute;
 			left: 50%;
@@ -76,7 +42,7 @@
 		line-height: 1.5;
 
 		&-name {
-			color: $color-mustard;
+			color: light-dark($color-mustard-dark, $color-mustard);
 			font-size: large;
 			word-spacing: 4px;
 			letter-spacing: 0.8pt;

@@ -9,6 +9,8 @@ import Volunteering from "./components/Volunteering/Volunteering";
 import { About } from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import PageCV from "./pages/PageCV";
+import Projects from "./components/Projects/Projects";
+import PathConstants from "./routes/pathConstants";
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
@@ -22,13 +24,14 @@ const App = () => {
 			<Header />
 			<div className={`container`}>
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/experience" element={<Experience />} />
-					<Route path="/skills" element={<Skills />} />
-					<Route path="/calendar" element={<About />} />
-					<Route path="/volunteer" element={<Volunteering />} />
-					<Route path="/cv" element={<PageCV />} />
+					<Route path={PathConstants.HOME} element={<Home />} />
+					<Route path={PathConstants.ABOUT} element={<About />} />
+					<Route path={PathConstants.EXPERIENCE} element={<Experience />} />
+					<Route path={PathConstants.SKILLS} element={<Skills />} />
+					<Route path={PathConstants.CALENDAR} element={<About />} />
+					<Route path={PathConstants.VOLUNTEER} element={<Volunteering />} />
+					<Route path={PathConstants.CV} element={<PageCV />} />
+					<Route path={PathConstants.PROJECTS} element={<Projects />} />
 				</Routes>
 				<Footer />
 			</div>

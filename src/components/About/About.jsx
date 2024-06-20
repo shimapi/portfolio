@@ -13,7 +13,7 @@ export const About = () => {
 				<h1 className="about__greeting-im">{t("about.AboutName")}</h1>
 				<h2 className="about__greeting-short">{t("about.AboutShort")}</h2>
 			</div>
-			<button className="button button-primary">{t("about.AboutCV")}</button>
+			<button className="button button-primary">{t("about.DownloadCV")}</button>
 			<aside className="about__image">
 				<img src="" alt="" />
 			</aside>

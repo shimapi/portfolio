@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { RiCloseLargeFill, RiMenu4Fill } from "react-icons/ri";
 // import { Menu } from "../Menu/Menu";
 import { RiCodeFill, RiUserSmileFill } from "react-icons/ri";
+import PathConstants from "../../routes/pathConstants";
 
 const Header = () => {
 	const { t } = useTranslation();
@@ -53,7 +54,7 @@ const Header = () => {
 	};
 
 	return (
-		<>
+		<div className="header">
 			<nav className={`navbar ${menuType}`}>
 				<div className="navbar__talent">
 					<NavLink to="/">
@@ -76,59 +77,59 @@ const Header = () => {
 					<Settings />
 					<div className="navbar__hamburger">
 						{showMenu === "open" ? (
-							<RiMenu4Fill onClick={handleShowMenu} />
-						) : (
 							<RiCloseLargeFill onClick={handleShowMenu} />
+						) : (
+							<RiMenu4Fill onClick={handleShowMenu} />
 						)}
 					</div>
 				</div>
 			</nav>
 
-			<nav className={`menu navbar__${showMenu}`}>
+			<nav className={`header__menu navbar__${showMenu}`}>
 				<NavLink
-					className={`menu__link ${isActive}`}
-					to="/about"
+					className={`header__menu-link ${isActive}`}
+					to={PathConstants.ABOUT}
 					onClick={handleHideMenu}
 				>
 					<RiUserSmileFill size={20} /> {t("general.AboutTitle")}
 				</NavLink>
 				<NavLink
-					className={`menu__link ${isActive}`}
-					to="/experience"
+					className={`header__menu-link  ${isActive}`}
+					to={PathConstants.PROJECTS}
 					onClick={handleHideMenu}
 				>
-					<RiCodeFill /> {t("general.ExpTitle")}
+					<RiCodeFill /> {t("general.ProjectsTitle")}
 				</NavLink>
 				<NavLink
-					className={`menu__link ${isActive}`}
-					to="/skills"
+					className={`header__menu-link  ${isActive}`}
+					to={PathConstants.SKILLS}
 					onClick={handleHideMenu}
 				>
 					<RiUserSmileFill size={20} /> {t("general.SkillsTitle")}
 				</NavLink>
 				<NavLink
-					className={`menu__link ${isActive}`}
-					to="/calendar"
+					className={`header__menu-link  ${isActive}`}
+					to={PathConstants.CALENDAR}
 					onClick={handleHideMenu}
 				>
 					<RiUserSmileFill size={20} /> {t("general.BookTitle")}
 				</NavLink>
 				<NavLink
-					className={`menu__link ${isActive}`}
-					to="/volunteer"
+					className={`header__menu-link  ${isActive}`}
+					to={PathConstants.VOLUNTEER}
 					onClick={handleHideMenu}
 				>
 					<RiUserSmileFill size={20} /> {t("general.VolTitle")}
 				</NavLink>
 				<NavLink
-					className={`menu__link ${isActive}`}
-					to="/cv"
+					className={`header__menu-link  ${isActive}`}
+					to={PathConstants.CV}
 					onClick={handleHideMenu}
 				>
 					<RiUserSmileFill size={20} /> {t("general.PageCVTitle")}
 				</NavLink>
 			</nav>
-		</>
+		</div>
 	);
 };
 

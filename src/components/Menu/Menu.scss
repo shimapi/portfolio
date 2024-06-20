@@ -23,29 +23,4 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-	.menu {
-		flex-direction: column;
-
-		&__link {
-			width: 100%;
-			background-color: $color-dark-menu;
-			border-right: none;
-			border-bottom: 1px solid $color-dark-menu-border;
-			padding: 12px;
-			text-decoration: none;
-			margin: 0;
-			font-weight: 400;
-			letter-spacing: 1px;
-			color: $color-antiflash-white;
-
-			&:first-child {
-				padding: 10px;
-			}
-
-			&:hover {
-				background-color: $color-dark-menu-border;
-				color: $color-light-pale-pinky;
-			}
-		}
-	}
 }
