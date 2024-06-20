@@ -5,11 +5,13 @@ import { RiCodeFill, RiUserSmileFill } from "react-icons/ri";
 
 const isActive = ({ isActive }) => `link ${isActive ? "menu-active" : ""}`;
 
-export const Menu = () => {
+export const Menu = ({ showMenu, menuType }) => {
 	const { t } = useTranslation();
 
+	console.log(showMenu, "showmenu", menuType, "menuType");
+
 	return (
-		<nav className="menu header">
+		<nav className={`menu navbar__${showMenu}`}>
 			<NavLink className={`menu__link ${isActive}`} to="/about">
 				<RiUserSmileFill size={20} /> {t("general.AboutTitle")}
 			</NavLink>

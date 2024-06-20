@@ -9,6 +9,7 @@ const Settings = () => {
 	const [lang, setLang] = useState("en");
 
 	const { i18n } = useTranslation();
+
 	const toggleLang = () => {
 		const selectedLang = lang === "es" ? "en" : "es";
 		i18n.changeLanguage(selectedLang);

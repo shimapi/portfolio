@@ -1,10 +1,11 @@
-import { RiMenu4Fill } from "react-icons/ri";
-import { Menu } from "../Menu/Menu";
 import "./Header.scss";
 import Settings from "../Settings/Settings";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { RiCloseLargeFill, RiMenu4Fill } from "react-icons/ri";
+// import { Menu } from "../Menu/Menu";
+import { RiCodeFill, RiUserSmileFill } from "react-icons/ri";
 
 const Header = () => {
 	const { t } = useTranslation();
@@ -20,9 +21,40 @@ const Header = () => {
 		};
 	}, []);
 
+	const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+	const [showMenu, setShowMenu] = useState("closed");
+	const [menuType, setMenuType] = useState("mobile");
+
+	const isActive = ({ isActive }) => `link ${isActive ? "menu-active" : ""}`;
+
+	useEffect(() => {
+		const handleResize = () => {
+			setIsDesktop(window.innerWidth > 768);
+			setShowMenu("closed");
+		};
+		window.addEventListener("resize", handleResize);
+
+		return () => {
+			window.removeEventListener("resize", handleResize);
+		};
+	}, [isDesktop]);
+
+	useEffect(() => {
+		setMenuType(isDesktop ? "navbar__desktop" : "navbar__mobile");
+	}, [isDesktop]);
+
+	const handleShowMenu = () => {
+		setShowMenu(showMenu === "open" ? "closed" : "open");
+		console.log(showMenu);
+	};
+
+	const handleHideMenu = () => {
+		setShowMenu("closed");
+	};
+
 	return (
 		<>
-			<nav className="navbar">
+			<nav className={`navbar ${menuType}`}>
 				<div className="navbar__talent">
 					<NavLink to="/">
 						<span className="navbar__talent-symbol">
@@ -43,11 +75,59 @@ const Header = () => {
 				<div className="navbar__icons">
 					<Settings />
 					<div className="navbar__hamburger">
-						<RiMenu4Fill />
+						{showMenu === "open" ? (
+							<RiMenu4Fill onClick={handleShowMenu} />
+						) : (
+							<RiCloseLargeFill onClick={handleShowMenu} />
+						)}
 					</div>
 				</div>
 			</nav>
-			<Menu />
+
+			<nav className={`menu navbar__${showMenu}`}>
+				<NavLink
+					className={`menu__link ${isActive}`}
+					to="/about"
+					onClick={handleHideMenu}
+				>
+					<RiUserSmileFill size={20} /> {t("general.AboutTitle")}
+				</NavLink>
+				<NavLink
+					className={`menu__link ${isActive}`}
+					to="/experience"
+					onClick={handleHideMenu}
+				>
+					<RiCodeFill /> {t("general.ExpTitle")}
+				</NavLink>
+				<NavLink
+					className={`menu__link ${isActive}`}
+					to="/skills"
+					onClick={handleHideMenu}
+				>
+					<RiUserSmileFill size={20} /> {t("general.SkillsTitle")}
+				</NavLink>
+				<NavLink
+					className={`menu__link ${isActive}`}
+					to="/calendar"
+					onClick={handleHideMenu}
+				>
+					<RiUserSmileFill size={20} /> {t("general.BookTitle")}
+				</NavLink>
+				<NavLink
+					className={`menu__link ${isActive}`}
+					to="/volunteer"
+					onClick={handleHideMenu}
+				>
+					<RiUserSmileFill size={20} /> {t("general.VolTitle")}
+				</NavLink>
+				<NavLink
+					className={`menu__link ${isActive}`}
+					to="/cv"
+					onClick={handleHideMenu}
+				>
+					<RiUserSmileFill size={20} /> {t("general.PageCVTitle")}
+				</NavLink>
+			</nav>
 		</>
 	);
 };
