@@ -1,14 +1,15 @@
-import { useTranslation } from "react-i18next";
+//import { useTranslation } from "react-i18next";
 
 import ExperienceCV from "../components/Experience/ExperienceCV";
+import About from "../components/About/About";
 
 export const Home = () => {
-	const { t } = useTranslation();
+	//const { t } = useTranslation();
 
 	return (
-		<main>
-			<h4 className="title">{t("general.home")}</h4>
+		<>
+			<About title={"no"} />
 			<ExperienceCV />
-		</main>
+		</>
 	);
 };

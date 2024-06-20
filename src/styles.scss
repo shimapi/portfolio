@@ -48,6 +48,8 @@ html[data-theme="light"] {
 	padding: 0 30px;
 	align-items: center;
 	min-width: $breakpoint-minimun;
+	margin-bottom: 250px;
+	margin-top: 70px;
 }
 
 .box {
@@ -71,6 +73,7 @@ html[data-theme="light"] {
 
 .title {
 	padding: 30px 0;
+	margin: 30px 0;
 	position: relative;
 	display: inline-block;
 	font-size: 2em;

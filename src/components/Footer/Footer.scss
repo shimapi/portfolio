@@ -10,6 +10,7 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	height: 150px;
 
 	&__container {
 		flex-direction: column;
@@ -43,7 +44,7 @@
 	}
 	a {
 		text-decoration: none;
-		color: $color-mustard;
+		color: $color-antiflash-white;
 	}
 	a:hover {
 		color: $color-cerulean;

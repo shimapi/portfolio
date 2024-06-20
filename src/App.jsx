@@ -6,7 +6,7 @@ import { ThemeContext } from "./assets/ThemeContext";
 import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
 import Volunteering from "./components/Volunteering/Volunteering";
-import { About } from "./components/About/About";
+import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import PageCV from "./pages/PageCV";
 import Projects from "./components/Projects/Projects";
@@ -22,7 +22,7 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<Header />
-			<div className={`container`}>
+			<main className={`container`}>
 				<Routes>
 					<Route path={PathConstants.HOME} element={<Home />} />
 					<Route path={PathConstants.ABOUT} element={<About />} />
@@ -33,8 +33,8 @@ const App = () => {
 					<Route path={PathConstants.CV} element={<PageCV />} />
 					<Route path={PathConstants.PROJECTS} element={<Projects />} />
 				</Routes>
-				<Footer />
-			</div>
+			</main>
+			<Footer />
 		</BrowserRouter>
 	);
 };

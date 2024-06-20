@@ -54,7 +54,7 @@ const Header = () => {
 	};
 
 	return (
-		<div className="header">
+		<header className="header">
 			<nav className={`navbar ${menuType}`}>
 				<div className="navbar__talent">
 					<NavLink to="/">
@@ -129,7 +129,7 @@ const Header = () => {
 					<RiUserSmileFill size={20} /> {t("general.PageCVTitle")}
 				</NavLink>
 			</nav>
-		</div>
+		</header>
 	);
 };
 
