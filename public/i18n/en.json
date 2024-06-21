@@ -19,9 +19,14 @@
     "CVName2": "/>",
     "CVPlace": "Based in Chile",
     "CVPdf": "link to CV",
-    "linkedin": "https://www.linkedin.com/in/shirleymallea/",
-    "github": "https://github.com/shimapi",
-    "instagram": "https://www.instagram.com/shirleymallea/"
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "instagram": "Instagram",
+    "email": "e-mail",
+    "tiktok": "TikTok",
+    "whatsapp": "WhatsApp",
+    "copy": "@ShirleyMallea",
+    "copy2": "Thanks for visiting!"
   },
   "about" : {
     "AboutGreeting": "Hi!",

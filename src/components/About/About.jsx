@@ -26,7 +26,7 @@ const About = ({ title }) => {
 				</button>
 			</div>
 			<aside className="about__image">
-				<img src={me} alt="" />
+				<img src={me} alt={t("about.AboutName")} />
 			</aside>
 		</div>
 	);

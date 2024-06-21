@@ -5,7 +5,7 @@ import { RiCodeFill, RiUserSmileFill } from "react-icons/ri";
 
 const isActive = ({ isActive }) => `link ${isActive ? "menu-active" : ""}`;
 
-export const Menu = ({ showMenu, menuType }) => {
+const Menu = ({ showMenu, menuType }) => {
 	const { t } = useTranslation();
 
 	console.log(showMenu, "showmenu", menuType, "menuType");
@@ -33,3 +33,5 @@ export const Menu = ({ showMenu, menuType }) => {
 		</nav>
 	);
 };
+
+export default Menu;
