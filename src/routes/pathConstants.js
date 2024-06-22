@@ -16,7 +16,8 @@ const PathConstants = {
   TIKTOK: 'https://www.tiktok.com/@shirleymallea',
   GITHUB: 'https://github.com/shimapi',
   LINKEDIN: 'https://www.linkedin.com/in/shirleymallea',
-  SHOPIFY: "#"
+  SHOPIFY: "#",
+  EMAIL: "mailto:shirley.mallea.dev@gmail.com"
 
 
 }

@@ -8,7 +8,7 @@ export const Home = () => {
 
 	return (
 		<>
-			<About title={"no"} />
+			<About />
 			<ExperienceCV />
 		</>
 	);

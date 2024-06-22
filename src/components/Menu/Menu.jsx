@@ -8,8 +8,6 @@ const isActive = ({ isActive }) => `link ${isActive ? "menu-active" : ""}`;
 const Menu = ({ showMenu, menuType }) => {
 	const { t } = useTranslation();
 
-	console.log(showMenu, "showmenu", menuType, "menuType");
-
 	return (
 		<nav className={`menu navbar__${showMenu}`}>
 			<NavLink className={`menu__link ${isActive}`} to="/about">
