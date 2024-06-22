@@ -2,14 +2,11 @@ import "./About.scss";
 import { useTranslation } from "react-i18next";
 import me from "../../assets/images/shirley-mallea.png";
 
-const About = ({ title }) => {
+const About = () => {
 	const { t } = useTranslation();
-	console.log(title);
 
 	return (
 		<div className="about">
-			{title != "no" && <h4 className="title">{t("general.AboutTitle")}</h4>}
-
 			<div className="about__greeting">
 				<h3 className="about__greeting-hi"> {t("about.AboutGreeting")} </h3>
 				<h1 className="about__greeting-im">

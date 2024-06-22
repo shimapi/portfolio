@@ -6,6 +6,7 @@ import {
 	RiGithubFill,
 	RiInstagramFill,
 	RiLinkedinFill,
+	RiMailFill,
 	RiTiktokFill,
 } from "react-icons/ri";
 import bg from "../../assets/images/waves.svg";
@@ -48,6 +49,13 @@ const Footer = () => {
 						rel="noopener noreferrer"
 					>
 						<RiTiktokFill className="footer__social-icon" />
+					</Link>
+					<Link
+						to={PathConstants.EMAIL}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<RiMailFill className="footer__social-icon" />
 					</Link>
 				</div>
 				<div className="footer__cv">

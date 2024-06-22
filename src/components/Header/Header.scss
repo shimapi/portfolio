@@ -4,6 +4,7 @@
 	position: fixed;
 	z-index: 50;
 	width: 100%;
+	letter-spacing: 1px;
 }
 
 .navbar {
@@ -53,7 +54,7 @@
 	}
 }
 
-@media (max-width: $breakpoint-tablet) {
+@media (max-width: $breakpoint-menu) {
 	.navbar {
 		/* 		transition: all 0.5s ease-in-out;
 		position: fixed; */
@@ -70,18 +71,7 @@
 			display: flex;
 			width: 100%;
 		}
-		&__menu-switch {
-			position: absolute;
-			right: 0;
-			top: 4px;
-			margin: 8px;
-			padding: 4px;
-			z-index: 5;
-			display: block;
-			filter: invert(100%);
-			cursor: pointer;
-			scale: 200%;
-		}
+
 		&__desktop {
 			display: none;
 		}
@@ -103,12 +93,61 @@
 			text-decoration: none;
 			margin: 0;
 			font-weight: 400;
-			letter-spacing: 1px;
+
 			color: $color-antiflash-white;
+			display: flex;
+			align-items: center;
 
 			&:hover {
 				background-color: $color-dark-menu-border;
 				color: $color-light-pale-pinky;
+			}
+		}
+
+		&-name {
+			margin-left: 15px;
+		}
+	}
+}
+
+@media (min-width: $breakpoint-menu) {
+	.header {
+		position: relative;
+
+		.navbar {
+			&__hamburger {
+				display: none;
+			}
+		}
+		&__menu {
+			display: flex;
+			padding: 0 30px;
+			position: absolute;
+			top: 0px;
+			right: 80px;
+			align-items: center;
+
+			&-link {
+				padding: 24px 12px;
+				text-decoration: none;
+				color: $color-light-pale-pinky;
+
+				& svg {
+					display: none;
+				}
+
+				&:hover {
+					background-color: $color-dark-lightblue;
+				}
+			}
+
+			.active {
+				text-decoration: underline;
+				//distancio el underline del texto
+				text-decoration-thickness: 0.5em;
+				text-decoration-color: $color-mustard;
+				color: $color-mustard;
+				text-underline-offset: 1.6em;
 			}
 		}
 	}

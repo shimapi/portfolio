@@ -50,6 +50,9 @@ html[data-theme="light"] {
 	min-width: $breakpoint-minimun;
 	margin-bottom: 100px;
 	margin-top: 70px;
+	letter-spacing: 0.4pt;
+	word-spacing: 2px;
+	line-height: 1.5;
 }
 
 .box {

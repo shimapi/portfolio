@@ -3,9 +3,17 @@ import Settings from "../Settings/Settings";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { RiCloseLargeFill, RiMenu4Fill } from "react-icons/ri";
-// import { Menu } from "../Menu/Menu";
-import { RiCodeFill, RiUserSmileFill } from "react-icons/ri";
+import {
+	RiCalendarCheckFill,
+	RiCloseLargeFill,
+	RiDownloadCloud2Fill,
+	RiMenu4Fill,
+	RiUser5Fill,
+	RiCodeFill,
+} from "react-icons/ri";
+import { HiUsers } from "react-icons/hi2";
+//import { GiBrain } from "react-icons/gi";
+
 import PathConstants from "../../routes/pathConstants";
 
 const Header = () => {
@@ -22,7 +30,7 @@ const Header = () => {
 		};
 	}, []);
 
-	const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+	const [isDesktop, setIsDesktop] = useState(window.innerWidth > 900);
 	const [showMenu, setShowMenu] = useState("closed");
 	const [menuType, setMenuType] = useState("mobile");
 
@@ -30,7 +38,7 @@ const Header = () => {
 
 	useEffect(() => {
 		const handleResize = () => {
-			setIsDesktop(window.innerWidth > 768);
+			setIsDesktop(window.innerWidth > 900);
 			setShowMenu("closed");
 		};
 		window.addEventListener("resize", handleResize);
@@ -91,42 +99,50 @@ const Header = () => {
 					to={PathConstants.ABOUT}
 					onClick={handleHideMenu}
 				>
-					<RiUserSmileFill size={20} /> {t("general.AboutTitle")}
+					<RiUser5Fill size={20} />{" "}
+					<span className="header__menu-name">{t("general.AboutTitle")}</span>
 				</NavLink>
 				<NavLink
 					className={`header__menu-link  ${isActive}`}
 					to={PathConstants.PROJECTS}
 					onClick={handleHideMenu}
 				>
-					<RiCodeFill /> {t("general.ProjectsTitle")}
+					<RiCodeFill />{" "}
+					<span className="header__menu-name">
+						{t("general.ProjectsTitle")}
+					</span>
 				</NavLink>
-				<NavLink
+				{/* <NavLink
 					className={`header__menu-link  ${isActive}`}
 					to={PathConstants.SKILLS}
 					onClick={handleHideMenu}
 				>
-					<RiUserSmileFill size={20} /> {t("general.SkillsTitle")}
-				</NavLink>
+					<GiBrain size={20} />{" "}
+					<span className="header__menu-name">{t("general.SkillsTitle")}</span>
+				</NavLink> */}
 				<NavLink
 					className={`header__menu-link  ${isActive}`}
 					to={PathConstants.CALENDAR}
 					onClick={handleHideMenu}
 				>
-					<RiUserSmileFill size={20} /> {t("general.BookTitle")}
+					<RiCalendarCheckFill size={20} />{" "}
+					<span className="header__menu-name">{t("general.BookTitle")}</span>
 				</NavLink>
 				<NavLink
 					className={`header__menu-link  ${isActive}`}
 					to={PathConstants.VOLUNTEER}
 					onClick={handleHideMenu}
 				>
-					<RiUserSmileFill size={20} /> {t("general.VolTitle")}
+					<HiUsers size={20} />{" "}
+					<span className="header__menu-name">{t("general.VolTitle")}</span>
 				</NavLink>
 				<NavLink
 					className={`header__menu-link  ${isActive}`}
 					to={PathConstants.CV}
 					onClick={handleHideMenu}
 				>
-					<RiUserSmileFill size={20} /> {t("general.PageCVTitle")}
+					<RiDownloadCloud2Fill size={20} />
+					<span className="header__menu-name">{t("general.PageCVTitle")}</span>
 				</NavLink>
 			</nav>
 		</header>

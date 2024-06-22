@@ -33,3 +33,14 @@
 		font-size: 0.8rem;
 	}
 }
+
+@media (min-width: $breakpoint-menu) {
+	.projects {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.project-card {
+		width: 48%;
+	}
+}

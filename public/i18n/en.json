@@ -8,7 +8,7 @@
     "ExpCVTitle": "Experience CV",
     "SkillsTitle": "Skills",
     "BookTitle": "Book with me",
-    "VolTitle": "Volunteer",
+    "VolTitle": "Volunteering",
     "AboutTitle": "About",
     "PageCVTitle": "CV",
     "ProjectsTitle": "Projects",
@@ -96,7 +96,7 @@
       },
       "link": "https://bestsellers-shopify.vercel.app/",
       "img":{
-        "1": "../img/bestsellers1.png",
+        "1": "../../src/assets/images/bestsellers-shopify-shirleymallea.png",
         "2": "../img/bestsellers2.png",
         "3": "../img/bestsellers3.png"
       }
@@ -123,18 +123,20 @@
         "3": "../img/bestsellers3.png"
       }
     }, "proj3": {
-      "title": "BestSellers Shopify App",
-      "client": "Altorrelieve",
-      "category": "API REST",
-      "date": "2023",
+      "title": "Hackathon",
+      "client": "BCI MACH",
+      "category": "Hackathon",
+      "date": "2024",
       "tech":{
         "1": "React",
-        "2": "Shopify API",
-        "3": "SASS"
+        "2": "Material UI",
+        "3": "JAVA",
+        "4": "Spring Boot"
+
       },
       "bullets" : {
-        "1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
-        "2": "Connected to the Shopify API via REST API."  
+        "1": "With my team we won the third place in the BCI MACH Hackathon, developing a web app that allows users to manage their finances and investments in a simple and intuitive way.",
+        "2": "We develop and app"  
       },
       "link": "https://bestsellers-shopify.vercel.app/",
       "img":{
