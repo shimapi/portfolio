@@ -1,6 +1,7 @@
 import "./About.scss";
 import { useTranslation } from "react-i18next";
 import me from "../../assets/images/shirley-mallea.png";
+import BlobImage from "../BlobImage/BlobImage";
 
 const About = () => {
 	const { t } = useTranslation();
@@ -23,7 +24,7 @@ const About = () => {
 				</button>
 			</div>
 			<aside className="about__image">
-				<img src={me} alt={t("about.AboutName")} />
+				<BlobImage photo={me} altPhoto={t("about.AboutName")} />
 			</aside>
 		</div>
 	);
