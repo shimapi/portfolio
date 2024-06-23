@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import "./Menu.scss";
@@ -5,7 +6,7 @@ import { RiCodeFill, RiUserSmileFill } from "react-icons/ri";
 
 const isActive = ({ isActive }) => `link ${isActive ? "menu-active" : ""}`;
 
-const Menu = ({ showMenu, menuType }) => {
+const Menu = ({ showMenu }) => {
 	const { t } = useTranslation();
 
 	return (
@@ -30,6 +31,10 @@ const Menu = ({ showMenu, menuType }) => {
 			</NavLink>
 		</nav>
 	);
+};
+
+Menu.propTypes = {
+	showMenu: PropTypes.boolean,
 };
 
 export default Menu;
