@@ -19,18 +19,16 @@ const ExperienceCV = () => {
 					</section>
 
 					<section className="experience-cv__jobinfo">
-						<h4 className="experience-cv__jobinfo-name">
-							{expArray[index].title}
-						</h4>
+						<h4 className="experience-cv__jobinfo-name">{exp.title}</h4>
 						<h5 className="experience-cv__jobinfo-date">
 							<span className="experience-cv__jobinfo-date-span">
-								{expArray[index].bizz}
+								{exp.bizz}
 							</span>
 							<span className="experience-cv__jobinfo-date-span">
-								{expArray[index].date}
+								{exp.date}
 							</span>
 							<span className="experience-cv__jobinfo-date-span">
-								{expArray[0].place}
+								{exp.place}
 							</span>
 						</h5>
 						<ul className="experience-cv__jobinfo-description">
