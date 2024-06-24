@@ -33,7 +33,7 @@
 		background-color: transparent;
 		height: 600px;
 		padding-top: 50px;
-		width: 320px;
+		width: $breakpoint-minimun;
 		flex-direction: column;
 	}
 
@@ -57,6 +57,7 @@
 		flex-direction: row;
 		flex-wrap: nowrap;
 		margin-bottom: 20px;
+		width: 100%;
 	}
 
 	&__social-icon {
@@ -72,11 +73,32 @@
 		filter: contrast(1.5);
 	}
 
+	&__cv {
+		width: 100%;
+	}
+
 	a {
 		text-decoration: none;
 	}
 
 	a:hover {
 		color: $color-cerulean;
+	}
+
+	p {
+		padding: 8px 0;
+	}
+	&__bye {
+		margin: 20px 0;
+		font-family: $font-allura;
+		font-size: initial;
+	}
+}
+
+@media screen and (min-width: $breakpoint-menu) {
+	.footer {
+		&__container {
+			width: 500px;
+		}
 	}
 }

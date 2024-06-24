@@ -14,6 +14,7 @@ const Settings = () => {
 		const selectedLang = lang === "es" ? "en" : "es";
 		i18n.changeLanguage(selectedLang);
 		setLang(selectedLang);
+		document.documentElement.setAttribute("lang", lang);
 	};
 
 	return (

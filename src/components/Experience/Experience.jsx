@@ -5,7 +5,7 @@ const ExperienceCV = () => {
 	const { t } = useTranslation();
 
 	const expObject = t("experienceCV", { returnObjects: true });
-	const expArray = Object.values(expObject);
+	const expArray = Object.values(expObject).reverse();
 
 	return (
 		<div className="experience-cv">

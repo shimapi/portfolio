@@ -4,9 +4,11 @@ import PathConstants from "../../routes/pathConstants";
 import { Link } from "react-router-dom";
 import {
 	RiGithubFill,
+	RiHeart3Fill,
 	RiInstagramFill,
 	RiLinkedinFill,
 	RiMailFill,
+	RiSparkling2Fill,
 	RiTiktokFill,
 } from "react-icons/ri";
 import bg from "../../assets/images/waves.svg";
@@ -19,7 +21,7 @@ const Footer = () => {
 			<div className="footer__bg">
 				<img src={bg} alt="footer background" />
 			</div>
-			<div className="footer__container container">
+			<div className="footer__container">
 				<div className="footer__social">
 					<Link
 						to={PathConstants.GITHUB}
@@ -65,7 +67,31 @@ const Footer = () => {
 				</div>
 				<div className="footer__copy">
 					<p>&copy; 2024 {t("general.copy")}</p>
-					<p>{t("general.copy2")}</p>
+					<p>
+						{t("general.copy3")}{" "}
+						<Link
+							to={PathConstants.LINKEDIN}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{t("general.linkedin")}
+						</Link>{" "}
+						{t("general.or")}{" "}
+						<Link
+							to={PathConstants.CALENDAR}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{t("general.BookTitle")}
+						</Link>
+					</p>
+					<p className="footer__bye">
+						<RiSparkling2Fill />
+						{"  "}
+						{t("general.copy2")}
+						{"  "}
+						<RiHeart3Fill />
+					</p>
 				</div>
 			</div>
 		</footer>

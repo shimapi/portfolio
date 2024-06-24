@@ -61,6 +61,13 @@ html[data-theme="light"] {
 	padding: 0 48px;
 }
 
+.left {
+	align-content: flex-start;
+}
+.right {
+	align-content: flex-end;
+}
+
 .box {
 	border: 1px solid;
 	border-color: light-dark($color-light-border, $color-dark-border);

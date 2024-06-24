@@ -17,7 +17,7 @@
     "VolTitle": "Volunteering",
     "AboutTitle": "About",
     "PageCVTitle": "CV",
-    "ProjectsTitle": "Projects",
+    "ProjectsTitle": "Selected Projects",
     "CVTitle": "Web Developer",
     "CVName0": "<",
     "CVName": "Shirley",
@@ -32,14 +32,16 @@
     "tiktok": "TikTok",
     "whatsapp": "WhatsApp",
     "copy": "@ShirleyMallea",
-    "copy2": "Thanks for visiting!"
+    "copy2": "Thanks for visiting my portfolio!",
+    "copy3": "Let's connect through",
+    "or": "or"
   },
   "about" : {
     "AboutGreeting": "Hi!",
     "AboutName": "I'm Shirley Mallea, a ",
     "AboutShort": "who loves to offer a good solution by interpreting business needs to create experiences that attract and persuade the end customer",
     "DownloadCV": "Download CV",
-    "AboutLong": "I have 12 years of experience in web development, specializing in e-commerce. <br /> I have a strong background in programming, responsive design, and accessibility. I am a proactive, detail-oriented, and creative professional who enjoys working in a team and learning continuously. I have a passion for problem-solving and a strong commitment to delivering high-quality work. I am looking for a challenging position where I can contribute my skills and experience to help a company grow and succeed."
+    "AboutLong": "I am a Front End Developer with a background in e-commerce. I am passionate about creating user-friendly and visually appealing websites that help businesses grow. I am a proactive and creative problem-solver who enjoys working in a team and learning new technologies. I am looking for new challenges and opportunities to grow as a developer and contribute to innovative projects."
   },
   "skills" : {
     "1" : "Programming: JavaScript, React, SQL", 
@@ -147,7 +149,7 @@
     },
     "edu2": {
       "title": "Front End Web Developer",
-      "institution": "Digital house by globant",
+      "institution": "Digital House by Globant",
       "place": "Chile",
       "date": "2021",
       "bullets" : {
@@ -166,15 +168,16 @@
   },
   "experienceCV": {
     "exp1": {
-      "title": "e-commerce developer",
-      "bizz": "Moda Tornasol",
+      "title": "web developer",
+      "bizz": "Digital Agency Storm",
       "place": "Chile",
-      "date": "2023",
+      "date": "2009-2010",
       "bullets" : {
-        "0": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
-        "1": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."     
+        "0": "Optimized client web performance using Pixel Perfect development (HTML, CSS, JS, PHP, MySQL) and programmed successful email marketing campaigns.",
+        "1": "Created custom WordPress themes from scratch, adapting design and features for each client."
       }
-    },
+    }
+    ,
     "exp2": {
       "title": "e-commerce developer & manager",
       "bizz": "Altorrelieve",
@@ -186,15 +189,16 @@
       }
     },
     "exp3": {
-      "title": "web developer",
-      "bizz": "Digital Agency Storm",
+      "title": "e-commerce developer",
+      "bizz": "Moda Tornasol",
       "place": "Chile",
-      "date": "2009-2010",
+      "date": "2023",
       "bullets" : {
-        "0": "Optimized client web performance using Pixel Perfect development (HTML, CSS, JS, PHP, MySQL) and programmed successful email marketing campaigns.",
-        "1": "Created custom WordPress themes from scratch, adapting design and features for each client."
+        "0": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
+        "1": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."     
       }
     }
+
   },
   "projects": {
     "proj1": {
