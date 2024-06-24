@@ -274,29 +274,5 @@
         "3": "../img/bestsellers3.png"
       }
     }
-    ,
-    "proj4": {
-      "title": "Portfolio",
-      "client": "Personal",
-      "category": "Portfolio",
-      "date": "2024",
-      "tech":{
-        "1": "React",
-        "2": "SASS",
-        " 3": "i18next"
-
-      },
-      "bullets" : {
-        "1": "Developed a portfolio website using React, SASS, and i18next.",
-        "2": "Implemented a multi-language feature using i18next.",
-        "3": "Designed a responsive layout using CSS Grid and Flexbox."
-      },
-      "deploy": "https://shirleymallea.com/",
-      "github": " ",
-      "img":{
-        "1": "portfolio-shirleymallea.png",
-        "2": "../img/bestsellers2.png",
-        "3": "../img/bestsellers3.png"
-      }
   }
 }
