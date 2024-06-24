@@ -5,7 +5,7 @@ const List = ({ title, listArray }) => {
 		<section className="list">
 			<h4 className="subtitle">{title}</h4>
 			<ul>
-				{listArray.map((item, index) => (
+				{listArray?.map((item, index) => (
 					<li key={index} className="item__name">
 						{item}
 					</li>

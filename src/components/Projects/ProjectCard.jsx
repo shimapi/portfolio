@@ -12,7 +12,7 @@ const ProjectCard = () => {
 
 	return (
 		<div className="projects">
-			{projArray.map((proj, index) => (
+			{projArray?.map((proj, index) => (
 				<article className="project-card" key={index}>
 					{console.log(proj)}
 					<div className="project-card__img">
@@ -21,7 +21,7 @@ const ProjectCard = () => {
 					</div>
 					<h3 className="project-card__title">{proj.title}</h3>
 					<div className="project-card__tech">
-						{Object.values(proj.tech).map((tech, i) => {
+						{Object.values(proj.tech)?.map((tech, i) => {
 							return (
 								<span className="project-card__tech-unit box" key={i}>
 									{tech}
