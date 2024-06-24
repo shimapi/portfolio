@@ -39,6 +39,7 @@ html[data-theme="light"] {
 	//height: 100vh;
 	flex-direction: column;
 	position: relative;
+	justify-content: space-between;
 }
 .container {
 	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);

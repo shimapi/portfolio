@@ -7,6 +7,12 @@
     "ExpTitle": "Experience",
     "ExpCVTitle": "Experience CV",
     "SkillsTitle": "Skills",
+    "KnowledgeTitle": "Knowledge",
+    "LanguagesTitle": "Languages",
+    "ToolsTitle": "Tools",
+    "SoftSkillsTitle": "Soft Skills",
+    "WorkSkillsTitle": "Work Skills",
+    "EducationTitle": "Education",
     "BookTitle": "Book with me",
     "VolTitle": "Volunteering",
     "AboutTitle": "About",
@@ -38,14 +44,125 @@
   "skills" : {
     "1" : "Programming: JavaScript, React, SQL", 
     "2" : "Responsive Design: CSS, SASS, Semantic HTML",
-    "3" : "Accessibility & SEO",
+    "3" : "Accessibility",
     "4" : "Abstraction & Attention to Detail",
-    "5" : "Problem-Solving & Creativity",
+    "5" : "Problem-Solving",
+    "15" : "Creativity",
     "6" : "Collaboration & Communication",
     "7" : "Continuous Learning & Proactivity",
     "8" : "Leadership & Time Management",
     "9" : "Adaptability",
-    "10" : "Teamwork"
+    "10" : "Teamwork",
+    "11" : "SEO oriented development"
+  },
+  "softSkills" : {
+    "1" : "Problem-Solving",
+    "2" : "Creativity",
+    "3" : "Collaboration & Communication",
+    "4" : "Continuous Learning & Proactivity",
+    "5" : "Leadership & Time Management",
+    "6" : "Adaptability",
+    "7" : "Teamwork"
+  },
+  "workSkills": {
+    "1" : "Programming",
+    "2" : "Responsive Design",
+    "3" : "Accessibility",
+    "4" : "Abstraction",
+    "5" : "Problem-Solving",
+    "6" : "Attention to Detail",
+    "7" : "SEO oriented development"
+  },
+  "knowledge": {
+    "1": "Scrum",
+    "2": "Shopify",
+    "3": "React",
+    "4": "JavaScript",
+    "5": "CSS",
+    "6": "HTML",
+    "7": "Office Suite",
+    "8": "GIT",
+    "9": "GitHub",
+    "10": "JSON",
+    "11": "Responsive Design",
+    "12": "SEO",
+    "13": "Responsive web design from Figma/image",
+    "14": "Adobe Illustrator",
+    "15": "Canva",
+    "16": "Notion",
+    "17": "Trello",
+    "18": "Slack",
+    "19": "REST APIs",
+    "20": "Liquid",
+    "21": "ChatGPT",
+    "22": "Google Analytics",
+    "23": "MongoDB",
+    "24": "MySQL",
+    "25": "DataBases",
+    "26": "Excel",
+    "27": "UI",
+    "28": "Express",
+    "29": "Node.js",
+    "30": "GCP"
+  },
+  "languages": {
+    "1": "React",
+    "2": "JavaScript",
+    "3": "HTML",
+    "4": "CSS",
+    "5": "SASS",
+    "6": "Liquid",
+    "7": "SQL"
+  },
+  "tools": { 
+    "1": "VS Code",
+    "2": "Trello",
+    "3": "Jira",
+    "4": "Confluence",
+    "5": "Slack",
+    "6": "Figma",
+    "7": "Photoshop",
+    "8": "Illustrator",
+    "9": "Canva",
+    "10": "Notion",
+    "11": "Google Analytics",
+    "12": "GIT",
+    "13": "GitHub"
+  },
+  "spokenLanguages": {
+    "1": "Spanish",
+    "2": "English"
+  },
+  "education": {
+    "edu1": {
+      "title": "Programming & Multimedial Design",
+      "institution": "Inacap",
+      "place": "Chile",
+      "date": "2007/08",
+      "bullets" : {
+        "1": "Graduated with Honors — Universidad Tecnológica de Chile INACAP",
+        "2": "Developed a website for a social and environmental project.",
+        "3": "Won a photography competition."
+      }
+    },
+    "edu2": {
+      "title": "Front End Web Developer",
+      "institution": "Digital house by globant",
+      "place": "Chile",
+      "date": "2021",
+      "bullets" : {
+        "1": "Intensive online synchronous bootcamp."
+      }
+    },
+    "edu3": {
+      "title": "Fullstack Web Developer (MERN)",
+      "institution": "TripleTen by Yandex",
+      "place": "Chile",
+      "date": "2023/24",
+      "bullets" : {
+        "1": "Online asynchronous bootcamp intensive."
+      }
+    }
   },
   "experienceCV": {
     "exp1": {
