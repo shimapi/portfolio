@@ -22,7 +22,7 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<Header />
-			<main className={`container`}>
+			<main className={`container main__container`}>
 				<Routes>
 					<Route path={PathConstants.HOME} element={<Home />} />
 					<Route path={PathConstants.ABOUT} element={<About />} />

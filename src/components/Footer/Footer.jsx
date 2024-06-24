@@ -19,7 +19,7 @@ const Footer = () => {
 			<div className="footer__bg">
 				<img src={bg} alt="footer background" />
 			</div>
-			<div className="footer__container">
+			<div className="footer__container container">
 				<div className="footer__social">
 					<Link
 						to={PathConstants.GITHUB}

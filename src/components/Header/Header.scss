@@ -4,7 +4,6 @@
 	position: fixed;
 	z-index: 50;
 	width: 100%;
-	letter-spacing: 1px;
 }
 
 .navbar {
@@ -115,6 +114,9 @@
 	.header {
 		position: relative;
 
+		&__container {
+			display: flex;
+		}
 		.navbar {
 			&__hamburger {
 				display: none;
@@ -144,7 +146,6 @@
 
 			.active {
 				text-decoration: underline;
-				//distancio el underline del texto
 				text-decoration-thickness: 0.5em;
 				text-decoration-color: $color-mustard;
 				color: $color-mustard;

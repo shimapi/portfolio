@@ -171,8 +171,8 @@
       "place": "Chile",
       "date": "2023",
       "bullets" : {
-        "1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
-        "2": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."     
+        "0": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
+        "1": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."     
       }
     },
     "exp2": {
@@ -181,8 +181,8 @@
       "place": "Chile",
       "date": "2011 - 2022",
       "bullets" : {
-        "1": "Developed custom landing pages and mailings using CSS, JS, HTML, JSON, MongoDB, Liquid, and React.",
-        "2": "Increased sales by 130% by migrating from OpenCart to Shopify."
+        "0": "Developed custom landing pages and mailings using CSS, JS, HTML, JSON, MongoDB, Liquid, and React.",
+        "1": "Increased sales by 130% by migrating from OpenCart to Shopify."
       }
     },
     "exp3": {
@@ -191,8 +191,8 @@
       "place": "Chile",
       "date": "2009-2010",
       "bullets" : {
-        "1": "Optimized client web performance using Pixel Perfect development (HTML, CSS, JS, PHP, MySQL) and programmed successful email marketing campaigns.",
-        "2": "Created custom WordPress themes from scratch, adapting design and features for each client."
+        "0": "Optimized client web performance using Pixel Perfect development (HTML, CSS, JS, PHP, MySQL) and programmed successful email marketing campaigns.",
+        "1": "Created custom WordPress themes from scratch, adapting design and features for each client."
       }
     }
   },

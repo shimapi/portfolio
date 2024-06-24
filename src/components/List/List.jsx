@@ -1,12 +1,9 @@
 import PropTypes from "prop-types";
 
 const List = ({ title, listArray }) => {
-	console.log(title, "title");
-	console.log(listArray, "listArray!");
-
 	return (
 		<section className="list">
-			<h4 className="title">{title}</h4>
+			<h4 className="subtitle">{title}</h4>
 			<ul>
 				{listArray.map((item, index) => (
 					<li key={index} className="item__name">

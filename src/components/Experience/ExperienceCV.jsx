@@ -32,17 +32,11 @@ const ExperienceCV = () => {
 							</span>
 						</h5>
 						<ul className="experience-cv__jobinfo-description">
-							<li className="experience-cv__jobinfo-bullet">
-								{expArray[index].bullets[1]}
-							</li>
-							<li className="experience-cv__jobinfo-bullet">
-								{expArray[index].bullets[2]}
-							</li>
-							{expArray[index].bullets[3] !== undefined ? (
-								<li className="experience-cv__jobinfo-bullet">
-									{expArray[index].bullets[3]}
+							{Object.values(exp.bullets).map((item, index) => (
+								<li className="experience-cv__jobinfo-bullet" key={index}>
+									{item}
 								</li>
-							) : null}
+							))}
 						</ul>
 					</section>
 				</article>
