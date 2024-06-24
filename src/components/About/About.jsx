@@ -16,16 +16,12 @@ const About = () => {
 						{t("general.CVTitle")}{" "}
 					</span>
 				</h1>
+				<BlobImage className="bla" photo={me} altPhoto={t("about.AboutName")} />
 				<h2 className="about__greeting-short">{t("about.AboutShort")}</h2>
-				<br />
-				<br />
 				<button className="button button-primary">
 					{t("about.DownloadCV")}
 				</button>
 			</div>
-			<aside className="about__image">
-				<BlobImage photo={me} altPhoto={t("about.AboutName")} />
-			</aside>
 		</div>
 	);
 };

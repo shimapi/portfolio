@@ -1,0 +1,9 @@
+@import "../../assets/constants.scss";
+
+.skills {
+	display: flex;
+}
+
+.skills .list {
+	min-width: $breakpoint-minimun;
+}

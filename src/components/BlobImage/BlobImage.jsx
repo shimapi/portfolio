@@ -25,6 +25,7 @@ const BlobImage = ({ photo, altPhoto }) => {
 			version="1.1"
 			width="250"
 			height="250"
+			className="blob-image"
 		>
 			<defs>
 				<clipPath id="blob-clip">
