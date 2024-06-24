@@ -1,6 +1,6 @@
 //import { useTranslation } from "react-i18next";
 
-import ExperienceCV from "../components/Experience/ExperienceCV";
+import ExperienceCV from "../components/Experience/Experience";
 import About from "../components/About/About";
 
 export const Home = () => {

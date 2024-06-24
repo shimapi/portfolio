@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import ExperienceCV from "../components/Experience/ExperienceCV";
+import ExperienceCV from "../components/Experience/Experience";
 import Skills from "../components/Skills/Skills";
 
 const PageCV = () => {
