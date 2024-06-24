@@ -63,7 +63,7 @@ const Header = () => {
 
 	return (
 		<header className="header">
-			<div className="header__container container">
+			<div className="header__container">
 				<nav className={`navbar ${menuType}`}>
 					<div className="navbar__talent">
 						<NavLink to="/">

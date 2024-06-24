@@ -4,6 +4,7 @@
 	position: fixed;
 	z-index: 50;
 	width: 100%;
+	letter-spacing: 1px;
 }
 
 .navbar {
@@ -114,14 +115,15 @@
 	.header {
 		position: relative;
 
-		&__container {
-			display: flex;
-		}
 		.navbar {
 			&__hamburger {
 				display: none;
 			}
+			&__desktop {
+				padding: 0 24px;
+			}
 		}
+
 		&__menu {
 			display: flex;
 			padding: 0 30px;
