@@ -56,6 +56,9 @@ html[data-theme="light"] {
 	min-height: 100vh;
 	margin-bottom: 100px;
 	margin-top: 70px;
+	width: 80%;
+	min-width: $breakpoint-minimun;
+	padding: 0 48px;
 }
 
 .box {
@@ -180,6 +183,10 @@ html[data-theme="light"] {
 
 @media (min-width: $breakpoint-menu) {
 	.container {
-		max-width: $breakpoint-menu;
+		min-width: $breakpoint-menu;
+	}
+
+	.main__container {
+		margin-top: 0px;
 	}
 }
