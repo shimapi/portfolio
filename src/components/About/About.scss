@@ -22,7 +22,7 @@
 
 	svg {
 		position: absolute;
-		top: 0;
+		top: 28px;
 		right: 0;
 	}
 }
@@ -34,5 +34,13 @@
 	}
 	.about__image img {
 		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.about {
+		svg {
+			display: none;
+		}
 	}
 }

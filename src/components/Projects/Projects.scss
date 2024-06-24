@@ -9,9 +9,18 @@
 	&__img {
 		width: 100%;
 		height: 300px;
-		background-color: $color-light-red;
+		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
 		border-radius: 8px;
 		position: relative;
+
+		& img {
+			width: 100%;
+			border: 12px solid;
+			height: 100%;
+			object-fit: contain;
+			border-radius: 8px;
+			border-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		}
 	}
 	&__title {
 		padding: 10px 0;

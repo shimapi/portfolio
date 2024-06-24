@@ -19,8 +19,6 @@ const PathConstants = {
   SHOPIFY: "#",
   EMAIL: "mailto:shirley.mallea.dev@gmail.com"
 
-
 }
 
 export default PathConstants;
-

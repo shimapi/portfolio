@@ -1,5 +1,3 @@
-//https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
-
 @import "./assets/constants.scss";
 
 :root {
@@ -40,26 +38,36 @@ html[data-theme="light"] {
 	flex-direction: column;
 	position: relative;
 	justify-content: space-between;
+	letter-spacing: 1pt;
+	word-spacing: 2px;
+	line-height: 1.5;
 }
 .container {
 	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
 	display: flex;
-	min-height: 100vh;
 	flex-direction: column;
-	padding: 0 30px;
+	padding: 0 48px;
 	align-items: center;
 	min-width: $breakpoint-minimun;
+}
+
+.main__container {
+	min-height: 100vh;
 	margin-bottom: 100px;
 	margin-top: 70px;
-	letter-spacing: 0.4pt;
-	word-spacing: 2px;
-	line-height: 1.5;
+	min-width: $breakpoint-minimun;
+}
+
+.left {
+	align-content: flex-start;
+}
+.right {
+	align-content: flex-end;
 }
 
 .box {
 	border: 1px solid;
 	border-color: light-dark($color-light-border, $color-dark-border);
-	//background-color: light-dark($color-antiflash-white, $color-dark-deepblue);
 	background-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
 
 	padding: 8px;
@@ -100,6 +108,29 @@ html[data-theme="light"] {
 	&:hover::before {
 		background-color: #ff1493;
 		transform: translate3d(-10px, 10px, 10px) skewX(332deg) rotate(350deg);
+	}
+}
+.subtitle {
+	padding: 32px 0;
+	margin: 16px 0;
+	position: relative;
+	display: inline-block;
+	font-size: 1.5em;
+	z-index: 0;
+	text-shadow: 3px 3px 3px light-dark($color-dark-shadow, $color-light-shadow);
+
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 1.5em;
+		width: 120%;
+		height: 0.8em;
+		background-color: #ffc70085;
+		z-index: -1;
+		border-radius: 4px;
+		transform: translate3d(-10px, 10px, 10px) skewX(330deg) rotate(357deg);
+		transition: transform 0.3s ease, background-color 0.3s ease;
 	}
 }
 
@@ -151,5 +182,21 @@ html[data-theme="light"] {
 				$color-dark-lightblue
 			);
 		}
+	}
+}
+
+@media (min-width: $breakpoint-menu) {
+	#root {
+		align-items: center;
+	}
+	.container {
+		min-width: $breakpoint-menu;
+	}
+
+	.main__container {
+		margin-top: 0px;
+		width: 80%;
+		padding: 0 48px;
+		min-width: $breakpoint-minimun;
 	}
 }

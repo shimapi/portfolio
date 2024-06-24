@@ -1,7 +1,7 @@
 //import { useTranslation } from "react-i18next";
 
-import ExperienceCV from "../components/Experience/ExperienceCV";
 import About from "../components/About/About";
+import Projects from "../components/Projects/Projects";
 
 export const Home = () => {
 	//const { t } = useTranslation();
@@ -9,7 +9,7 @@ export const Home = () => {
 	return (
 		<>
 			<About />
-			<ExperienceCV />
+			<Projects />
 		</>
 	);
 };

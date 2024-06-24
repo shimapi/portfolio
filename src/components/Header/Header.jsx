@@ -8,7 +8,7 @@ import {
 	RiCloseLargeFill,
 	RiDownloadCloud2Fill,
 	RiMenu4Fill,
-	RiUser5Fill,
+	//RiUser5Fill,
 	RiCodeFill,
 } from "react-icons/ri";
 import { HiUsers } from "react-icons/hi2";
@@ -63,88 +63,92 @@ const Header = () => {
 
 	return (
 		<header className="header">
-			<nav className={`navbar ${menuType}`}>
-				<div className="navbar__talent">
-					<NavLink to="/">
-						<span className="navbar__talent-symbol">
-							{t("general.CVName0")}
-						</span>
-						<span className="navbar__talent-name">{t("general.CVName")}</span>
-						{showLastName && (
-							<span className="navbar__talent-name">
-								{t("general.CVLastname")}
+			<div className="header__container">
+				<nav className={`navbar ${menuType}`}>
+					<div className="navbar__talent">
+						<NavLink to="/">
+							<span className="navbar__talent-symbol">
+								{t("general.CVName0")}
 							</span>
-						)}
-						<span className="navbar__talent-symbol">
-							{" "}
-							{t("general.CVName2")}
+							<span className="navbar__talent-name">{t("general.CVName")}</span>
+							{showLastName && (
+								<span className="navbar__talent-name">
+									{t("general.CVLastname")}
+								</span>
+							)}
+							<span className="navbar__talent-symbol">
+								{" "}
+								{t("general.CVName2")}
+							</span>
+						</NavLink>
+					</div>
+					<div className="navbar__icons">
+						<Settings />
+						<div className="navbar__hamburger">
+							{showMenu === "open" ? (
+								<RiCloseLargeFill onClick={handleShowMenu} />
+							) : (
+								<RiMenu4Fill onClick={handleShowMenu} />
+							)}
+						</div>
+					</div>
+				</nav>
+
+				<nav className={`header__menu navbar__${showMenu}`}>
+					<NavLink
+						className={`header__menu-link  ${isActive}`}
+						to={PathConstants.CV}
+						onClick={handleHideMenu}
+					>
+						<RiDownloadCloud2Fill size={20} />
+						<span className="header__menu-name">
+							{t("general.PageCVTitle")}
 						</span>
 					</NavLink>
-				</div>
-				<div className="navbar__icons">
-					<Settings />
-					<div className="navbar__hamburger">
-						{showMenu === "open" ? (
-							<RiCloseLargeFill onClick={handleShowMenu} />
-						) : (
-							<RiMenu4Fill onClick={handleShowMenu} />
-						)}
-					</div>
-				</div>
-			</nav>
-
-			<nav className={`header__menu navbar__${showMenu}`}>
-				<NavLink
-					className={`header__menu-link ${isActive}`}
-					to={PathConstants.ABOUT}
-					onClick={handleHideMenu}
-				>
-					<RiUser5Fill size={20} />{" "}
-					<span className="header__menu-name">{t("general.AboutTitle")}</span>
-				</NavLink>
-				<NavLink
-					className={`header__menu-link  ${isActive}`}
-					to={PathConstants.PROJECTS}
-					onClick={handleHideMenu}
-				>
-					<RiCodeFill />{" "}
-					<span className="header__menu-name">
-						{t("general.ProjectsTitle")}
-					</span>
-				</NavLink>
-				{/* <NavLink
+					{/* 					<NavLink
+						className={`header__menu-link ${isActive}`}
+						to={PathConstants.ABOUT}
+						onClick={handleHideMenu}
+					>
+						<RiUser5Fill size={20} />{" "}
+						<span className="header__menu-name">{t("general.AboutTitle")}</span>
+					</NavLink> */}
+					<NavLink
+						className={`header__menu-link  ${isActive}`}
+						to={PathConstants.PROJECTS}
+						onClick={handleHideMenu}
+					>
+						<RiCodeFill />{" "}
+						<span className="header__menu-name">
+							{t("general.ProjectsTitle")}
+						</span>
+					</NavLink>
+					{/* <NavLink
 					className={`header__menu-link  ${isActive}`}
 					to={PathConstants.SKILLS}
 					onClick={handleHideMenu}
-				>
+					>
 					<GiBrain size={20} />{" "}
 					<span className="header__menu-name">{t("general.SkillsTitle")}</span>
-				</NavLink> */}
-				<NavLink
-					className={`header__menu-link  ${isActive}`}
-					to={PathConstants.CALENDAR}
-					onClick={handleHideMenu}
-				>
-					<RiCalendarCheckFill size={20} />{" "}
-					<span className="header__menu-name">{t("general.BookTitle")}</span>
-				</NavLink>
-				<NavLink
-					className={`header__menu-link  ${isActive}`}
-					to={PathConstants.VOLUNTEER}
-					onClick={handleHideMenu}
-				>
-					<HiUsers size={20} />{" "}
-					<span className="header__menu-name">{t("general.VolTitle")}</span>
-				</NavLink>
-				<NavLink
-					className={`header__menu-link  ${isActive}`}
-					to={PathConstants.CV}
-					onClick={handleHideMenu}
-				>
-					<RiDownloadCloud2Fill size={20} />
-					<span className="header__menu-name">{t("general.PageCVTitle")}</span>
-				</NavLink>
-			</nav>
+					</NavLink> */}
+					<NavLink
+						className={`header__menu-link  ${isActive}`}
+						to={PathConstants.CALENDAR}
+						onClick={handleHideMenu}
+					>
+						<RiCalendarCheckFill size={20} />{" "}
+						<span className="header__menu-name">{t("general.BookTitle")}</span>
+					</NavLink>
+					<NavLink
+						className={`header__menu-link  ${isActive}`}
+						to={PathConstants.VOLUNTEER}
+						onClick={handleHideMenu}
+					>
+						<HiUsers size={20} />{" "}
+						<span className="header__menu-name">{t("general.VolTitle")}</span>
+					</NavLink>
+				</nav>
+			</div>
 		</header>
 	);
 };

@@ -119,10 +119,14 @@
 			&__hamburger {
 				display: none;
 			}
+			&__desktop {
+				padding: 0 24px;
+			}
 		}
+
 		&__menu {
 			display: flex;
-			padding: 0 30px;
+			margin: 0 30px;
 			position: absolute;
 			top: 0px;
 			right: 80px;
@@ -144,11 +148,10 @@
 
 			.active {
 				text-decoration: underline;
-				//distancio el underline del texto
 				text-decoration-thickness: 0.5em;
 				text-decoration-color: $color-mustard;
 				color: $color-mustard;
-				text-underline-offset: 1.6em;
+				text-underline-offset: 1.5em;
 			}
 		}
 	}

@@ -79,12 +79,10 @@
 			color: light-dark($color-mustard-dark, $color-mustard);
 			font-size: large;
 			word-spacing: 4px;
-			letter-spacing: 0.8pt;
 		}
 		&-date {
 			font-size: 0.8rem;
 			color: $color-cerulean;
-			letter-spacing: 0.4pt;
 
 			&-span {
 				padding: 0 10px;
@@ -103,7 +101,6 @@
 			font-size: 0.9rem;
 			color: light-dark($color-dark-deepblue, $color-light-pale-pinky);
 			margin-left: 4px;
-			letter-spacing: 0.4pt;
 			word-spacing: 2px;
 		}
 		&-bullet {

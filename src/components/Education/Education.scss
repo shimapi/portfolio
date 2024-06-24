@@ -1,0 +1,80 @@
+@import "../../assets/constants.scss";
+
+.education {
+	&__job {
+		display: flex;
+	}
+	&__timeline {
+		width: 80px;
+		display: block;
+		position: relative;
+
+		&-line {
+			width: 3px;
+			height: 100%;
+			background-color: light-dark(
+				$color-dark-deepblue,
+				$color-light-pale-lilac
+			);
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 2;
+		}
+		&-circle {
+			width: 15px;
+			height: 15px;
+			background-color: light-dark($color-mustard-dark, $color-mustard);
+			border-radius: 50%;
+			position: absolute;
+			left: 50%;
+			top: 28px;
+			transform: translateX(-50%);
+			z-index: 3;
+			border: 3px solid
+				light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		}
+	}
+
+	&__info {
+		width: 80%;
+		padding: 20px 0;
+		line-height: 1.5;
+
+		&-name {
+			color: light-dark($color-mustard-dark, $color-mustard);
+			font-size: large;
+			word-spacing: 4px;
+		}
+		&-date {
+			font-size: 0.8rem;
+			color: $color-cerulean;
+
+			&-span {
+				padding: 0 10px;
+				border-right: 1px solid $color-cerulean;
+
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					border-right: none;
+				}
+			}
+		}
+
+		&-description {
+			font-size: 0.9rem;
+			color: light-dark($color-dark-deepblue, $color-light-pale-pinky);
+			margin-left: 4px;
+			word-spacing: 2px;
+		}
+		&-bullet {
+			list-style-type: disclosure-closed;
+			margin: 10px;
+			&::marker {
+				color: $color-cerulean;
+			}
+		}
+	}
+}
