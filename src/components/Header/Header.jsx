@@ -8,7 +8,7 @@ import {
 	RiCloseLargeFill,
 	RiDownloadCloud2Fill,
 	RiMenu4Fill,
-	RiUser5Fill,
+	//RiUser5Fill,
 	RiCodeFill,
 } from "react-icons/ri";
 import { HiUsers } from "react-icons/hi2";
@@ -96,13 +96,23 @@ const Header = () => {
 
 				<nav className={`header__menu navbar__${showMenu}`}>
 					<NavLink
+						className={`header__menu-link  ${isActive}`}
+						to={PathConstants.CV}
+						onClick={handleHideMenu}
+					>
+						<RiDownloadCloud2Fill size={20} />
+						<span className="header__menu-name">
+							{t("general.PageCVTitle")}
+						</span>
+					</NavLink>
+					{/* 					<NavLink
 						className={`header__menu-link ${isActive}`}
 						to={PathConstants.ABOUT}
 						onClick={handleHideMenu}
 					>
 						<RiUser5Fill size={20} />{" "}
 						<span className="header__menu-name">{t("general.AboutTitle")}</span>
-					</NavLink>
+					</NavLink> */}
 					<NavLink
 						className={`header__menu-link  ${isActive}`}
 						to={PathConstants.PROJECTS}
@@ -136,16 +146,6 @@ const Header = () => {
 					>
 						<HiUsers size={20} />{" "}
 						<span className="header__menu-name">{t("general.VolTitle")}</span>
-					</NavLink>
-					<NavLink
-						className={`header__menu-link  ${isActive}`}
-						to={PathConstants.CV}
-						onClick={handleHideMenu}
-					>
-						<RiDownloadCloud2Fill size={20} />
-						<span className="header__menu-name">
-							{t("general.PageCVTitle")}
-						</span>
 					</NavLink>
 				</nav>
 			</div>

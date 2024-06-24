@@ -34,7 +34,10 @@
     "copy": "@ShirleyMallea",
     "copy2": "Thanks for visiting my portfolio!",
     "copy3": "Let's connect through",
-    "or": "or"
+    "or": "or",
+    "ProjectDeploy": "Visit website",
+    "ProjectGithub": "View Code"
+
   },
   "about" : {
     "AboutGreeting": "Hi!",
@@ -204,7 +207,7 @@
     "proj1": {
       "title": "BestSellers Shopify App",
       "client": "Altorrelieve",
-      "category": "API REST",
+      "category": "Fullstack App",
       "date": "2024",
       "tech":{
         "1": "React",
@@ -215,11 +218,12 @@
         "1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
         "2": "Connected to the Shopify API via REST API."  
       },
-      "link": "https://bestsellers-shopify.vercel.app/",
+      "deploy": "https://bestsellers-shopify.vercel.app/",
+      "github": "https://github.com/shimapi/bestsellers-shopify-frontend",
       "img":{
-        "1": "../../src/assets/images/bestsellers-shopify-shirleymallea.png",
-        "2": "../img/bestsellers2.png",
-        "3": "../img/bestsellers3.png"
+        "1": "bestsellers-shopify-shirleymallea.png",
+        "2": "bestsellers2.png",
+        "3": "bestsellers3.png"
       }
     },
     "proj2": {
@@ -237,9 +241,10 @@
         "1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
         "2": "Connected to the Shopify API via REST API."  
       },
-      "link": "https://modatornasol.cl/",
+      "deploy": "https://modatornasol.cl/",
+      "github": "",
       "img":{
-        "1": "../img/bestsellers1.png",
+        "1": "shopify-fashion-site.png",
         "2": "../img/bestsellers2.png",
         "3": "../img/bestsellers3.png"
       }
@@ -257,14 +262,41 @@
       },
       "bullets" : {
         "1": "With my team we won the third place in the BCI MACH Hackathon, developing a web app that allows users to manage their finances and investments in a simple and intuitive way.",
-        "2": "We develop and app"  
+        "2": "We develop and app that allows users to manage their finances and investments in a simple and intuitive way.",
+        "3": "We used React, Material UI, JAVA, and Spring Boot.",
+        "4": "Mission: to improve Financial Education throughout Chile. Personalized for your goals, generating saving habits, monthly expense control, and custom statistics for you!" 
       },
-      "link": "https://bestsellers-shopify.vercel.app/",
+      "github": "https://github.com/shimapi/hackaton_fem_tech_mach",
+      "presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
       "img":{
-        "1": "../img/bestsellers1.png",
+        "1": "certificado-Hackathon-tercer-lugar.png",
         "2": "../img/bestsellers2.png",
         "3": "../img/bestsellers3.png"
       }
     }
+    ,
+    "proj4": {
+      "title": "Portfolio",
+      "client": "Personal",
+      "category": "Portfolio",
+      "date": "2024",
+      "tech":{
+        "1": "React",
+        "2": "SASS",
+        " 3": "i18next"
+
+      },
+      "bullets" : {
+        "1": "Developed a portfolio website using React, SASS, and i18next.",
+        "2": "Implemented a multi-language feature using i18next.",
+        "3": "Designed a responsive layout using CSS Grid and Flexbox."
+      },
+      "deploy": "https://shirleymallea.com/",
+      "github": " ",
+      "img":{
+        "1": "portfolio-shirleymallea.png",
+        "2": "../img/bestsellers2.png",
+        "3": "../img/bestsellers3.png"
+      }
   }
 }

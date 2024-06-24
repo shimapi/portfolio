@@ -1,3 +1,5 @@
+@import "../../assets/constants.scss";
+
 .volunteer {
 	display: flex;
 	flex-direction: column;
@@ -15,8 +17,7 @@
 		margin-bottom: 50px;
 
 		&-photo {
-			width: 400px;
-			height: 350px;
+			max-width: $breakpoint-minimun;
 			object-fit: cover;
 			border: 14px white solid;
 			margin: 20px;

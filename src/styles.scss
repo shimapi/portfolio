@@ -38,7 +38,9 @@ html[data-theme="light"] {
 	flex-direction: column;
 	position: relative;
 	justify-content: space-between;
-	align-items: center;
+	letter-spacing: 1pt;
+	word-spacing: 2px;
+	line-height: 1.5;
 }
 .container {
 	color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
@@ -47,18 +49,13 @@ html[data-theme="light"] {
 	padding: 0 48px;
 	align-items: center;
 	min-width: $breakpoint-minimun;
-	letter-spacing: 1pt;
-	word-spacing: 2px;
-	line-height: 1.5;
 }
 
 .main__container {
 	min-height: 100vh;
 	margin-bottom: 100px;
 	margin-top: 70px;
-	width: 80%;
 	min-width: $breakpoint-minimun;
-	padding: 0 48px;
 }
 
 .left {
@@ -189,11 +186,17 @@ html[data-theme="light"] {
 }
 
 @media (min-width: $breakpoint-menu) {
+	#root {
+		align-items: center;
+	}
 	.container {
 		min-width: $breakpoint-menu;
 	}
 
 	.main__container {
 		margin-top: 0px;
+		width: 80%;
+		padding: 0 48px;
+		min-width: $breakpoint-minimun;
 	}
 }
