@@ -11,7 +11,7 @@ const ExperienceCV = () => {
 		<div className="experience-cv">
 			<h2 className="title">{t("general.ExpCVTitle")}</h2>
 
-			{expArray.map((exp, index) => (
+			{expArray?.map((exp, index) => (
 				<article className="experience-cv__job" key={index}>
 					<section className="experience-cv__timeline">
 						<div className="experience-cv__timeline-line"></div>
@@ -32,7 +32,7 @@ const ExperienceCV = () => {
 							</span>
 						</h5>
 						<ul className="experience-cv__jobinfo-description">
-							{Object.values(exp.bullets).map((item, index) => (
+							{Object.values(exp.bullets)?.map((item, index) => (
 								<li className="experience-cv__jobinfo-bullet" key={index}>
 									{item}
 								</li>

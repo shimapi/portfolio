@@ -11,7 +11,7 @@ const Education = () => {
 		<div className="education">
 			<h2 className="title">{t("general.EducationTitle")}</h2>
 
-			{eduArray.map((edu, index) => (
+			{eduArray?.map((edu, index) => (
 				<article className="education__job" key={index}>
 					<section className="education__timeline">
 						<div className="experience-cv__timeline-line"></div>
