@@ -69,7 +69,7 @@ html[data-theme="light"] {
 	border: 1px solid;
 	border-color: light-dark($color-light-border, $color-dark-border);
 	background-color: light-dark($color-light-pale-gray, $color-dark-deepblue);
-
+	text-align: center;
 	padding: 8px;
 	max-width: 60vw;
 	border-radius: 8px;

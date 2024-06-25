@@ -11,7 +11,7 @@ import {
 	RiSparkling2Fill,
 	RiTiktokFill,
 } from "react-icons/ri";
-import bg from "../../assets/images/waves.svg";
+import bg from "../../../public/images/waves.svg";
 
 const Footer = () => {
 	const { t } = useTranslation();

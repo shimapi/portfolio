@@ -17,14 +17,6 @@ const Skills = () => {
 	const toolsObject = t("tools", { returnObjects: true });
 	const toolsArray = Object.values(toolsObject);
 
-	console.log(
-		"workSkillsArray: ",
-		workSkillsArray,
-		"softSkillsArray: ",
-		softSkillsArray,
-		"languagesArray: ",
-		languagesArray
-	);
 	return (
 		<section className="skills">
 			<List title={t("general.WorkSkillsTitle")} listArray={workSkillsArray} />
