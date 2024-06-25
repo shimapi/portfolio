@@ -8,7 +8,7 @@ const ProjectCard = () => {
 	const projObject = t("projects", { returnObjects: true });
 	const projArray = Object.values(projObject);
 
-	const imagesRoute = "../../../public/images/";
+	const imagesRoute = "/images/";
 
 	return (
 		<div className="projects">
