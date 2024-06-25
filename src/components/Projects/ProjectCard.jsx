@@ -8,13 +8,12 @@ const ProjectCard = () => {
 	const projObject = t("projects", { returnObjects: true });
 	const projArray = Object.values(projObject);
 
-	const imagesRoute = "../../assets/images/";
+	const imagesRoute = "../../../public/images/";
 
 	return (
 		<div className="projects">
 			{projArray?.map((proj, index) => (
 				<article className="project-card" key={index}>
-					{console.log(proj)}
 					<div className="project-card__img">
 						<img src={`${imagesRoute}${proj.img[1]}`} alt={proj.title} />
 						<h4 className="project-card__category">{proj.category}</h4>

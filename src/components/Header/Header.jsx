@@ -54,7 +54,6 @@ const Header = () => {
 
 	const handleShowMenu = () => {
 		setShowMenu(showMenu === "open" ? "closed" : "open");
-		console.log(showMenu);
 	};
 
 	const handleHideMenu = () => {

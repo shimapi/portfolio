@@ -1,6 +1,6 @@
 import "./About.scss";
 import { useTranslation } from "react-i18next";
-import me from "../../assets/images/shirley-mallea.png";
+import me from "../../../public/images/shirley-mallea.png";
 import BlobImage from "../BlobImage/BlobImage";
 
 const About = () => {

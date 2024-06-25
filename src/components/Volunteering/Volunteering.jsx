@@ -1,14 +1,14 @@
 import "./Volunteering.scss";
 import { useTranslation } from "react-i18next";
 
-import coderhouse from "../../assets/images/charla-wtm-coderhouse.jpg";
-import coderhouse2 from "../../assets/images/charla-wtm-coderhouse2.jpg";
-import sparkCode from "../../assets/images/Spark-Code-Mayo24-1.jpeg";
-import pulseritas from "../../assets/images/wtm-altorrelieve.png";
-import wtm from "../../assets/images/wtm-voluntariado.jpg";
-import wtm2 from "../../assets/images/Spark-Code-Mayo24-16.jpg";
-import hackathon from "../../assets/images/hackathon.jpg";
-import wtmYO from "../../assets/images/Spark-Code-Mayo24-1yo.png";
+import coderhouse from "../../../public/images/charla-wtm-coderhouse.jpg";
+import coderhouse2 from "../../../public/images/charla-wtm-coderhouse2.jpg";
+import sparkCode from "../../../public/images/Spark-Code-Mayo24-1.jpeg";
+import pulseritas from "../../../public/images/wtm-altorrelieve.png";
+import wtm from "../../../public/images/wtm-voluntariado.jpg";
+import wtm2 from "../../../public/images/Spark-Code-Mayo24-16.jpg";
+import hackathon from "../../../public/images/hackathon.jpg";
+import wtmYO from "../../../public/images/Spark-Code-Mayo24-1yo.png";
 
 const Volunteering = () => {
 	const { t } = useTranslation();
