@@ -10,3 +10,17 @@
 .skills .list {
 	min-width: $breakpoint-minimun;
 }
+
+@media screen and (min-width: $breakpoint-menu) {
+	//desktop
+	.skills .list {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: $breakpoint-menu) {
+	//tablet & mobile
+	.skills .list {
+		width: 72%;
+	}
+}
