@@ -73,7 +73,7 @@ html[data-theme="light"] {
 	padding: 8px;
 	max-width: 60vw;
 	border-radius: 8px;
-	margin-right: 8px;
+	margin: 0 8px 8px 0;
 
 	&:hover {
 		background-color: light-dark(

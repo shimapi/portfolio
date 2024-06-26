@@ -1,301 +1,303 @@
 {
-  "general":{
-    "title": "Multi-language app",
-    "label": "Select another language!",
-    "about": "About",
-    "home": "Home",
-    "ExpTitle": "Experience",
-    "ExpCVTitle": "Experience CV",
-    "SkillsTitle": "Skills",
-    "KnowledgeTitle": "Knowledge",
-    "LanguagesTitle": "Languages",
-    "ToolsTitle": "Tools",
-    "SoftSkillsTitle": "Soft Skills",
-    "WorkSkillsTitle": "Work Skills",
-    "EducationTitle": "Education",
-    "BookTitle": "Book with me!",
-    "VolTitle": "Volunteering",
-    "AboutTitle": "About",
-    "PageCVTitle": "CV",
-    "ProjectsTitle": "Selected Projects",
-    "CVTitle": "Web Developer",
-    "CVName0": "<",
-    "CVName": "Shirley",
-    "CVLastname": "Mallea",
-    "CVName2": "/>",
-    "CVPlace": "Based in Chile",
-    "CVPdf": "link to CV",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "instagram": "Instagram",
-    "email": "e-mail",
-    "tiktok": "TikTok",
-    "whatsapp": "WhatsApp",
-    "copy": "@ShirleyMallea",
-    "copy2": "Thanks for visiting my portfolio!",
-    "copy3": "Let's connect through",
-    "or": "or",
-    "ProjectDeploy": "Visit website",
-    "ProjectGithub": "View Code"
-
-  },
-  "about" : {
-    "AboutGreeting": "Hi!",
-    "AboutName": "I'm Shirley Mallea, a ",
-    "AboutShort": "who loves to offer a good solution by interpreting business needs to create experiences that attract and persuade the end customer",
-    "DownloadCV": "Download CV",
-    "AboutLong": "I am a Front End Developer with a background in e-commerce. I am passionate about creating user-friendly and visually appealing websites that help businesses grow. I am a proactive and creative problem-solver who enjoys working in a team and learning new technologies. I am looking for new challenges and opportunities to grow as a developer and contribute to innovative projects."
-  },
-  "skills" : {
-    "1" : "Programming: JavaScript, React, SQL", 
-    "2" : "Responsive Design: CSS, SASS, Semantic HTML",
-    "3" : "Accessibility",
-    "4" : "Abstraction & Attention to Detail",
-    "5" : "Problem-Solving",
-    "15" : "Creativity",
-    "6" : "Collaboration & Communication",
-    "7" : "Continuous Learning & Proactivity",
-    "8" : "Leadership & Time Management",
-    "9" : "Adaptability",
-    "10" : "Teamwork",
-    "11" : "SEO oriented development"
-  },
-  "softSkills" : {
-    "1" : "Problem-Solving",
-    "2" : "Creativity",
-    "3" : "Collaboration & Communication",
-    "4" : "Continuous Learning & Proactivity",
-    "5" : "Leadership & Time Management",
-    "6" : "Adaptability",
-    "7" : "Teamwork"
-  },
-  "workSkills": {
-    "1" : "Programming",
-    "2" : "Responsive Design",
-    "3" : "Accessibility",
-    "4" : "Abstraction",
-    "5" : "Problem-Solving",
-    "6" : "Attention to Detail",
-    "7" : "SEO oriented development"
-  },
-  "knowledge": {
-    "1": "Scrum",
-    "2": "Shopify",
-    "3": "React",
-    "4": "JavaScript",
-    "5": "CSS",
-    "6": "HTML",
-    "7": "Office Suite",
-    "8": "GIT",
-    "9": "GitHub",
-    "10": "JSON",
-    "11": "Responsive Design",
-    "12": "SEO",
-    "13": "Responsive web design from Figma/image",
-    "14": "Adobe Illustrator",
-    "15": "Canva",
-    "16": "Notion",
-    "17": "Trello",
-    "18": "Slack",
-    "19": "REST APIs",
-    "20": "Liquid",
-    "21": "ChatGPT",
-    "22": "Google Analytics",
-    "23": "MongoDB",
-    "24": "MySQL",
-    "25": "DataBases",
-    "26": "Excel",
-    "27": "UI",
-    "28": "Express",
-    "29": "Node.js",
-    "30": "GCP"
-  },
-  "languages": {
-    "1": "React",
-    "2": "JavaScript",
-    "3": "HTML",
-    "4": "CSS",
-    "5": "SASS",
-    "6": "Liquid",
-    "7": "SQL"
-  },
-  "tools": { 
-    "1": "VS Code",
-    "2": "Trello",
-    "3": "Jira",
-    "4": "Confluence",
-    "5": "Slack",
-    "6": "Figma",
-    "7": "Photoshop",
-    "8": "Illustrator",
-    "9": "Canva",
-    "10": "Notion",
-    "11": "Google Analytics",
-    "12": "GIT",
-    "13": "GitHub"
-  },
-  "spokenLanguages": {
-    "1": "Spanish",
-    "2": "English"
-  },
-  "education": {
-    "edu1": {
-      "title": "Programming & Multimedial Design",
-      "institution": "Inacap",
-      "place": "Chile",
-      "date": "2007/08",
-      "bullets" : {
-        "1": "Graduated with Honors — Universidad Tecnológica de Chile INACAP",
-        "2": "Developed a website for a social and environmental project.",
-        "3": "Won a photography competition."
-      }
-    },
-    "edu2": {
-      "title": "Front End Web Developer",
-      "institution": "Digital House by Globant",
-      "place": "Chile",
-      "date": "2021",
-      "bullets" : {
-        "1": "Intensive online synchronous bootcamp."
-      }
-    },
-    "edu3": {
-      "title": "Fullstack Web Developer (MERN)",
-      "institution": "TripleTen by Yandex",
-      "place": "Chile",
-      "date": "2023/24",
-      "bullets" : {
-        "1": "Online asynchronous bootcamp intensive."
-      }
-    }
-  },
-  "experienceCV": {
-    "exp1": {
-      "title": "web developer",
-      "bizz": "Digital Agency Storm",
-      "place": "Chile",
-      "date": "2009-2010",
-      "bullets" : {
-        "0": "Optimized client web performance using Pixel Perfect development (HTML, CSS, JS, PHP, MySQL) and programmed successful email marketing campaigns.",
-        "1": "Created custom WordPress themes from scratch, adapting design and features for each client."
-      }
-    }
-    ,
-    "exp2": {
-      "title": "e-commerce developer & manager",
-      "bizz": "Altorrelieve",
-      "place": "Chile",
-      "date": "2011 - 2022",
-      "bullets" : {
-        "0": "Developed custom landing pages and mailings using CSS, JS, HTML, JSON, MongoDB, Liquid, and React.",
-        "1": "Increased sales by 130% by migrating from OpenCart to Shopify."
-      }
-    },
-    "exp3": {
-      "title": "e-commerce developer",
-      "bizz": "Moda Tornasol",
-      "place": "Chile",
-      "date": "2023",
-      "bullets" : {
-        "0": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
-        "1": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."     
-      }
-    }
-
-  },
-  "projects": {
-    "proj1": {
-      "title": "BestSellers Shopify App",
-      "client": "Altorrelieve",
-      "category": "Fullstack App",
-      "date": "2024",
-      "tech":{
-        "1": "React",
-        "2": "Shopify API",
-        "3": "SASS"
-      },
-      "bullets" : {
-        "1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
-        "2": "Connected to the Shopify API via REST API."  
-      },
-      "deploy": "https://bestsellers-shopify.vercel.app/",
-      "github": "https://github.com/shimapi/bestsellers-shopify-frontend",
-      "img":{
-        "1": "bestsellers-shopify-shirleymallea.png",
-        "2": "bestsellers2.png",
-        "3": "bestsellers3.png"
-      }
-    },
-    "proj2": {
-      "title": "e-commerce Shopify +2500 SKU",
-      "client": "Moda Tornasol",
-      "category": "e-commerce Shopify",
-      "date": "2023",
-      "tech":{
-        "1": "Shopify",
-        "2": "e-commerce manager",
-        "3": "SEO",
-        "4": "MetaObjects"
-      },
-      "bullets" : {
-        "1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
-        "2": "Connected to the Shopify API via REST API."  
-      },
-      "deploy": "https://modatornasol.cl/",
-      "github": "",
-      "img":{
-        "1": "shopify-fashion-site.png",
-        "2": "../img/bestsellers2.png",
-        "3": "../img/bestsellers3.png"
-      }
-    }, "proj3": {
-      "title": "Hackathon",
-      "client": "BCI MACH",
-      "category": "Hackathon",
-      "date": "2024",
-      "tech":{
-        "1": "React",
-        "2": "Material UI",
-        "3": "TeamWork",
-        "4": "Collaboration"
-      },
-      "bullets" : {
-        "1": "With my team we won the third place in the BCI MACH Hackathon, developing a web app that allows users to manage their finances and investments in a simple and intuitive way.",
-        "2": "We develop and app that allows users to manage their finances and investments in a simple and intuitive way.",
-        "3": "We were a great team!",
-        "4": "Mission: to improve Financial Education throughout Chile. Personalized for your goals, generating saving habits, monthly expense control, and custom statistics for you!" 
-      },
-      "github": "https://github.com/shimapi/hackaton_fem_tech_mach",
-      "presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
-      "img":{
-        "1": "certificado-Hackathon-tercer-lugar.png",
-        "2": "../img/bestsellers2.png",
-        "3": "../img/bestsellers3.png"
-      }
-    },
-    "proj4":{
-      "title": "Around the US",
-      "client": "Final project for TripleTen",
-      "category": "Fullstack App",
-      "date": "2024",
-      "tech":{
-        "1": "React",
-        "3": "Node.js",
-        "4": "Express",
-        "5": "MongoDB",
-        "6": "REST API"
-      },
-      "bullets" : {
-        "1": "Developed a fullstack app that allows users to share their travel photos, like and delete them.",
-        "2": "Connected to the MongoDB database via REST API."
-      },
-      "deploy": "",
-      "github": "https://github.com/shimapi/web_project_api_full",
-      "img":{
-        "1": "photo-project-fullstack.gif",
-        "2": "../img/bestsellers2.png",
-        "3": "../img/bestsellers3.png"
-      }
-    }
-  }
+	"general": {
+		"title": "Multi-language app",
+		"label": "Select another language!",
+		"about": "About",
+		"home": "Home",
+		"ExpTitle": "Experience",
+		"ExpCVTitle": "Experience CV",
+		"SkillsTitle": "Skills",
+		"KnowledgeTitle": "Knowledge",
+		"LanguagesTitle": "Languages",
+		"ToolsTitle": "Tools",
+		"SoftSkillsTitle": "Soft Skills",
+		"WorkSkillsTitle": "Work Skills",
+		"EducationTitle": "Education",
+		"BookTitle": "Book with me!",
+		"VolTitle": "Volunteering",
+		"AboutTitle": "About",
+		"PageCVTitle": "CV",
+		"ProjectsTitle": "Selected Projects",
+		"CVTitle": "Web Developer",
+		"CVName0": "<",
+		"CVName": "Shirley",
+		"CVLastname": "Mallea",
+		"CVName2": "/>",
+		"CVPlace": "Based in Chile",
+		"CVPdf": "link to CV",
+		"linkedin": "LinkedIn",
+		"github": "GitHub",
+		"instagram": "Instagram",
+		"email": "e-mail",
+		"tiktok": "TikTok",
+		"whatsapp": "WhatsApp",
+		"copy": "@ShirleyMallea",
+		"copy2": "Thanks for visiting my portfolio!",
+		"copy3": "Let's connect through",
+		"or": "or",
+		"ProjectDeploy": "Visit website",
+		"ProjectGithub": "View Code"
+	},
+	"about": {
+		"AboutGreeting": "Hi!",
+		"AboutName": "I'm Shirley Mallea, a ",
+		"AboutShort": "who loves to offer a good solution by interpreting business needs to create experiences that attract and persuade the end customer",
+		"DownloadCV": "Download CV",
+		"AboutLong": "I am a Front End Developer with a background in e-commerce. I am passionate about creating user-friendly and visually appealing websites that help businesses grow. I am a proactive and creative problem-solver who enjoys working in a team and learning new technologies. I am looking for new challenges and opportunities to grow as a developer and contribute to innovative projects."
+	},
+	"skills": {
+		"1": "Programming: JavaScript, React, SQL",
+		"2": "Responsive Design: CSS, SASS, Semantic HTML",
+		"3": "Accessibility",
+		"4": "Abstraction & Attention to Detail",
+		"5": "Problem-Solving",
+		"15": "Creativity",
+		"6": "Collaboration & Communication",
+		"7": "Continuous Learning & Proactivity",
+		"8": "Leadership & Time Management",
+		"9": "Adaptability",
+		"10": "Teamwork",
+		"11": "SEO oriented development"
+	},
+	"softSkills": {
+		"1": "Problem-Solving",
+		"2": "Creativity",
+		"3": "Collaboration & Communication",
+		"4": "Continuous Learning & Proactivity",
+		"5": "Leadership & Time Management",
+		"6": "Adaptability",
+		"7": "Teamwork"
+	},
+	"workSkills": {
+		"1": "Programming",
+		"2": "Responsive Design",
+		"3": "Accessibility",
+		"4": "Abstraction",
+		"5": "Problem-Solving",
+		"6": "Attention to Detail",
+		"7": "SEO oriented development"
+	},
+	"knowledge": {
+		"1": "Scrum",
+		"2": "Shopify",
+		"3": "React",
+		"4": "JavaScript",
+		"5": "CSS",
+		"6": "HTML",
+		"7": "Office Suite",
+		"8": "GIT",
+		"9": "GitHub",
+		"10": "JSON",
+		"11": "Responsive Design",
+		"12": "SEO",
+		"13": "Responsive web design from Figma/image",
+		"14": "Adobe Illustrator",
+		"15": "Canva",
+		"16": "Notion",
+		"17": "Trello",
+		"18": "Slack",
+		"19": "REST APIs",
+		"20": "Liquid",
+		"21": "ChatGPT",
+		"22": "Google Analytics",
+		"23": "MongoDB",
+		"24": "MySQL",
+		"25": "DataBases",
+		"26": "Excel",
+		"27": "UI",
+		"28": "Express",
+		"29": "Node.js",
+		"30": "GCP"
+	},
+	"languages": {
+		"1": "React",
+		"2": "JavaScript",
+		"3": "HTML",
+		"4": "CSS",
+		"5": "SASS",
+		"6": "Liquid",
+		"7": "SQL"
+	},
+	"tools": {
+		"1": "VS Code",
+		"2": "Trello",
+		"3": "Jira",
+		"4": "Confluence",
+		"5": "Slack",
+		"6": "Figma",
+		"7": "Photoshop",
+		"8": "Illustrator",
+		"9": "Canva",
+		"10": "Notion",
+		"11": "Google Analytics",
+		"12": "GIT",
+		"13": "GitHub"
+	},
+	"spokenLanguages": {
+		"1": "Spanish",
+		"2": "English"
+	},
+	"education": {
+		"edu1": {
+			"title": "Programming & Multimedial Design",
+			"institution": "Inacap",
+			"place": "Chile",
+			"date": "2007/08",
+			"bullets": {
+				"1": "Graduated with Honors — Universidad Tecnológica de Chile INACAP",
+				"2": "Developed a website for a social and environmental project.",
+				"3": "Won a photography competition."
+			}
+		},
+		"edu2": {
+			"title": "Front End Web Developer",
+			"institution": "Digital House by Globant",
+			"place": "Chile",
+			"date": "2021",
+			"bullets": {
+				"1": "Intensive online synchronous bootcamp."
+			}
+		},
+		"edu3": {
+			"title": "Fullstack Web Developer (MERN)",
+			"institution": "TripleTen by Yandex",
+			"place": "Chile",
+			"date": "2023/24",
+			"bullets": {
+				"1": "Online asynchronous bootcamp intensive.",
+				"2": "Evolutionary development of projects in 16 sprints"
+			}
+		}
+	},
+	"experienceCV": {
+		"exp1": {
+			"title": "web developer",
+			"bizz": "Digital Agency Storm",
+			"place": "Chile",
+			"date": "2009-2010",
+			"bullets": {
+				"0": "Optimized client web performance using Pixel Perfect development (HTML, CSS, JS, PHP, MySQL) and programmed successful email marketing campaigns.",
+				"1": "Created custom WordPress themes from scratch, adapting design and features for each client."
+			}
+		},
+		"exp2": {
+			"title": "e-commerce developer & manager",
+			"bizz": "Altorrelieve",
+			"place": "Chile",
+			"date": "2011 - 2022",
+			"bullets": {
+				"0": "Developed custom landing pages and mailings using CSS, JS, HTML, JSON, MongoDB, Liquid, and React.",
+				"1": "Increased sales by 130% by migrating from OpenCart to Shopify."
+			}
+		},
+		"exp3": {
+			"title": "e-commerce developer",
+			"bizz": "Moda Tornasol",
+			"place": "Chile",
+			"date": "2023",
+			"bullets": {
+				"0": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
+				"1": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."
+			}
+		}
+	},
+	"projects": {
+		"proj1": {
+			"title": "BestSellers Shopify App",
+			"client": "Altorrelieve",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+				"1": "React",
+				"2": "Shopify API",
+				"3": "SASS"
+			},
+			"bullets": {
+				"1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
+				"2": "Connected to the Shopify API via REST API."
+			},
+			"deploy": "https://bestsellers-shopify.vercel.app/",
+			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
+			"img": {
+				"1": "bestsellers-shopify-shirleymallea.png",
+				"2": "bestsellers2.png",
+				"3": "bestsellers3.png"
+			}
+		},
+		"proj2": {
+			"title": "e-commerce Shopify +2500 SKU",
+			"client": "Moda Tornasol",
+			"category": "e-commerce Shopify",
+			"date": "2023",
+			"tech": {
+				"1": "Shopify",
+				"2": "e-commerce",
+				"3": "SEO",
+				"4": "MetaObjects"
+			},
+			"bullets": {
+				"1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
+				"2": "Connected to the Shopify API via REST API."
+			},
+			"deploy": "https://modatornasol.cl/",
+			"github": "",
+			"img": {
+				"1": "shopify-fashion-site.png",
+				"2": "../img/bestsellers2.png",
+				"3": "../img/bestsellers3.png"
+			}
+		},
+		"proj3": {
+			"title": "Hackathon",
+			"client": "BCI MACH",
+			"category": "Hackathon",
+			"date": "2024",
+			"tech": {
+				"1": "React",
+				"2": "Material UI",
+				"3": "TeamWork",
+				"4": "Collaboration"
+			},
+			"bullets": {
+				"1": "With my team we won the third place in the BCI MACH Hackathon, developing a web app that allows users to manage their finances and investments in a simple and intuitive way.",
+				"2": "We develop and app that allows users to manage their finances and investments in a simple and intuitive way.",
+				"3": "We were a great team!",
+				"4": "Mission: to improve Financial Education throughout Chile. Personalized for your goals, generating saving habits, monthly expense control, and custom statistics for you!"
+			},
+			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
+			"presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
+			"img": {
+				"1": "certificado-Hackathon-tercer-lugar.png",
+				"2": "../img/bestsellers2.png",
+				"3": "../img/bestsellers3.png"
+			}
+		},
+		"proj4": {
+			"title": "Around the US",
+			"client": "Final project for TripleTen",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+				"1": "React",
+				"3": "Node.js",
+				"4": "Express",
+				"5": "MongoDB",
+				"6": "REST API",
+				"7": "GCP"
+			},
+			"bullets": {
+				"1": "Developed a fullstack app that allows users to share their travel photos, like and delete them.",
+				"2": "Connected to the MongoDB database via REST API.",
+				"3": "Developed a backend in Node.js and Express.",
+				"4": "Deployed in GCP."
+			},
+			"deploy": "",
+			"github": "https://github.com/shimapi/web_project_api_full",
+			"img": {
+				"1": "photo-project-fullstack.gif",
+				"2": "../img/bestsellers2.png",
+				"3": "../img/bestsellers3.png"
+			}
+		}
+	}
 }
