@@ -2,6 +2,7 @@ import "./About.scss";
 import { useTranslation } from "react-i18next";
 import me from "../../../public/images/shirley-mallea.png";
 import BlobImage from "../BlobImage/BlobImage";
+import Button from "../Button/Button";
 
 const About = () => {
 	const { t } = useTranslation();
@@ -18,9 +19,7 @@ const About = () => {
 				</h1>
 				<BlobImage className="bla" photo={me} altPhoto={t("about.AboutName")} />
 				<h2 className="about__greeting-short">{t("about.AboutShort")}</h2>
-				<button className="button button-primary">
-					{t("about.DownloadCV")}
-				</button>
+				<Button  />
 			</div>
 		</div>
 	);
