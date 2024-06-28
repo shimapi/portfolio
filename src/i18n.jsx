@@ -1,13 +1,7 @@
 import i18n from "i18next";
 import i18nBackend from "i18next-http-backend";
 import { initReactI18next } from "react-i18next";
-
-const getCurrentHost =
-	import.meta.env.MODE === "development"
-		? "http://localhost:5173"
-		: import.meta.env.MODE === "production"
-		? "https://portfolio-shirleymallea.vercel.app/"
-		: "https://www.shirleymallea.com/";
+import { getCurrentHost } from "./assets/getCurrentHost";
 
 i18n
 	.use(i18nBackend)

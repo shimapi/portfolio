@@ -12,6 +12,7 @@ import {
 	RiTiktokFill,
 } from "react-icons/ri";
 import bg from "../../../public/images/waves.svg";
+import Button from "../Button/Button";
 
 const Footer = () => {
 	const { t } = useTranslation();
@@ -60,10 +61,9 @@ const Footer = () => {
 						<RiMailFill className="footer__social-icon" />
 					</Link>
 				</div>
+
 				<div className="footer__cv">
-					<Link to={PathConstants.ABOUT} className="button button-primary">
-						{t("about.DownloadCV")}
-					</Link>
+						<Button />
 				</div>
 				<div className="footer__copy">
 					<p>&copy; 2024 {t("general.copy")}</p>
