@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { createContext, useEffect, useState } from "react";
 
 export const ThemeContext = createContext({
@@ -6,7 +7,7 @@ export const ThemeContext = createContext({
 });
 
 export const ThemeProvider = ({ children }) => {
-	const [theme, setTheme] = useState("light");
+	const [theme, setTheme] = useState("dark");
 
 	useEffect(() => {
 		const savedTheme = localStorage.getItem("theme");
@@ -29,4 +30,8 @@ export const ThemeProvider = ({ children }) => {
 			{children}
 		</ThemeContext.Provider>
 	);
+};
+
+ThemeProvider.propTypes = {
+	children: PropTypes.node,
 };
