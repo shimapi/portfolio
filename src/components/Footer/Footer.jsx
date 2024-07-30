@@ -11,7 +11,7 @@ import {
 	RiSparkling2Fill,
 	RiTiktokFill,
 } from "react-icons/ri";
-import bg from "../../../public/images/waves.svg";
+// import bg from "../../../public/images/waves.svg";
 import Button from "../Button/Button";
 
 const Footer = () => {
@@ -19,9 +19,9 @@ const Footer = () => {
 
 	return (
 		<footer className="footer">
-			<div className="footer__bg">
+			{/* 			<div className="footer__bg">
 				<img src={bg} alt="footer background" />
-			</div>
+			</div> */}
 			<div className="footer__container">
 				<div className="footer__social">
 					<Link
@@ -63,9 +63,17 @@ const Footer = () => {
 				</div>
 
 				<div className="footer__cv">
-						<Button />
+					<Button />
 				</div>
 				<div className="footer__copy">
+					<p className="footer__bye">
+						<RiSparkling2Fill />
+						{"  "}
+						{t("general.copy2")}
+						{"  "}
+						<RiHeart3Fill />
+					</p>
+
 					<p>&copy; 2024 {t("general.copy")}</p>
 					<p>
 						{t("general.copy3")}{" "}
@@ -84,13 +92,6 @@ const Footer = () => {
 						>
 							{t("general.BookTitle")}
 						</Link>
-					</p>
-					<p className="footer__bye">
-						<RiSparkling2Fill />
-						{"  "}
-						{t("general.copy2")}
-						{"  "}
-						<RiHeart3Fill />
 					</p>
 				</div>
 			</div>
