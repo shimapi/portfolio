@@ -1,6 +1,6 @@
 {
 	"general": {
-		"title": "Multi-language app",
+		"title": "My Portafolio",
 		"label": "Select another language!",
 		"about": "About",
 		"home": "Home",
@@ -297,6 +297,33 @@
 				"1": "photo-project-fullstack.gif",
 				"2": "../img/bestsellers2.png",
 				"3": "../img/bestsellers3.png"
+			}
+		},
+		"proj5": {
+			"title": "Hackathon AIDIE",
+			"client": "AudienceView",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+        "1": "React 18",
+        "2": "Vite",
+        "3": "React Router DOM",
+        "4": "Axios",
+        "5": "CSS",
+				"6": "Primer Octicons",
+				"7": "React Icons"
+      },
+      "bullets": {
+        "1": "Desarrollo de una aplicación frontend moderna utilizando React 18 y Vite para optimizar el rendimiento",
+        "2": "Implementación de sistema de rutas con React Router DOM para una navegación fluida",
+        "3": "Integración de componentes de UI con Primer Octicons y React Icons"
+      },
+			"deploy": "",
+			"github": "https://github.com/LosSith",
+			"img": {
+				"1": "aidie-audienceview.png",
+				"2": "bestsellers2.png",
+				"3": "bestsellers3.png"
 			}
 		}
 	}
