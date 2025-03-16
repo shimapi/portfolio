@@ -42,6 +42,10 @@
 		font-size: 0.8rem;
 		flex-wrap: wrap;
 	}
+	&__action{
+		display: flex;
+		gap: 8px;
+	}
 }
 
 @media (min-width: $breakpoint-menu) {

@@ -74,7 +74,12 @@ const Footer = () => {
 						<RiHeart3Fill />
 					</p>
 
-					<p>&copy; 2024 {t("general.copy")}</p>
+					<p>&copy;
+						{new Date().getFullYear()} 
+						&nbsp;
+						{t("general.copy")}
+
+					</p>
 					<p>
 						{t("general.copy3")}{" "}
 						<Link
