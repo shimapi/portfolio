@@ -208,10 +208,16 @@
 		}
 	}
 
-	// Aseguramos que las tech tags tengan el mismo estilo en ambos lugares
+
 	.project-card__tech-unit {
 		margin-right: 4px;
 		margin-bottom: 4px;
+	}
+	
+	&__action {
+		display: flex;
+		gap: 8px;
+		margin-top: 20px;
 	}
 }
 

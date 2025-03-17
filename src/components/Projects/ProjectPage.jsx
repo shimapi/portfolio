@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const ProjectPage = () => {
 	const { id } = useParams();
@@ -34,8 +35,6 @@ const ProjectPage = () => {
 						</span>
 					</h5>
 
-
-
 					<ul className="project-page__info-description">
 						{Object.values(project.bullets).map((bullet, i) => (
 							<li key={i} className="project-page__info-bullet">{bullet}</li>
@@ -48,6 +47,28 @@ const ProjectPage = () => {
 						))}
 					</div>
 					
+					<div className="project-page__action">
+						{project.github && (
+							<Link
+								className={`button button-primary ${project.github && project.deploy && ('button-half')}`}
+								to={project.github}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								{t("general.ProjectGithub")}
+							</Link>
+						)}
+						{project.deploy && (
+							<Link
+								className={`button button-secondary ${project.github && project.deploy && ('button-half')}`}
+								to={project.deploy}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								{t("general.ProjectDeploy")}
+							</Link>
+						)}
+					</div>
 				</section>
 			</article>
 
