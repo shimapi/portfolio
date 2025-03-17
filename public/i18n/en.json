@@ -282,12 +282,12 @@
 			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
 			"img": {
 				"1": "bestsellers-shopify-shirleymallea.png",
-				"2": "bestsellers2.png",
-				"3": "bestsellers3.png"
+				"2": "2.png",
+				"3": "3.png"
 			}
 		},
 		"proj4": {
-			"title": "Hackathon",
+			"title": "Financial Hackathon",
 			"client": "BCI MACH",
 			"category": "Hackathon",
 			"date": "2024",
@@ -303,22 +303,21 @@
 				"3": "We were a great team!",
 				"4": "Mission: to improve Financial Education throughout Chile. Personalized for your goals, generating saving habits, monthly expense control, and custom statistics for you!"
 			},
+			"deploy": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
 			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
-			"presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
 			"img": {
 				"1": "certificado-Hackathon-tercer-lugar.png",
 				"2": "2.png",
 				"3": "3.png"
 			}
 		},
-
 		"proj5":{
 			"title": "Hackathon AIDIE",
 			"client": "AudienceView",
 			"category": "Fullstack App",
 			"date": "2024",
 			"tech": {
-				"1": "React 18",
+				"1": "React",
         "2": "Vite",
         "3": "React Router DOM",
         "4": "Axios",
@@ -327,7 +326,7 @@
 				"7": "React Icons"
 			},
 			"bullets": {
-				"1": "Development of a modern frontend application using React 18 and Vite to optimize performance",
+				"1": "Development of a modern frontend application using React and Vite to optimize performance",
 				"2": "Implementation of routing system with React Router DOM for smooth navigation",
 				"3": "Integration of UI components with Primer Octicons and React Icons"
       },
@@ -364,7 +363,7 @@
 			}
 		},
 		"proy7":{
-			"title": "Carbon Footprint Emissions Control System Audit",
+			"title": "Carbon Footprint Emissions Control System Audit Paper",
 			"client": "Ministry of Environment, Chile",
 			"category": "Audit",
 			"date": "2024",
@@ -383,9 +382,9 @@
 			"deploy": "",
 			"github": "",
 			"img": {
-				"1": "mma-home.png",
-				"2": ".png",
-				"3": ".png"
+				"1": "mma-informe.png",
+				"2": "mma-informe-indice.png",
+				"3": "3.png"
 			}
 		},
 		"proy8":{
@@ -406,14 +405,15 @@
 			"bullets": {
 				"1": "Development of a pilot management system for emissions compensation, built with Vue 3, Vuetify 3, SASS, TypeScript and Vue I18n for internationalization",
 				"2": "CSS unification using SASS and Vue for proper implementation and more efficient CI/CD, avoiding unexpected errors",
-				"3": "Implementation of best practices"
+				"3": "Implementation of best practices",
+				"4": "Light/Dark theme"
 			},
 			"deploy": "",
 			"github": "",
 			"img": {
-				"1": "mma-home.png",
-				"2": ".png",
-				"3": ".png"
+				"1": "mma-app-home.png",
+				"2": "mma-app-table.png",
+				"3": "mma-app-login.png"
 			}
 		}
 	}

@@ -258,12 +258,13 @@
 			"deploy": "https://modatornasol.cl/",
 			"github": "",
 			"img": {
+				"1": "shopify-fashion-site.png",
 				"2": ".png",
 				"3": ".png"
 			}
 		},
 		"proj3": {
-			"title": "Hackathon",
+			"title": "Hackathon Financiera",
 			"client": "BCI MACH",
 			"category": "Hackathon",
 			"date": "2024",
@@ -280,12 +281,12 @@
 				"4": "Misión: mejorar la Educación Financiera en todo Chile.",
 				"5": "Personalizado para tus objetivos, generando hábitos de ahorro, control de gastos mensuales y estadísticas personalizadas para ti!"
 			},
+			"deploy": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
 			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
-			"presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
 			"img": {
 				"1": "certificado-Hackathon-tercer-lugar.png",
-				"2": ".png",
-				"3": ".png"
+				"2": "2.png",
+				"3": "3.png"
 			}
 		},
 		"proj4": {
@@ -306,8 +307,8 @@
 			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
 			"img": {
 				"1": "bestsellers-shopify-shirleymallea.png",
-				"2": ".png",
-				"3": ".png"
+				"2": "2.png",
+				"3": "3.png"
 			}
 		},
 		"proj5":{
@@ -316,7 +317,7 @@
 			"category": "Fullstack App",
 			"date": "2024",
 			"tech": {
-				"1": "React 18",
+				"1": "React",
         "2": "Vite",
         "3": "React Router DOM",
         "4": "Axios",
@@ -325,7 +326,7 @@
 				"7": "React Icons"
 			},
 			"bullets": {
-        "1": "Desarrollo de una aplicación frontend moderna utilizando React 18 y Vite para optimizar el rendimiento",
+        "1": "Desarrollo de una aplicación frontend moderna utilizando React y Vite para optimizar el rendimiento",
         "2": "Implementación de sistema de rutas con React Router DOM para una navegación fluida",
         "3": "Integración de componentes de UI con Primer Octicons y React Icons"
       },
@@ -362,7 +363,7 @@
 			}
 		},
 		"proy7":{
-			"title": "Auditoría para Sistema de Control de Emisiones de Huella de Carbono",
+			"title": "Informe de Auditoría para Sistema de Control de Emisiones de Huella de Carbono",
 			"client": "Ministerio del Medio Ambiente, Chile",
 			"category": "Auditoría",
 			"date": "2024",
@@ -381,9 +382,9 @@
 			"deploy": "",
 			"github": "",
 			"img": {
-				"1": "mma-home.png",
-				"2": ".png",
-				"3": ".png"
+				"1": "mma-informe.png",
+				"2": "mma-informe-indice.png",
+				"3": "3.png"
 			}
 		},
 		"proy8":{
@@ -404,14 +405,15 @@
 			"bullets": {
         "1": "Desarrollo de un Sistema piloto de gestión para la compensación de emisiones, construido con Vue 3, Vuetify 3, SASS, TypeScript y Vue I18n para internacionalización.",
 				"2": "Unificación de CSS usando SASS y Vue para correcta implementación y CI/CD más expedito, evitando errores inesperados",
-        "3": "Implementación de buenas prácticas"
+        "3": "Implementación de buenas prácticas",
+				"4": "Light/Dark theme"
       },
 			"deploy": "",
 			"github": "",
 			"img": {
-				"1": "mma-home.png",
-				"2": ".png",
-				"3": ".png"
+				"1": "mma-app-home.png",
+				"2": "mma-app-table.png",
+				"3": "mma-app-login.png"
 			}
 		}
 	}
