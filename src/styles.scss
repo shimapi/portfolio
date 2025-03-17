@@ -159,12 +159,15 @@ html[data-theme="light"] {
 	text-decoration: none;
 
 	&:hover {
-		letter-spacing: 4px;
+		letter-spacing: 2px;
 		transition: transform 0.3s ease;
 	}
 	&:active {
 		transform: translate3d(4px, 4px, 4px);
 		transition: transform 0.3s ease;
+	}
+	&-half {
+		width: 50%;
 	}
 
 	&-primary {

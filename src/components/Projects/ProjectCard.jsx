@@ -31,7 +31,7 @@ const ProjectCard = () => {
 					<div className="project-card__action">
 						{proj.github && (
 							<Link
-								className="button button-primary"
+								className={`button button-primary ${proj.github && proj.deploy && ('button-half')}`}
 								to={proj.github}
 								target="_blank"
 								rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const ProjectCard = () => {
 						)}
 						{proj.deploy && (
 							<Link
-								className="button button-secondary"
+								className={`button button-secondary ${proj.github && proj.deploy && ('button-half')}`}
 								to={proj.deploy}
 								target="_blank"
 								rel="noopener noreferrer"
