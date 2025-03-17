@@ -9,9 +9,9 @@
 	&__img {
 		aspect-ratio: 4/3;
 		overflow: hidden;
-		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		background-color: $color-white;
 		border: 12px solid;
-		border-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		border-color: $color-white;
 		border-radius: 2px;
 		position: relative;
 
@@ -28,11 +28,11 @@
 	}
 	&__title {
 		padding: 10px 0;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
 	}
 	&__category {
-		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
-		color: light-dark($color-light-pale-lilac, $color-dark-deepblue);
+		background-color: $color-white;
+		color:  $color-dark-deepblue;
 		border-radius: 8px;
 		font-size: 0.8rem;
 		position: absolute;
@@ -79,9 +79,10 @@
 
 	// Añadir nuevo estilo para el título
 	h2 {
-		padding: 30px 0;
-		margin: 30px 0;
-		font-size: 2em;
+		padding: 10px 0;
+    margin: 60px 0;
+    font-size: 2em;
+    border-bottom: 6px solid $color-pink-opacity;;
 	}
 
 	&__content {

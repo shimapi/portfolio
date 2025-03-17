@@ -19,14 +19,15 @@ const ProjectCard = () => {
 		<div className="projects">
 			{projArray?.map((proj, index) => (
 				<article className="project-card" key={index}>
-					<div className="project-card__img">
-						<img src={`${imagesRoute}${proj.img[1]}`} alt={proj.title} />
-						<h4 className="project-card__category">{proj.category}</h4>
-					</div>
 					<Link 
 						to={`/project/${getProjectId(proj)}`} 
 						className="project-card__title-link"
 					>
+						<div className="project-card__img">
+							<img src={`${imagesRoute}${proj.img[1]}`} alt={proj.title} />
+							<h4 className="project-card__category">{proj.category}</h4>
+						</div>
+					
 						<h3 className="project-card__title">
 							{proj.title}
 						</h3>
