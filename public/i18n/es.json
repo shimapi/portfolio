@@ -214,25 +214,30 @@
 	},
 	"projects": {
 		"proj1": {
-			"title": "BestSellers Shopify App",
-			"client": "Altorrelieve",
+			"title": "Around the US",
+			"client": "Proyecto Final - TripleTen",
 			"category": "Fullstack App",
 			"date": "2024",
 			"tech": {
 				"1": "React",
-				"2": "Shopify API",
-				"3": "SASS"
+				"3": "Node.js",
+				"4": "Express",
+				"5": "MongoDB",
+				"6": "REST API",
+				"7": "GCP"
 			},
 			"bullets": {
-				"1": "Desarrollé una aplicación personalizada de Shopify que genera automáticamente una lista de los productos más vendidos, lo que disminuyó el tiempo de análisis en un 20%.",
-				"2": "Conecté a la API de Shopify a través de REST API."
+				"1": "Desarrollé una aplicación fullstack que permite a los usuarios compartir sus fotos de viajes, darles like y borrarlas.",
+				"2": "Está conectada a la base de datos de MongoDB a través de REST API.",
+				"3": "Desarrollé un backend en Node.js y Express.",
+				"4": "Está deployado en GCP."
 			},
-			"deploy": "https://bestsellers-shopify.vercel.app/",
-			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
+			"deploy": "",
+			"github": "https://github.com/shimapi/web_project_api_full",
 			"img": {
-				"1": "bestsellers-shopify-shirleymallea.png",
-				"2": "bestsellers2.png",
-				"3": "bestsellers3.png"
+				"1": "photo-project-fullstack.gif",
+				"2": ".png",
+				"3": ".png"
 			}
 		},
 		"proj2": {
@@ -253,9 +258,8 @@
 			"deploy": "https://modatornasol.cl/",
 			"github": "",
 			"img": {
-				"1": "shopify-fashion-site.png",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
+				"2": ".png",
+				"3": ".png"
 			}
 		},
 		"proj3": {
@@ -280,35 +284,30 @@
 			"presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
 			"img": {
 				"1": "certificado-Hackathon-tercer-lugar.png",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
+				"2": ".png",
+				"3": ".png"
 			}
 		},
 		"proj4": {
-			"title": "Around the US",
-			"client": "Proyecto Final - TripleTen",
+			"title": "BestSellers Shopify App",
+			"client": "Altorrelieve",
 			"category": "Fullstack App",
 			"date": "2024",
 			"tech": {
 				"1": "React",
-				"3": "Node.js",
-				"4": "Express",
-				"5": "MongoDB",
-				"6": "REST API",
-				"7": "GCP"
+				"2": "Shopify API",
+				"3": "SASS"
 			},
 			"bullets": {
-				"1": "Desarrollé una aplicación fullstack que permite a los usuarios compartir sus fotos de viajes, darles like y borrarlas.",
-				"2": "Está conectada a la base de datos de MongoDB a través de REST API.",
-				"3": "Desarrollé un backend en Node.js y Express.",
-				"4": "Está deployado en GCP."
+				"1": "Desarrollé una aplicación personalizada de Shopify que genera automáticamente una lista de los productos más vendidos, lo que disminuyó el tiempo de análisis en un 20%.",
+				"2": "Conecté a la API de Shopify a través de REST API."
 			},
-			"deploy": "",
-			"github": "https://github.com/shimapi/web_project_api_full",
+			"deploy": "https://bestsellers-shopify.vercel.app/",
+			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
 			"img": {
-				"1": "photo-project-fullstack.gif",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
+				"1": "bestsellers-shopify-shirleymallea.png",
+				"2": ".png",
+				"3": ".png"
 			}
 		},
 		"proj5":{
@@ -334,10 +333,86 @@
 			"github": "https://github.com/LosSith",
 			"img": {
 				"1": "aidie-audienceview.png",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
+				"2": ".png",
+				"3": ".png"
+			}
+		},
+		"proj6":{
+			"title": "Desarrollo de Galería Interactiva para exposición Mollusca de Pablo Neruda",
+			"client": "Museo Gabriela Mistral, Universidad de Chile",
+			"category": "Frontend App para pantalla del Museo",
+			"date": "2024",
+			"tech": {
+				"1": "React 18",
+        "2": "Vite",
+        "3": "React Router DOM",
+        "4": "CSS",
+				"5": "Vercel"
+			},
+			"bullets": {
+        "1": "Desarrollo de una galería de fotografías de conchitas expuestas en una Galería del Museo Gabriela Mistral, en la Universidad de Chile",
+        "2": "Galería desarrollada con React, montada en Vite y deployada en Vercel"
+      },
+			"deploy": "https://gallery-beta-neon.vercel.app/",
+			"github": "",
+			"img": {
+				"1": "mollusca-gallery.png",
+				"2": "mollusca-home.png",
+				"3": "mollusca-card.png"
+			}
+		},
+		"proy7":{
+			"title": "Auditoría para Sistema de Control de Emisiones de Huella de Carbono",
+			"client": "Ministerio del Medio Ambiente, Chile",
+			"category": "Auditoría",
+			"date": "2024",
+			"tech": {
+				"1": "Vue",
+        "2": "NodeJS",
+        "3": "Vuetify",
+				"4": "CSS",
+				"5": "CI/CD"
+			},
+			"bullets": {
+        "1": "Análisis exhaustivo de sistema actual y especificación de Manual de uso correcto de Vue",
+        "2": "Creación de Manual de Uso aplicando buenas prácticas",
+				"3": "Propuesta de actualización de tecnologías: de Vue2 a Vue3, uso de Typescript, internacionalización estandarizada con i18n, componentización de elementos"
+      },
+			"deploy": "",
+			"github": "",
+			"img": {
+				"1": "mma-home.png",
+				"2": ".png",
+				"3": ".png"
+			}
+		},
+		"proy8":{
+			"title": "Desarrollo de plataforma piloto FrontEnd con mejores prácticas de la Auditoría previa",
+			"client": "Ministerio del Medio Ambiente, Chile",
+			"category": "Frontend App - VueJS",
+			"date": "2025",
+			"tech": {
+				"1": "Vue 3",
+				"7": "Vuetify",
+        "2": "NodeJS",
+        "3": "TypeScript",
+        "4": "CSS/SASS",
+				"5": "Material Design",
+				"6": "i18n (es/en)",
+				"8": "CI/CD"
+			},
+			"bullets": {
+        "1": "Desarrollo de un Sistema piloto de gestión para la compensación de emisiones, construido con Vue 3, Vuetify 3, SASS, TypeScript y Vue I18n para internacionalización.",
+				"2": "Unificación de CSS usando SASS y Vue para correcta implementación y CI/CD más expedito, evitando errores inesperados",
+        "3": "Implementación de buenas prácticas"
+      },
+			"deploy": "",
+			"github": "",
+			"img": {
+				"1": "mma-home.png",
+				"2": ".png",
+				"3": ".png"
 			}
 		}
-
 	}
 }

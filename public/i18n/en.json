@@ -215,76 +215,6 @@
 	},
 	"projects": {
 		"proj1": {
-			"title": "BestSellers Shopify App",
-			"client": "Altorrelieve",
-			"category": "Fullstack App",
-			"date": "2024",
-			"tech": {
-				"1": "React",
-				"2": "Shopify API",
-				"3": "SASS"
-			},
-			"bullets": {
-				"1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
-				"2": "Connected to the Shopify API via REST API."
-			},
-			"deploy": "https://bestsellers-shopify.vercel.app/",
-			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
-			"img": {
-				"1": "bestsellers-shopify-shirleymallea.png",
-				"2": "bestsellers2.png",
-				"3": "bestsellers3.png"
-			}
-		},
-		"proj2": {
-			"title": "e-commerce Shopify +2500 SKU",
-			"client": "Moda Tornasol",
-			"category": "e-commerce Shopify",
-			"date": "2023",
-			"tech": {
-				"1": "Shopify",
-				"2": "e-commerce",
-				"3": "SEO",
-				"4": "MetaObjects"
-			},
-			"bullets": {
-				"1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
-				"2": "Connected to the Shopify API via REST API."
-			},
-			"deploy": "https://modatornasol.cl/",
-			"github": "",
-			"img": {
-				"1": "shopify-fashion-site.png",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
-			}
-		},
-		"proj3": {
-			"title": "Hackathon",
-			"client": "BCI MACH",
-			"category": "Hackathon",
-			"date": "2024",
-			"tech": {
-				"1": "React",
-				"2": "Material UI",
-				"3": "TeamWork",
-				"4": "Collaboration"
-			},
-			"bullets": {
-				"1": "With my team we won the third place in the BCI MACH Hackathon, developing a web app that allows users to manage their finances and investments in a simple and intuitive way.",
-				"2": "We develop and app that allows users to manage their finances and investments in a simple and intuitive way.",
-				"3": "We were a great team!",
-				"4": "Mission: to improve Financial Education throughout Chile. Personalized for your goals, generating saving habits, monthly expense control, and custom statistics for you!"
-			},
-			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
-			"presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
-			"img": {
-				"1": "certificado-Hackathon-tercer-lugar.png",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
-			}
-		},
-		"proj4": {
 			"title": "Around the US",
 			"client": "Final project for TripleTen",
 			"category": "Fullstack App",
@@ -307,10 +237,81 @@
 			"github": "https://github.com/shimapi/web_project_api_full",
 			"img": {
 				"1": "photo-project-fullstack.gif",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
+				"2": "2.png",
+				"3": "3.png"
 			}
 		},
+		"proj2": {
+			"title": "e-commerce Shopify +2500 SKU",
+			"client": "Moda Tornasol",
+			"category": "e-commerce Shopify",
+			"date": "2023",
+			"tech": {
+				"1": "Shopify",
+				"2": "e-commerce",
+				"3": "SEO",
+				"4": "MetaObjects"
+			},
+			"bullets": {
+				"1": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
+				"2": "Connected to the Shopify API via REST API."
+			},
+			"deploy": "https://modatornasol.cl/",
+			"github": "",
+			"img": {
+				"1": "shopify-fashion-site.png",
+				"2": "2.png",
+				"3": "3.png"
+			}
+		},
+		"proj3": {
+			"title": "BestSellers Shopify App",
+			"client": "Altorrelieve",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+				"1": "React",
+				"2": "Shopify API",
+				"3": "SASS"
+			},
+			"bullets": {
+				"1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
+				"2": "Connected to the Shopify API via REST API."
+			},
+			"deploy": "https://bestsellers-shopify.vercel.app/",
+			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
+			"img": {
+				"1": "bestsellers-shopify-shirleymallea.png",
+				"2": "bestsellers2.png",
+				"3": "bestsellers3.png"
+			}
+		},
+		"proj4": {
+			"title": "Hackathon",
+			"client": "BCI MACH",
+			"category": "Hackathon",
+			"date": "2024",
+			"tech": {
+				"1": "React",
+				"2": "Material UI",
+				"3": "TeamWork",
+				"4": "Collaboration"
+			},
+			"bullets": {
+				"1": "With my team we won the third place in the BCI MACH Hackathon, developing a web app that allows users to manage their finances and investments in a simple and intuitive way.",
+				"2": "We develop and app that allows users to manage their finances and investments in a simple and intuitive way.",
+				"3": "We were a great team!",
+				"4": "Mission: to improve Financial Education throughout Chile. Personalized for your goals, generating saving habits, monthly expense control, and custom statistics for you!"
+			},
+			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
+			"presentacion": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
+			"img": {
+				"1": "certificado-Hackathon-tercer-lugar.png",
+				"2": "2.png",
+				"3": "3.png"
+			}
+		},
+
 		"proj5":{
 			"title": "Hackathon AIDIE",
 			"client": "AudienceView",
@@ -326,16 +327,93 @@
 				"7": "React Icons"
 			},
 			"bullets": {
-        "1": "Desarrollo de una aplicación frontend moderna utilizando React 18 y Vite para optimizar el rendimiento",
-        "2": "Implementación de sistema de rutas con React Router DOM para una navegación fluida",
-        "3": "Integración de componentes de UI con Primer Octicons y React Icons"
+				"1": "Development of a modern frontend application using React 18 and Vite to optimize performance",
+				"2": "Implementation of routing system with React Router DOM for smooth navigation",
+				"3": "Integration of UI components with Primer Octicons and React Icons"
       },
 			"deploy": "",
 			"github": "https://github.com/LosSith",
 			"img": {
 				"1": "aidie-audienceview.png",
-				"2": "../img/bestsellers2.png",
-				"3": "../img/bestsellers3.png"
+				"2": "2.png",
+				"3": "3.png"
+			}
+		},
+		"proj6":{
+			"title": "Interactive Gallery Development for Pablo Neruda's Mollusca Exhibition",
+			"client": "Gabriela Mistral Museum, University of Chile",
+			"category": "Frontend App for Museum Display",
+			"date": "2024",
+			"tech": {
+				"1": "React 18",
+				"2": "Vite",
+				"3": "React Router DOM",
+				"4": "CSS",
+				"5": "Vercel"
+			},
+			"bullets": {
+				"1": "Development of a photo gallery of shells exhibited at the Gabriela Mistral Museum, University of Chile",
+				"2": "Gallery developed with React, built with Vite and deployed on Vercel"
+			},
+			"deploy": "https://gallery-beta-neon.vercel.app/",
+			"github": "",
+			"img": {
+				"1": "mollusca-gallery.png",
+				"2": "mollusca-home.png",
+				"3": "mollusca-card.png"
+			}
+		},
+		"proy7":{
+			"title": "Carbon Footprint Emissions Control System Audit",
+			"client": "Ministry of Environment, Chile",
+			"category": "Audit",
+			"date": "2024",
+			"tech": {
+				"1": "Vue",
+				"2": "NodeJS",
+				"3": "Vuetify",
+				"4": "CSS",
+				"5": "CI/CD"
+			},
+			"bullets": {
+				"1": "Comprehensive analysis of current system and specification of proper Vue usage manual",
+				"2": "Creation of Usage Manual applying best practices",
+				"3": "Technology update proposal: from Vue2 to Vue3, use of Typescript, standardized internationalization with i18n, componentization of elements"
+			},
+			"deploy": "",
+			"github": "",
+			"img": {
+				"1": "mma-home.png",
+				"2": ".png",
+				"3": ".png"
+			}
+		},
+		"proy8":{
+			"title": "Frontend Pilot Platform Development with Best Practices from Previous Audit",
+			"client": "Ministry of Environment, Chile",
+			"category": "Frontend App - VueJS",
+			"date": "2025",
+			"tech": {
+				"1": "Vue 3",
+				"7": "Vuetify",
+				"2": "NodeJS",
+				"3": "TypeScript",
+				"4": "CSS/SASS",
+				"5": "Material Design",
+				"6": "i18n (es/en)",
+				"8": "CI/CD"
+			},
+			"bullets": {
+				"1": "Development of a pilot management system for emissions compensation, built with Vue 3, Vuetify 3, SASS, TypeScript and Vue I18n for internationalization",
+				"2": "CSS unification using SASS and Vue for proper implementation and more efficient CI/CD, avoiding unexpected errors",
+				"3": "Implementation of best practices"
+			},
+			"deploy": "",
+			"github": "",
+			"img": {
+				"1": "mma-home.png",
+				"2": ".png",
+				"3": ".png"
 			}
 		}
 	}
