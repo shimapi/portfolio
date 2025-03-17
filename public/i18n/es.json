@@ -195,8 +195,20 @@
 			"place": "Chile",
 			"date": "2023",
 			"bullets": {
-				"0": "Migré una página web de WordPress a Shopify, categorizando meticulosamente más de 2500 productos en colecciones automáticas amigables para SEO, lo que aumentó las ventas en un 30%.",
+				"0": "Migré el e-commerce de la tienda de WordPress a Shopify, categorizando meticulosamente más de 2500 productos en colecciones automáticas amigables para SEO, lo que aumentó las ventas en un 30%.",
 				"1": "Desarrollé un sistema para generar informes personalizados utilizando React, conectado a la API de Shopify a través de REST API y leyendo información de una base de datos SQL."
+			}
+		},
+		"exp4": {
+			"title": "desarrolladora Shopify - FullStack",
+			"bizz": "Propultech SpA",
+			"place": "Chile",
+			"date": "2024 - 2025",
+			"bullets": {
+				"0": "Desarrollé e implementé soluciones personalizadas para tiendas Shopify y Shopify Plus, incluyendo la creación de secciones dinámicas, popups interactivos, creación de UI y personalizaciones de código para aumentar posicionamiento y SEO.",
+				"1": "Configuré e integré apps de terceros, mejorando la funcionalidad de los e-commerces y aumentando la tasa de conversión de clientes.",
+				"2": "Colaboré con equipos multidisciplinarios y clientes internacionales, asegurando la entrega de proyectos en tiempo y forma.",
+				"3": "Clientes Shopify y Shopify Plus, nacionales e internacionales con los que trabajé: Patagonia, Infanti, Limonada, KitchenCenter, Amphora, Gotta."
 			}
 		}
 	},
@@ -298,6 +310,34 @@
 				"2": "../img/bestsellers2.png",
 				"3": "../img/bestsellers3.png"
 			}
+		},
+		"proj5":{
+			"title": "Hackathon AIDIE",
+			"client": "AudienceView",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+				"1": "React 18",
+        "2": "Vite",
+        "3": "React Router DOM",
+        "4": "Axios",
+        "5": "CSS",
+				"6": "Primer Octicons",
+				"7": "React Icons"
+			},
+			"bullets": {
+        "1": "Desarrollo de una aplicación frontend moderna utilizando React 18 y Vite para optimizar el rendimiento",
+        "2": "Implementación de sistema de rutas con React Router DOM para una navegación fluida",
+        "3": "Integración de componentes de UI con Primer Octicons y React Icons"
+      },
+			"deploy": "",
+			"github": "https://github.com/LosSith",
+			"img": {
+				"1": "aidie-audienceview.png",
+				"2": "../img/bestsellers2.png",
+				"3": "../img/bestsellers3.png"
+			}
 		}
+
 	}
 }

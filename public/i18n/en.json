@@ -1,7 +1,7 @@
 {
 	"general": {
-		"title": "Multi-language app",
-		"label": "Select another language!",
+		"title": "My Portfolio",
+		"label": "Select another language",
 		"about": "About",
 		"home": "Home",
 		"ExpTitle": "Experience",
@@ -199,6 +199,18 @@
 				"0": "Migrated a WordPress webpage to a robust Shopify e-commerce platform, meticulously categorizing over 2500 products into SEO-friendly automatic collections, which increased sales by 30%.",
 				"1": "Programmed a system to generate custom reports using React, connected to the Shopify API via REST API and reading info from a SQL database."
 			}
+		},
+		"exp4": {
+			"title": "Shopify Developer - FullStack Developer",
+			"bizz": "Propultech SpA Development Agency",
+			"place": "Chile",
+			"date": "2024 - 2025",
+			"bullets": {
+				"0": "Developed and implemented customized solutions for Shopify and Shopify Plus stores, including the creation of dynamic sections, interactive popups, UI creation, and code customizations to increase positioning and SEO.",
+				"1": "Configured and integrated third-party apps, improving e-commerce functionality and increasing customer conversion rates.",
+				"2": "Collaborated with multidisciplinary teams and international clients, ensuring project delivery on time and in proper form.",
+				"3": "Shopify and Shopify Plus clients (from USA, MX, CL, PE). Some of them: Patagonia, Infanti, Limonada, KitchenCenter, Amphora, Gotta."
+			}
 		}
 	},
 	"projects": {
@@ -295,6 +307,33 @@
 			"github": "https://github.com/shimapi/web_project_api_full",
 			"img": {
 				"1": "photo-project-fullstack.gif",
+				"2": "../img/bestsellers2.png",
+				"3": "../img/bestsellers3.png"
+			}
+		},
+		"proj5":{
+			"title": "Hackathon AIDIE",
+			"client": "AudienceView",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+				"1": "React 18",
+        "2": "Vite",
+        "3": "React Router DOM",
+        "4": "Axios",
+        "5": "CSS",
+				"6": "Primer Octicons",
+				"7": "React Icons"
+			},
+			"bullets": {
+        "1": "Desarrollo de una aplicación frontend moderna utilizando React 18 y Vite para optimizar el rendimiento",
+        "2": "Implementación de sistema de rutas con React Router DOM para una navegación fluida",
+        "3": "Integración de componentes de UI con Primer Octicons y React Icons"
+      },
+			"deploy": "",
+			"github": "https://github.com/LosSith",
+			"img": {
+				"1": "aidie-audienceview.png",
 				"2": "../img/bestsellers2.png",
 				"3": "../img/bestsellers3.png"
 			}
