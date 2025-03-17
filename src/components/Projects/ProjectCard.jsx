@@ -6,7 +6,7 @@ const ProjectCard = () => {
 	const { t } = useTranslation();
 
 	const projObject = t("projects", { returnObjects: true });
-	const projArray = Object.values(projObject);
+	const projArray = Object.values(projObject).reverse();
 
 	const imagesRoute = "/images/";
 
