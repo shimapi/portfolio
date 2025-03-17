@@ -10,8 +10,8 @@
 	height: 450px;
 	align-items: center;
 	line-height: 0;
-	background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
-	color: light-dark($color-light-pale-lilac, $color-dark-deepblue);
+	background-color: light-dark($color-dark-deepblue, $color-dark-lightblue);
+	color: light-dark($color-light-pale-lilac, $color-light-pale-lilac);
 
 	&__bg {
 		position: absolute;
@@ -64,7 +64,7 @@
 	}
 
 	&__social-icon {
-		color: light-dark($color-light-pale-lilac, $color-dark-deepblue);
+		color: light-dark($color-light-pale-lilac, $color-light-pale-lilac);
 		width: 24px;
 		height: 24px;
 		transition: all 0.3s;
