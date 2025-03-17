@@ -7,19 +7,23 @@
 	margin-bottom: 48px;
 
 	&__img {
-		width: 100%;
-		height: 300px;
+		aspect-ratio: 4/3;
+		overflow: hidden;
 		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
-		border-radius: 8px;
+		border: 12px solid;
+		border-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		border-radius: 2px;
 		position: relative;
 
-		& img {
+		img {
 			width: 100%;
-			border: 12px solid;
 			height: 100%;
-			object-fit: contain;
-			border-radius: 8px;
-			border-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+			object-fit: cover;
+			transition: transform 0.3s ease;
+
+			&:hover {
+				transform: scale(1.05);
+			}
 		}
 	}
 	&__title {
@@ -67,20 +71,106 @@
 	}
 }
 
-// Estilos para la página de proyecto individual
+// proyecto individual
 .project-page {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 2rem;
 
-	.tech-tag {
-		display: inline-block;
-		padding: 0.25rem 0.5rem;
-		margin: 0.25rem;
-		border-radius: 4px;
+	// Añadir nuevo estilo para el título
+	h2 {
+		padding: 30px 0;
+		margin: 30px 0;
+		font-size: 2em;
 	}
 
-	// Nuevos estilos para la galería
+	&__content {
+		display: flex;
+		margin-bottom: 2rem;
+	}
+
+	&__timeline {
+		width: 80px;
+		display: block;
+		position: relative;
+
+		&-line {
+			width: 3px;
+			height: 100%;
+			background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 2;
+		}
+
+		&-circle {
+			width: 15px;
+			height: 15px;
+			background-color: light-dark($color-mustard-dark, $color-mustard);
+			border-radius: 50%;
+			position: absolute;
+			left: 50%;
+			top: 28px;
+			transform: translateX(-50%);
+			z-index: 3;
+			border: 3px solid light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		}
+	}
+
+	&__info {
+		width: 80%;
+		padding: 20px 0;
+		line-height: 1.5;
+
+		&-category {
+			color: light-dark($color-mustard-dark, $color-mustard);
+			font-size: large;
+			word-spacing: 4px;
+		}
+
+		&-metadata {
+			font-size: 0.8rem;
+			color: $color-cerulean;
+			margin: 8px 0;
+
+			&-span {
+				padding: 0 10px;
+				border-right: 1px solid $color-cerulean;
+
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					border-right: none;
+				}
+			}
+		}
+
+		&-tech {
+			display: flex;
+			margin: 16px 0;
+			font-size: 0.8rem;
+			flex-wrap: wrap;
+			gap: 8px;
+		}
+
+		&-description {
+			font-size: 0.9rem;
+			color: light-dark($color-dark-deepblue, $color-light-pale-pinky);
+			margin-left: 4px;
+			word-spacing: 2px;
+		}
+
+		&-bullet {
+			list-style-type: disclosure-closed;
+			margin: 10px;
+			&::marker {
+				color: $color-cerulean;
+			}
+		}
+	}
+
 	&__gallery {
 		margin-top: 2rem;
 
@@ -97,20 +187,30 @@
 	}
 
 	.gallery-item {
-		border-radius: 8px;
+	//	border-radius: 8px;
 		overflow: hidden;
-		aspect-ratio: 16/9;
+		aspect-ratio: 4/3;
+		border: 14px white solid;
+		border-radius: 2px;
+
 		
 		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
 			transition: transform 0.3s ease;
-
+			background-color: #fff;
+			
 			&:hover {
 				transform: scale(1.05);
 			}
 		}
+	}
+
+	// Aseguramos que las tech tags tengan el mismo estilo en ambos lugares
+	.project-card__tech-unit {
+		margin-right: 4px;
+		margin-bottom: 4px;
 	}
 }
 

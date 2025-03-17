@@ -267,26 +267,6 @@
 			}
 		},
 		"proj3": {
-			"title": "BestSellers Shopify App",
-			"client": "Altorrelieve",
-			"category": "Fullstack App",
-			"date": "2024",
-			"tech": {
-				"1": "React",
-				"2": "Shopify API",
-				"3": "SASS"
-			},
-			"bullets": {
-				"1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
-				"2": "Connected to the Shopify API via REST API."
-			},
-			"deploy": "https://bestsellers-shopify.vercel.app/",
-			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
-			"img": {
-				"1": "bestsellers-shopify-shirleymallea.png"
-			}
-		},
-		"proj4": {
 			"title": "Financial Hackathon",
 			"client": "BCI MACH",
 			"category": "Hackathon",
@@ -307,6 +287,26 @@
 			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
 			"img": {
 				"1": "certificado-Hackathon-tercer-lugar.png"
+			}
+		},
+		"proj4": {
+			"title": "BestSellers Shopify App",
+			"client": "Altorrelieve",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+				"1": "React",
+				"2": "Shopify API",
+				"3": "SASS"
+			},
+			"bullets": {
+				"1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
+				"2": "Connected to the Shopify API via REST API."
+			},
+			"deploy": "https://bestsellers-shopify.vercel.app/",
+			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
+			"img": {
+				"1": "bestsellers-shopify-shirleymallea.png"
 			}
 		},
 		"proj5":{
