@@ -36,7 +36,13 @@
 		"copy3": "Let's connect through",
 		"or": "or",
 		"ProjectDeploy": "Visit website",
-		"ProjectGithub": "View Code"
+		"ProjectGithub": "View Code",
+		"client": "Client",
+		"date": "Date",
+		"tech": "Technologies",
+		"details": "Details",
+		"gallery": "Gallery",
+		"project404": "Oops! Project not found"
 	},
 	"about": {
 		"AboutGreeting": "Hi!",
@@ -236,9 +242,7 @@
 			"deploy": "",
 			"github": "https://github.com/shimapi/web_project_api_full",
 			"img": {
-				"1": "photo-project-fullstack.gif",
-				"2": "2.png",
-				"3": "3.png"
+				"1": "photo-project-fullstack.gif"
 			}
 		},
 		"proj2": {
@@ -259,34 +263,10 @@
 			"deploy": "https://modatornasol.cl/",
 			"github": "",
 			"img": {
-				"1": "shopify-fashion-site.png",
-				"2": "2.png",
-				"3": "3.png"
+				"1": "shopify-fashion-site.png"
 			}
 		},
 		"proj3": {
-			"title": "BestSellers Shopify App",
-			"client": "Altorrelieve",
-			"category": "Fullstack App",
-			"date": "2024",
-			"tech": {
-				"1": "React",
-				"2": "Shopify API",
-				"3": "SASS"
-			},
-			"bullets": {
-				"1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
-				"2": "Connected to the Shopify API via REST API."
-			},
-			"deploy": "https://bestsellers-shopify.vercel.app/",
-			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
-			"img": {
-				"1": "bestsellers-shopify-shirleymallea.png",
-				"2": "2.png",
-				"3": "3.png"
-			}
-		},
-		"proj4": {
 			"title": "Financial Hackathon",
 			"client": "BCI MACH",
 			"category": "Hackathon",
@@ -306,9 +286,27 @@
 			"deploy": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
 			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
 			"img": {
-				"1": "certificado-Hackathon-tercer-lugar.png",
-				"2": "2.png",
-				"3": "3.png"
+				"1": "certificado-Hackathon-tercer-lugar.png"
+			}
+		},
+		"proj4": {
+			"title": "BestSellers Shopify App",
+			"client": "Altorrelieve",
+			"category": "Fullstack App",
+			"date": "2024",
+			"tech": {
+				"1": "React",
+				"2": "Shopify API",
+				"3": "SASS"
+			},
+			"bullets": {
+				"1": "Developed a custom Shopify app that automatically generates a list of best-selling products, which decreased analysis time by 20%.",
+				"2": "Connected to the Shopify API via REST API."
+			},
+			"deploy": "https://bestsellers-shopify.vercel.app/",
+			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
+			"img": {
+				"1": "bestsellers-shopify-shirleymallea.png"
 			}
 		},
 		"proj5":{
@@ -333,18 +331,16 @@
 			"deploy": "",
 			"github": "https://github.com/LosSith",
 			"img": {
-				"1": "aidie-audienceview.png",
-				"2": "2.png",
-				"3": "3.png"
+				"1": "aidie-audienceview.png"
 			}
 		},
 		"proj6":{
 			"title": "Interactive Gallery Development for Pablo Neruda's Mollusca Exhibition",
 			"client": "Gabriela Mistral Museum, University of Chile",
-			"category": "Frontend App for Museum Display",
+			"category": "Interactive Touch Frontend App",
 			"date": "2024",
 			"tech": {
-				"1": "React 18",
+				"1": "React",
 				"2": "Vite",
 				"3": "React Router DOM",
 				"4": "CSS",
@@ -363,7 +359,7 @@
 			}
 		},
 		"proy7":{
-			"title": "Carbon Footprint Emissions Control System Audit Paper",
+			"title": "Carbon Footprint Emissions Control System Audit Report",
 			"client": "Ministry of Environment, Chile",
 			"category": "Audit",
 			"date": "2024",
@@ -383,8 +379,7 @@
 			"github": "",
 			"img": {
 				"1": "mma-informe.png",
-				"2": "mma-informe-indice.png",
-				"3": "3.png"
+				"2": "mma-informe-indice.png"
 			}
 		},
 		"proy8":{
@@ -415,6 +410,53 @@
 				"2": "mma-app-table.png",
 				"3": "mma-app-login.png"
 			}
+		}
+	},
+	"courses": {
+    "1": {
+      "title": "Web Development Bootcamp",
+      "institution": "TRIPLETEN",
+      "skills": "UX/UI | Framework (React) | Responsive design and compatibility | GitHub | OOP | Web security | Information systems | HTML | JS | CSS | MongoDB | NodeJS | GCP"
+    },
+    "2": {
+      "title": "Multimedia Design and Programming",
+      "institution": "INACAP",
+      "skills": "Computer fundamentals | OOP | Web security | Information systems | Design | PHP | MySQL | HTML | JS | CSS | Information analysis"
+    },
+    "3": {
+      "title": "Professional GIT Course",
+      "institution": "CODIGOFACILITO",
+      "skills": "Version control | Sensitive information management | Teamwork | Collaboration"
+    },
+    "4": {
+      "title": "Professional PHP 8 Course",
+      "institution": "CODIGOFACILITO",
+      "skills": "OOP | Performance optimization | Web security"
+    },
+    "5": {
+      "title": "The Complete SQL Bootcamp: Go from Zero to Hero",
+      "institution": "UDEMY",
+      "skills": "Performance optimization | Web security"
+    },
+    "6": {
+      "title": "Web Performance In Practice: Master Core Web Vitals & More",
+      "institution": "UDEMY",
+      "skills": "Cross-browser compatibility | Browser Developer Tools | UX/UI"
+    },
+    "7": {
+      "title": "The 90-Minute UX Audit + UI Redesign",
+      "institution": "UDEMY",
+      "skills": "UX/UI | Responsive design and compatibility"
+    },
+    "8": {
+      "title": "Professional TypeScript Course",
+      "institution": "CODIGOFACILITO",
+      "skills": "OOP | Performance optimization | Web security"
+    },
+		"9": {
+			"title": "English Certificate - C1 Advanced",
+			"institution": "EF SET",
+			"skills": "Business English | English speaking, writing, reading and reading comprehension"
 		}
 	}
 }

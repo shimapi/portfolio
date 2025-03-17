@@ -5,6 +5,7 @@
 		"about": "Acerca de mí",
 		"home": "Inicio",
 		"ExpTitle": "Experiencia",
+		"ExpCVTitle": "Experiencia laboral",
 		"SkillsTitle": "Habilidades",
 		"BookTitle": "Agenda Conmigo",
 		"VolTitle": "Voluntariado",
@@ -35,7 +36,14 @@
 		"copy3": "Conversemos a través de",
 		"or": "o",
 		"ProjectDeploy": "Ver Proyecto",
-		"ProjectGithub": "Ver Código"
+		"ProjectGithub": "Ver Código",
+		"client": "Cliente",
+		"date": "Fecha",
+		"tech": "Tecnologías",
+		"details": "Detalles",
+		"gallery": "Galería",
+		"project404": "Oh oh! Proyecto no encontrado"
+
 	},
 	"about": {
 		"AboutGreeting": "Hola!!",
@@ -235,9 +243,7 @@
 			"deploy": "",
 			"github": "https://github.com/shimapi/web_project_api_full",
 			"img": {
-				"1": "photo-project-fullstack.gif",
-				"2": ".png",
-				"3": ".png"
+				"1": "photo-project-fullstack.gif"
 			}
 		},
 		"proj2": {
@@ -258,9 +264,7 @@
 			"deploy": "https://modatornasol.cl/",
 			"github": "",
 			"img": {
-				"1": "shopify-fashion-site.png",
-				"2": ".png",
-				"3": ".png"
+				"1": "shopify-fashion-site.png"
 			}
 		},
 		"proj3": {
@@ -284,9 +288,7 @@
 			"deploy": "https://www.canva.com/design/DAGC9RNzy7E/DvnhxTDFwFmFK_6OuVHvHA/view",
 			"github": "https://github.com/shimapi/hackaton_fem_tech_mach",
 			"img": {
-				"1": "certificado-Hackathon-tercer-lugar.png",
-				"2": "2.png",
-				"3": "3.png"
+				"1": "certificado-Hackathon-tercer-lugar.png"
 			}
 		},
 		"proj4": {
@@ -306,9 +308,7 @@
 			"deploy": "https://bestsellers-shopify.vercel.app/",
 			"github": "https://github.com/shimapi/bestsellers-shopify-frontend",
 			"img": {
-				"1": "bestsellers-shopify-shirleymallea.png",
-				"2": "2.png",
-				"3": "3.png"
+				"1": "bestsellers-shopify-shirleymallea.png"
 			}
 		},
 		"proj5":{
@@ -333,15 +333,13 @@
 			"deploy": "",
 			"github": "https://github.com/LosSith",
 			"img": {
-				"1": "aidie-audienceview.png",
-				"2": ".png",
-				"3": ".png"
+				"1": "aidie-audienceview.png"
 			}
 		},
 		"proj6":{
 			"title": "Desarrollo de Galería Interactiva para exposición Mollusca de Pablo Neruda",
 			"client": "Museo Gabriela Mistral, Universidad de Chile",
-			"category": "Frontend App para pantalla del Museo",
+			"category": "Aplicación Interactiva Touch",
 			"date": "2024",
 			"tech": {
 				"1": "React 18",
@@ -383,8 +381,7 @@
 			"github": "",
 			"img": {
 				"1": "mma-informe.png",
-				"2": "mma-informe-indice.png",
-				"3": "3.png"
+				"2": "mma-informe-indice.png"
 			}
 		},
 		"proy8":{
@@ -416,5 +413,52 @@
 				"3": "mma-app-login.png"
 			}
 		}
-	}
+	},
+	"courses": {
+    "1": {
+      "title": "Bootcamp para el Desarrollo Web",
+      "institution": "TRIPLETEN",
+      "skills": "UX/UI | Framework (React)| Diseño responsivo y compatibilidad | GitHub | POO | Seguridad en la web | Sistemas de información | HTML | JS | CSS | MongoDB | NodeJS | GCP"
+    },
+    "2": {
+      "title": "Diseño y Programación Multimedia",
+      "institution": "INACAP",
+      "skills": "Bases de la informática | POO | Seguridad en la web | Sistemas de información | Diseño | PHP | MySQL | HTML | JS | CSS | Análisis de información"
+    },
+    "3": {
+      "title": "Curso profesional de GIT",
+      "institution": "CODIGOFACILITO",
+      "skills": "Control de versiones | Manejo de información sensible | Trabajo en equipo | Colaboración"
+    },
+    "4": {
+      "title": "Curso profesional de PHP 8",
+      "institution": "CODIGOFACILITO",
+      "skills": "POO | Optimización de rendimiento | Seguridad en la web"
+    },
+    "5": {
+      "title": "The Complete SQL Bootcamp: Go from Zero to Hero",
+      "institution": "UDEMY",
+      "skills": "Optimización de rendimiento | Seguridad en la web"
+    },
+    "6": {
+      "title": "Web Performance In Practice: Master Core Web Vitals & More",
+      "institution": "UDEMY",
+      "skills": "Compatibilidad entre navegadores | Herramientas de Desarrollador de navegadores | UX/UI"
+    },
+    "7": {
+      "title": "The 90-Minute UX Audit + UI Redesign",
+      "institution": "UDEMY",
+      "skills": "UX/UI | Diseño responsivo y compatibilidad"
+    },
+    "8": {
+      "title": "Curso profesional de TypeScript",
+      "institution": "CODIGOFACILITO",
+      "skills": "POO | Optimización de rendimiento | Seguridad en la web"
+    },
+    "9": {
+      "title": "Certificado de Inglés - C1 Avanzado",
+      "institution": "EF SET",
+      "skills": "Inglés para negocios | Inglés hablado, escrito, leído y comprensión lectora"
+    }
+  }
 }

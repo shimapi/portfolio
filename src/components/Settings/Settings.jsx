@@ -6,15 +6,16 @@ import "./Settings.scss";
 
 const Settings = () => {
 	const { theme, toggleTheme } = useContext(ThemeContext);
-	const [lang, setLang] = useState("en");
+	const [lang, setLang] = useState(localStorage.getItem("lang") || "en");
 
 	const { i18n } = useTranslation();
-
+	
 	const toggleLang = () => {
 		const selectedLang = lang === "es" ? "en" : "es";
 		i18n.changeLanguage(selectedLang);
 		setLang(selectedLang);
-		document.documentElement.setAttribute("lang", lang);
+		document.documentElement.setAttribute("lang", selectedLang);
+		localStorage.setItem("lang", selectedLang);
 	};
 
 	return (

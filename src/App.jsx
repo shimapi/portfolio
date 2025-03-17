@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/Header/Header";
 import { Home } from "./pages/Home";
 import { useContext, useEffect } from "react";
@@ -12,6 +12,18 @@ import Agenda from "./pages/Agenda";
 
 import Projects from "./components/Projects/Projects";
 import PathConstants from "./routes/pathConstants";
+import ProjectPage from "./components/Projects/ProjectPage";
+
+// Componente para controlar el scroll
+function ScrollToTop() {
+	const { pathname } = useLocation();
+	
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [pathname]);
+	
+	return null;
+}
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
@@ -22,6 +34,7 @@ const App = () => {
 
 	return (
 		<BrowserRouter>
+			<ScrollToTop />
 			<Header />
 			<main className={`container main__container`}>
 				<Routes>
@@ -32,6 +45,7 @@ const App = () => {
 					<Route path={PathConstants.VOLUNTEER} element={<Volunteering />} />
 					<Route path={PathConstants.CV} element={<PageCV />} />
 					<Route path={PathConstants.PROJECTS} element={<Projects />} />
+					<Route path={PathConstants.PROJECTS_ID} element={<ProjectPage />} />
 				</Routes>
 			</main>
 			<Footer />

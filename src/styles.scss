@@ -109,14 +109,14 @@ html[data-theme="light"] {
 		bottom: 1em;
 		width: 130%;
 		height: 0.8em;
-		background-color: #ff69b4a8;
+		background-color: $color-pink-opacity;
 		z-index: -1;
 		border-radius: 4px;
 		transform: translate3d(-10px, 10px, 10px) skewX(330deg) rotate(357deg);
 		transition: transform 0.3s ease, background-color 0.3s ease;
 	}
 	&:hover::before {
-		background-color: #ff1493;
+		background-color: $color-pink-strong;
 		transform: translate3d(-10px, 10px, 10px) skewX(332deg) rotate(350deg);
 	}
 }

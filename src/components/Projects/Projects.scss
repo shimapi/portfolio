@@ -7,28 +7,32 @@
 	margin-bottom: 48px;
 
 	&__img {
-		width: 100%;
-		height: 300px;
-		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
-		border-radius: 8px;
+		aspect-ratio: 4/3;
+		overflow: hidden;
+		background-color: $color-white;
+		border: 12px solid;
+		border-color: $color-white;
+		border-radius: 2px;
 		position: relative;
 
-		& img {
+		img {
 			width: 100%;
-			border: 12px solid;
 			height: 100%;
-			object-fit: contain;
-			border-radius: 8px;
-			border-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+			object-fit: cover;
+			transition: transform 0.3s ease;
+
+			&:hover {
+				transform: scale(1.05);
+			}
 		}
 	}
 	&__title {
 		padding: 10px 0;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
 	}
 	&__category {
-		background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
-		color: light-dark($color-light-pale-lilac, $color-dark-deepblue);
+		background-color: $color-white;
+		color:  $color-dark-deepblue;
 		border-radius: 8px;
 		font-size: 0.8rem;
 		position: absolute;
@@ -46,6 +50,14 @@
 		display: flex;
 		gap: 8px;
 	}
+	&__title-link {
+		text-decoration: none;
+		color: inherit;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 @media (min-width: $breakpoint-menu) {
@@ -56,5 +68,166 @@
 	}
 	.project-card {
 		width: 48%;
+	}
+}
+
+// proyecto individual
+.project-page {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+
+	// Añadir nuevo estilo para el título
+	h2 {
+		padding: 10px 0;
+    margin: 60px 0;
+    font-size: 2em;
+    border-bottom: 6px solid $color-pink-opacity;;
+	}
+
+	&__content {
+		display: flex;
+		margin-bottom: 2rem;
+	}
+
+	&__timeline {
+		width: 80px;
+		display: block;
+		position: relative;
+
+		&-line {
+			width: 3px;
+			height: 100%;
+			background-color: light-dark($color-dark-deepblue, $color-light-pale-lilac);
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 2;
+		}
+
+		&-circle {
+			width: 15px;
+			height: 15px;
+			background-color: light-dark($color-mustard-dark, $color-mustard);
+			border-radius: 50%;
+			position: absolute;
+			left: 50%;
+			top: 28px;
+			transform: translateX(-50%);
+			z-index: 3;
+			border: 3px solid light-dark($color-dark-deepblue, $color-light-pale-lilac);
+		}
+	}
+
+	&__info {
+		width: 80%;
+		padding: 20px 0;
+		line-height: 1.5;
+
+		&-category {
+			color: light-dark($color-mustard-dark, $color-mustard);
+			font-size: large;
+			word-spacing: 4px;
+		}
+
+		&-metadata {
+			font-size: 0.8rem;
+			color: $color-cerulean;
+			margin: 8px 0;
+
+			&-span {
+				padding: 0 10px;
+				border-right: 1px solid $color-cerulean;
+
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					border-right: none;
+				}
+			}
+		}
+
+		&-tech {
+			display: flex;
+			margin: 16px 0;
+			font-size: 0.8rem;
+			flex-wrap: wrap;
+			gap: 8px;
+		}
+
+		&-description {
+			font-size: 0.9rem;
+			color: light-dark($color-dark-deepblue, $color-light-pale-pinky);
+			margin-left: 4px;
+			word-spacing: 2px;
+		}
+
+		&-bullet {
+			list-style-type: disclosure-closed;
+			margin: 10px;
+			&::marker {
+				color: $color-cerulean;
+			}
+		}
+	}
+
+	&__gallery {
+		margin-top: 2rem;
+
+		h3 {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 1rem;
+		margin-top: 1rem;
+	}
+
+	.gallery-item {
+	//	border-radius: 8px;
+		overflow: hidden;
+		aspect-ratio: 4/3;
+		border: 14px white solid;
+		border-radius: 2px;
+
+		
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.3s ease;
+			background-color: #fff;
+			
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
+	}
+
+
+	.project-card__tech-unit {
+		margin-right: 4px;
+		margin-bottom: 4px;
+	}
+	
+	&__action {
+		display: flex;
+		gap: 8px;
+		margin-top: 20px;
+	}
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+	.project-page {
+		padding: 1rem;
+
+		.gallery-grid {
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		}
 	}
 }
