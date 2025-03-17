@@ -77,7 +77,50 @@
 		display: inline-block;
 		padding: 0.25rem 0.5rem;
 		margin: 0.25rem;
-		background: #f0f0f0;
 		border-radius: 4px;
+	}
+
+	// Nuevos estilos para la galería
+	&__gallery {
+		margin-top: 2rem;
+
+		h3 {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 1rem;
+		margin-top: 1rem;
+	}
+
+	.gallery-item {
+		border-radius: 8px;
+		overflow: hidden;
+		aspect-ratio: 16/9;
+		
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.3s ease;
+
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
+	}
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+	.project-page {
+		padding: 1rem;
+
+		.gallery-grid {
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		}
 	}
 }
