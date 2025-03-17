@@ -6,9 +6,14 @@ const ProjectCard = () => {
 	const { t } = useTranslation();
 
 	const projObject = t("projects", { returnObjects: true });
-	const projArray = Object.values(projObject);
+	const projArray = Object.values(projObject).reverse();
 
 	const imagesRoute = "/images/";
+
+	// Función auxiliar para obtener el ID del proyecto
+	const getProjectId = (proj) => {
+		return Object.keys(projObject).find(key => projObject[key] === proj);
+	};
 
 	return (
 		<div className="projects">
@@ -18,7 +23,14 @@ const ProjectCard = () => {
 						<img src={`${imagesRoute}${proj.img[1]}`} alt={proj.title} />
 						<h4 className="project-card__category">{proj.category}</h4>
 					</div>
-					<h3 className="project-card__title">{proj.title}</h3>
+					<Link 
+						to={`/project/${getProjectId(proj)}`} 
+						className="project-card__title-link"
+					>
+						<h3 className="project-card__title">
+							{proj.title}
+						</h3>
+					</Link>
 					<div className="project-card__tech">
 						{Object.values(proj.tech)?.map((tech, i) => {
 							return (

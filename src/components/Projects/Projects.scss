@@ -46,6 +46,14 @@
 		display: flex;
 		gap: 8px;
 	}
+	&__title-link {
+		text-decoration: none;
+		color: inherit;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 @media (min-width: $breakpoint-menu) {
@@ -56,5 +64,20 @@
 	}
 	.project-card {
 		width: 48%;
+	}
+}
+
+// Estilos para la página de proyecto individual
+.project-page {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+
+	.tech-tag {
+		display: inline-block;
+		padding: 0.25rem 0.5rem;
+		margin: 0.25rem;
+		background: #f0f0f0;
+		border-radius: 4px;
 	}
 }

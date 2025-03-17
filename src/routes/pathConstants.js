@@ -6,6 +6,7 @@ const PathConstants = {
   PAGE_404: '/404',
   EXPERIENCE: '/experience',
   PROJECTS: '/projects',
+  PROJECTS_ID: '/project/:id',
   SKILLS: '/skills',
   CALENDAR: '/calendar',
   VOLUNTEER: '/volunteer',

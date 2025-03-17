@@ -12,6 +12,7 @@ import Agenda from "./pages/Agenda";
 
 import Projects from "./components/Projects/Projects";
 import PathConstants from "./routes/pathConstants";
+import ProjectPage from "./components/Projects/ProjectPage";
 
 const App = () => {
 	const { theme } = useContext(ThemeContext);
@@ -32,6 +33,7 @@ const App = () => {
 					<Route path={PathConstants.VOLUNTEER} element={<Volunteering />} />
 					<Route path={PathConstants.CV} element={<PageCV />} />
 					<Route path={PathConstants.PROJECTS} element={<Projects />} />
+					<Route path={PathConstants.PROJECTS_ID} element={<ProjectPage />} />
 				</Routes>
 			</main>
 			<Footer />
